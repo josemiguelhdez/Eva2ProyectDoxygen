@@ -1,0 +1,1502 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>EvaProyectDoc: Referencia de la Clase eva2.server.go.strategies.NelderMeadSimplex</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">EvaProyectDoc
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceeva2.html">eva2</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server.html">server</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go.html">go</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go_1_1strategies.html">strategies</a></li><li class="navelem"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html">NelderMeadSimplex</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase eva2.server.go.strategies.NelderMeadSimplex</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">eva2.server.go.strategies.InterfaceOptimizer</a>, Serializable y <a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">eva2.server.go.InterfacePopulationChangedEventListener</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ad60cd509b9779b98d49a87bae10dee69"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ad60cd509b9779b98d49a87bae10dee69">NelderMeadSimplex</a> ()</td></tr>
+<tr class="separator:ad60cd509b9779b98d49a87bae10dee69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e3dab44ed78083289df0571509a8a4a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a8e3dab44ed78083289df0571509a8a4a">NelderMeadSimplex</a> (int popSize)</td></tr>
+<tr class="separator:a8e3dab44ed78083289df0571509a8a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abec5d3fb8445ee90a6abac3c312db47b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#abec5d3fb8445ee90a6abac3c312db47b">NelderMeadSimplex</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html">NelderMeadSimplex</a> a)</td></tr>
+<tr class="separator:abec5d3fb8445ee90a6abac3c312db47b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a819a88ab784cbe29e02266b388114d7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html">NelderMeadSimplex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a819a88ab784cbe29e02266b388114d7c">clone</a> ()</td></tr>
+<tr class="separator:a819a88ab784cbe29e02266b388114d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ccf8b893461180956f008bd9c4b36e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a6ccf8b893461180956f008bd9c4b36e5">SetIdentifier</a> (String name)</td></tr>
+<tr class="separator:a6ccf8b893461180956f008bd9c4b36e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3980a02090347b1da2f6e854861b3011"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a3980a02090347b1da2f6e854861b3011">SetProblem</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> problem)</td></tr>
+<tr class="separator:a3980a02090347b1da2f6e854861b3011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64c63a5707d9a517a5c8b230ca75d0bc"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a64c63a5707d9a517a5c8b230ca75d0bc">setProblemAndPopSize</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> problem)</td></tr>
+<tr class="separator:a64c63a5707d9a517a5c8b230ca75d0bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a517b6a204c5233d4c1bf4fd8ee0b23c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a517b6a204c5233d4c1bf4fd8ee0b23c7">addPopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:a517b6a204c5233d4c1bf4fd8ee0b23c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ef248350a7d686c9238175e0f50aea2"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a9ef248350a7d686c9238175e0f50aea2">removePopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:a9ef248350a7d686c9238175e0f50aea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16ff91692f68e4940ec5f22c4d564aa2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a16ff91692f68e4940ec5f22c4d564aa2">freeWilly</a> ()</td></tr>
+<tr class="separator:a16ff91692f68e4940ec5f22c4d564aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a306091ac9aad354018197ffacfc5b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a1a306091ac9aad354018197ffacfc5b1">simplexStep</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> subpop)</td></tr>
+<tr class="separator:a1a306091ac9aad354018197ffacfc5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3c021583db791a7dd06c82e0708e432"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab3c021583db791a7dd06c82e0708e432">getIdentifier</a> ()</td></tr>
+<tr class="separator:ab3c021583db791a7dd06c82e0708e432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace7a92e8efa018c04751655a9ab7390d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ace7a92e8efa018c04751655a9ab7390d">getName</a> ()</td></tr>
+<tr class="separator:ace7a92e8efa018c04751655a9ab7390d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d857989577aab820ca38cc728658fe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a9d857989577aab820ca38cc728658fe5">getPopulation</a> ()</td></tr>
+<tr class="separator:a9d857989577aab820ca38cc728658fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4013ad5535b38e135f9e53b9d5c6e60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ad4013ad5535b38e135f9e53b9d5c6e60">getProblem</a> ()</td></tr>
+<tr class="separator:ad4013ad5535b38e135f9e53b9d5c6e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6d851f043b2a35b96d5ba7773b5d82e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ac6d851f043b2a35b96d5ba7773b5d82e">getStringRepresentation</a> ()</td></tr>
+<tr class="separator:ac6d851f043b2a35b96d5ba7773b5d82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e92e1c4db0d3961cef5a492948810c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a58e92e1c4db0d3961cef5a492948810c">init</a> ()</td></tr>
+<tr class="separator:a58e92e1c4db0d3961cef5a492948810c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a890e5502d54cb47d8e035577fb6fd084"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a890e5502d54cb47d8e035577fb6fd084">initByPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop, boolean reset)</td></tr>
+<tr class="separator:a890e5502d54cb47d8e035577fb6fd084"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34f6e83c81470f4ea98dbf6c86da9fc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a34f6e83c81470f4ea98dbf6c86da9fc1">optimize</a> ()</td></tr>
+<tr class="separator:a34f6e83c81470f4ea98dbf6c86da9fc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ea433c48c1ca767e689e451b87d71f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a68ea433c48c1ca767e689e451b87d71f">setPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop)</td></tr>
+<tr class="separator:a68ea433c48c1ca767e689e451b87d71f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5cc576b19b9fc7d9f4a06de4f984604"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab5cc576b19b9fc7d9f4a06de4f984604">getAllSolutions</a> ()</td></tr>
+<tr class="separator:ab5cc576b19b9fc7d9f4a06de4f984604"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae086e0c242d4b916ec114d8d476087f4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ae086e0c242d4b916ec114d8d476087f4">getPopulationSize</a> ()</td></tr>
+<tr class="separator:ae086e0c242d4b916ec114d8d476087f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a060da93664a026154e3a17343cff1f14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a060da93664a026154e3a17343cff1f14">setPopulationSize</a> (int populationSize)</td></tr>
+<tr class="separator:a060da93664a026154e3a17343cff1f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a011b81de31b4b33088c3e186037284a7"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a011b81de31b4b33088c3e186037284a7">populationSizeTipText</a> ()</td></tr>
+<tr class="separator:a011b81de31b4b33088c3e186037284a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b66d1e12673c48464d583116920f85b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a4b66d1e12673c48464d583116920f85b">registerPopulationStateChanged</a> (Object source, String name)</td></tr>
+<tr class="separator:a4b66d1e12673c48464d583116920f85b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2509c783762b5a2b7b474487f058ce09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a2509c783762b5a2b7b474487f058ce09">setGenerationCycle</a> (int generationCycle)</td></tr>
+<tr class="separator:a2509c783762b5a2b7b474487f058ce09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a208fcd34cf5a276f1dbd5382030dfc63"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a208fcd34cf5a276f1dbd5382030dfc63">isCheckRange</a> ()</td></tr>
+<tr class="separator:a208fcd34cf5a276f1dbd5382030dfc63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfcb66b7e0c77945048ad07a53d55371"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#acfcb66b7e0c77945048ad07a53d55371">setCheckRange</a> (boolean checkRange)</td></tr>
+<tr class="separator:acfcb66b7e0c77945048ad07a53d55371"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f5fe1ee8466a9bc8ecb889af65fbbf6"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a2f5fe1ee8466a9bc8ecb889af65fbbf6">checkRangeTipText</a> ()</td></tr>
+<tr class="separator:a2f5fe1ee8466a9bc8ecb889af65fbbf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa198356a937450fba390c9e73578aa80"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#aa198356a937450fba390c9e73578aa80">getCritIndex</a> ()</td></tr>
+<tr class="separator:aa198356a937450fba390c9e73578aa80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c25fc839fb9ffd31495d92a89a8c557"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a7c25fc839fb9ffd31495d92a89a8c557">setCritIndex</a> (int fitIndex)</td></tr>
+<tr class="separator:a7c25fc839fb9ffd31495d92a89a8c557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6b1d184e06845613839cb3fef426f0f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab6b1d184e06845613839cb3fef426f0f">critIndexTipText</a> ()</td></tr>
+<tr class="separator:ab6b1d184e06845613839cb3fef426f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:aa3493a3df263c8feaef6b60ab522a988"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#aa3493a3df263c8feaef6b60ab522a988">globalInfo</a> ()</td></tr>
+<tr class="separator:aa3493a3df263c8feaef6b60ab522a988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96b1ae37710ae168b4aa052abbe98a1d"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html">NelderMeadSimplex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a96b1ae37710ae168b4aa052abbe98a1d">createNelderMeadSimplex</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">AbstractOptimizationProblem</a> problem, <a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> listener)</td></tr>
+<tr class="separator:a96b1ae37710ae168b4aa052abbe98a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9759757228cb944b316dac02dc1c6b59"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html">NelderMeadSimplex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a9759757228cb944b316dac02dc1c6b59">createNelderMeadSimplexLocal</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">AbstractOptimizationProblem</a> problem, <a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> candidate, double perturbationRatio, <a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> listener)</td></tr>
+<tr class="separator:a9759757228cb944b316dac02dc1c6b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14128fad2af67c3235b1971256621fee"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a14128fad2af67c3235b1971256621fee">createNMSPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> candidate, double perturbRelative, double[][] range, boolean includeCand)</td></tr>
+<tr class="separator:a14128fad2af67c3235b1971256621fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:ab77a813c60eb1abebeb79f7cb2c64abb"><td class="memItemLeft" align="right" valign="top">double[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab77a813c60eb1abebeb79f7cb2c64abb">calcChallengeVect</a> (double[] centroid, double[] refX)</td></tr>
+<tr class="separator:ab77a813c60eb1abebeb79f7cb2c64abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab364107d27c024acebdcf0d0c33827b1"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab364107d27c024acebdcf0d0c33827b1">firstIsBetter</a> (double[] first, double[] second)</td></tr>
+<tr class="separator:ab364107d27c024acebdcf0d0c33827b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a652882fe738ba5e8384fb690d1e7b426"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a652882fe738ba5e8384fb690d1e7b426">firstIsBetterEqual</a> (double[] first, double[] second)</td></tr>
+<tr class="separator:a652882fe738ba5e8384fb690d1e7b426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a55e3b806dbd0c3ac60ea6defccd52"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a12a55e3b806dbd0c3ac60ea6defccd52">firstIsBetter</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> first, <a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> second)</td></tr>
+<tr class="separator:a12a55e3b806dbd0c3ac60ea6defccd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac083fccf0893d9c737e12a881bd535da"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ac083fccf0893d9c737e12a881bd535da">firstIsBetterEqual</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> first, <a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> second)</td></tr>
+<tr class="separator:ac083fccf0893d9c737e12a881bd535da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Nelder-Mead-Simplex does not guarantee an equal number of evaluations within each optimize call because of the different step types. Range check is now available by projection at the bounds.</p>
+<dl class="section author"><dt>Autor</dt><dd>mkron </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="ad60cd509b9779b98d49a87bae10dee69"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.NelderMeadSimplex.NelderMeadSimplex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                               {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a68ea433c48c1ca767e689e451b87d71f">setPopulation</a>(<span class="keyword">new</span> Population(populationSize));</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_a68ea433c48c1ca767e689e451b87d71f"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a68ea433c48c1ca767e689e451b87d71f">eva2.server.go.strategies.NelderMeadSimplex.setPopulation</a></div><div class="ttdeci">void setPopulation(Population pop)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:294</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8e3dab44ed78083289df0571509a8a4a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.NelderMeadSimplex.NelderMeadSimplex </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>popSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                          {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        populationSize=popSize;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a68ea433c48c1ca767e689e451b87d71f">setPopulation</a>(<span class="keyword">new</span> Population(populationSize));</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_a68ea433c48c1ca767e689e451b87d71f"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a68ea433c48c1ca767e689e451b87d71f">eva2.server.go.strategies.NelderMeadSimplex.setPopulation</a></div><div class="ttdeci">void setPopulation(Population pop)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:294</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abec5d3fb8445ee90a6abac3c312db47b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.NelderMeadSimplex.NelderMeadSimplex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html">NelderMeadSimplex</a>&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                                  {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        m_Problem = (AbstractOptimizationProblem)a.m_Problem.<a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a6064d6f87022fb0215d6b1472f456573">clone</a>();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a68ea433c48c1ca767e689e451b87d71f">setPopulation</a>((Population)a.m_Population.clone());</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        populationSize = a.populationSize;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        generationCycle = a.generationCycle;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        m_Identifier = a.m_Identifier;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_a68ea433c48c1ca767e689e451b87d71f"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a68ea433c48c1ca767e689e451b87d71f">eva2.server.go.strategies.NelderMeadSimplex.setPopulation</a></div><div class="ttdeci">void setPopulation(Population pop)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:294</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem_html_a6064d6f87022fb0215d6b1472f456573"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a6064d6f87022fb0215d6b1472f456573">eva2.server.go.problems.AbstractOptimizationProblem.clone</a></div><div class="ttdeci">abstract Object clone()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a517b6a204c5233d4c1bf4fd8ee0b23c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.NelderMeadSimplex.addPopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to add a listener to the Optimizer. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#ab4f4dad7ab7ce4428c8c3a7afb8c6f3e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                                                        {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">if</span> (ea!=null) {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordflow">if</span> (m_Listener == null) m_Listener = <span class="keyword">new</span> Vector&lt;InterfacePopulationChangedEventListener&gt;();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keywordflow">if</span> (!m_Listener.contains(ea)) m_Listener.add(ea);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab77a813c60eb1abebeb79f7cb2c64abb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double [] eva2.server.go.strategies.NelderMeadSimplex.calcChallengeVect </td>
+          <td>(</td>
+          <td class="paramtype">double[]&#160;</td>
+          <td class="paramname"><em>centroid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double[]&#160;</td>
+          <td class="paramname"><em>refX</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordtype">double</span>[] r = <span class="keyword">new</span> <span class="keywordtype">double</span>[centroid.length];</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;r.length; i++) r[i] = 2*centroid[i] - refX[i];</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">//      double alpha = 1.3;</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">//      for (int i=0; i&lt;r.length; i++) r[i] = centroid[i] + alpha*(centroid[i] - refX[i]);</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">return</span> r;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2f5fe1ee8466a9bc8ecb889af65fbbf6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.NelderMeadSimplex.checkRangeTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;                                      {</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Mark to check range constraints by reflection/projection&quot;</span>;</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a819a88ab784cbe29e02266b388114d7c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html">NelderMeadSimplex</a> eva2.server.go.strategies.NelderMeadSimplex.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return deep clone of the optimizer </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The clone </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3782515f3e073d9a970f1605836a38e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                     {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ad60cd509b9779b98d49a87bae10dee69">NelderMeadSimplex</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_ad60cd509b9779b98d49a87bae10dee69"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ad60cd509b9779b98d49a87bae10dee69">eva2.server.go.strategies.NelderMeadSimplex.NelderMeadSimplex</a></div><div class="ttdeci">NelderMeadSimplex()</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:40</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a96b1ae37710ae168b4aa052abbe98a1d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static final <a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html">NelderMeadSimplex</a> eva2.server.go.strategies.NelderMeadSimplex.createNelderMeadSimplex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">AbstractOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>problem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>listener</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method creates a Nelder-Mead instance.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pop</td><td>The size of the population </td></tr>
+    <tr><td class="paramname">problem</td><td>The problem to be optimized </td></tr>
+    <tr><td class="paramname">listener</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>An optimization procedure that performs nelder mead optimization. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                                                          {</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        problem.initProblem();</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ad60cd509b9779b98d49a87bae10dee69">NelderMeadSimplex</a> nms = <span class="keyword">new</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ad60cd509b9779b98d49a87bae10dee69">NelderMeadSimplex</a>();</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        nms.setProblemAndPopSize(problem);</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        </div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        <span class="keywordflow">if</span> (listener!=null) nms.addPopulationChangedEventListener(listener);</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        nms.init();</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <span class="keywordflow">if</span> (listener!=null) listener.registerPopulationStateChanged(nms.getPopulation(), <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="keywordflow">return</span> nms;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_ad60cd509b9779b98d49a87bae10dee69"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ad60cd509b9779b98d49a87bae10dee69">eva2.server.go.strategies.NelderMeadSimplex.NelderMeadSimplex</a></div><div class="ttdeci">NelderMeadSimplex()</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:40</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9759757228cb944b316dac02dc1c6b59"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static final <a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html">NelderMeadSimplex</a> eva2.server.go.strategies.NelderMeadSimplex.createNelderMeadSimplexLocal </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">AbstractOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>problem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td>
+          <td class="paramname"><em>candidate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>perturbationRatio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>listener</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method creates a Nelder-Mead instance with an initial population around a given candidate solution. The population is created as a simplex with given perturbation ratio or randomly across the search range if the perturbation ratio is zero or below zero.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problem</td><td>The problem to be optimized </td></tr>
+    <tr><td class="paramname">candidate</td><td>starting point of the search </td></tr>
+    <tr><td class="paramname">perturbationRatio</td><td>perturbation ratio relative to the problem range for the initial simplex creation </td></tr>
+    <tr><td class="paramname">listener</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>An optimization procedure that performs nelder mead optimization. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;                                                          {</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        <span class="comment">// TODO this method might be superfluous when using PostProcess</span></div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        problem.initProblem();</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ad60cd509b9779b98d49a87bae10dee69">NelderMeadSimplex</a> nms = <span class="keyword">new</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ad60cd509b9779b98d49a87bae10dee69">NelderMeadSimplex</a>();</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        nms.setProblemAndPopSize(problem);</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        </div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        Population initialPop;</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        <span class="keywordflow">if</span> (perturbationRatio &lt;= 0) { <span class="comment">// random case</span></div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;            initialPop = <span class="keyword">new</span> Population(nms.getPopulationSize());</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;            problem.initPopulation(initialPop);</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;            initialPop.set(0, candidate);</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;        } <span class="keywordflow">else</span> { </div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;            <span class="keywordtype">double</span>[][] range = ((InterfaceDataTypeDouble)candidate).getDoubleRange();</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;            <span class="keywordflow">if</span> (range.length != nms.getPopulationSize()-1) System.err.println(<span class="stringliteral">&quot;Unexpected population size for nelder mead!&quot;</span>);</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;            initialPop = <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a14128fad2af67c3235b1971256621fee">createNMSPopulation</a>(candidate, perturbationRatio, range, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        }</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        <span class="keywordflow">if</span> (listener != null) nms.addPopulationChangedEventListener(listener);</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        nms.initByPopulation(initialPop, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        <span class="comment">//nms.setPopulation(initialPop);</span></div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        <span class="keywordflow">return</span> nms;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_ad60cd509b9779b98d49a87bae10dee69"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ad60cd509b9779b98d49a87bae10dee69">eva2.server.go.strategies.NelderMeadSimplex.NelderMeadSimplex</a></div><div class="ttdeci">NelderMeadSimplex()</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:40</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_a14128fad2af67c3235b1971256621fee"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a14128fad2af67c3235b1971256621fee">eva2.server.go.strategies.NelderMeadSimplex.createNMSPopulation</a></div><div class="ttdeci">static Population createNMSPopulation(AbstractEAIndividual candidate, double perturbRelative, double[][] range, boolean includeCand)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:411</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a14128fad2af67c3235b1971256621fee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> eva2.server.go.strategies.NelderMeadSimplex.createNMSPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td>
+          <td class="paramname"><em>candidate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>perturbRelative</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>range</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>includeCand</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>From a given candidate solution, create n solutions around the candidate, where every i-th new candidate differs in i dimensions by a distance of perturbRatio relative to the range in that dimension (respecting the range). The new solutions are returned as a population, which, if includeCand is true, also contains the initial candidate. However, the new candidates have not been evaluated.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">candidate</td><td></td></tr>
+    <tr><td class="paramname">perturbRelative</td><td></td></tr>
+    <tr><td class="paramname">range</td><td></td></tr>
+    <tr><td class="paramname">includeCand</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;                                                                                                                                                {</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        Population initPop = <span class="keyword">new</span> Population();</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        <span class="keywordflow">if</span> (includeCand) initPop.add(candidate);</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        <span class="keywordflow">if</span> (perturbRelative &gt;= 1. || (perturbRelative &lt;= 0.)) {</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;            System.err.println(<span class="stringliteral">&quot;Warning: perturbation ratio should lie between 0 and 1! (NelderMeadSimplex:createNMSPopulation)&quot;</span>);</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        }</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        addPerturbedPopulation(perturbRelative, initPop, range, candidate);</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        <span class="keywordflow">return</span> initPop;</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab6b1d184e06845613839cb3fef426f0f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.NelderMeadSimplex.critIndexTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;                                     {</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;For multi-criterial problems, set the index of the fitness to be used in 0..n-1. Default is 0&quot;</span>;</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab364107d27c024acebdcf0d0c33827b1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.NelderMeadSimplex.firstIsBetter </td>
+          <td>(</td>
+          <td class="paramtype">double[]&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double[]&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">return</span> first[fitIndex]&lt;second[fitIndex];</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a12a55e3b806dbd0c3ac60ea6defccd52"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.NelderMeadSimplex.firstIsBetter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                                                                                             {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab364107d27c024acebdcf0d0c33827b1">firstIsBetter</a>(first.getFitness(), second.getFitness());</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_ab364107d27c024acebdcf0d0c33827b1"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab364107d27c024acebdcf0d0c33827b1">eva2.server.go.strategies.NelderMeadSimplex.firstIsBetter</a></div><div class="ttdeci">boolean firstIsBetter(double[] first, double[] second)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:108</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a652882fe738ba5e8384fb690d1e7b426"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.NelderMeadSimplex.firstIsBetterEqual </td>
+          <td>(</td>
+          <td class="paramtype">double[]&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double[]&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordflow">return</span> first[fitIndex]&lt;=second[fitIndex];</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac083fccf0893d9c737e12a881bd535da"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.NelderMeadSimplex.firstIsBetterEqual </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                                                                                                  {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a652882fe738ba5e8384fb690d1e7b426">firstIsBetterEqual</a>(first.getFitness(), second.getFitness());</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_a652882fe738ba5e8384fb690d1e7b426"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a652882fe738ba5e8384fb690d1e7b426">eva2.server.go.strategies.NelderMeadSimplex.firstIsBetterEqual</a></div><div class="ttdeci">boolean firstIsBetterEqual(double[] first, double[] second)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:112</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a16ff91692f68e4940ec5f22c4d564aa2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.NelderMeadSimplex.freeWilly </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method is required to free the memory on a RMIServer, but there is nothing to implement. </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3f5bc95f7781986c42165950d34131c">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab5cc576b19b9fc7d9f4a06de4f984604"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a> eva2.server.go.strategies.NelderMeadSimplex.getAllSolutions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return all found solutions (local optima) if they are not contained in the current population. Be sure to set the Population properties, especially function calls and generation, with respect to the ongoing optimization. May return the the same set as getPopulation if the optimizer makes no distinction, i.e. does not collect solutions outside the current population.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>A solution set of the current population and possibly earlier solutions. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a613ed8378f2956c125ed149328eb07f9">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                                                  {</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        Population pop = <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a9d857989577aab820ca38cc728658fe5">getPopulation</a>();</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> SolutionSet(pop, pop);</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_a9d857989577aab820ca38cc728658fe5"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a9d857989577aab820ca38cc728658fe5">eva2.server.go.strategies.NelderMeadSimplex.getPopulation</a></div><div class="ttdeci">Population getPopulation()</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:219</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa198356a937450fba390c9e73578aa80"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.strategies.NelderMeadSimplex.getCritIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;                              {</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;        <span class="keywordflow">return</span> fitIndex;</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab3c021583db791a7dd06c82e0708e432"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.NelderMeadSimplex.getIdentifier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a3f8f01e01e017474b76de8f473c01ec7">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                                  {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keywordflow">return</span> m_Identifier;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ace7a92e8efa018c04751655a9ab7390d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.NelderMeadSimplex.getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a naming String </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The name of the algorithm </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9c881980799f6de9a04cce7564ad16aa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                            {</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <span class="keywordflow">return</span> m_Identifier;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9d857989577aab820ca38cc728658fe5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> eva2.server.go.strategies.NelderMeadSimplex.getPopulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assuming that all optimizer will store their data in a population we will allow access to this population to query to current state of the optimizer. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The population of current solutions to a given problem. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9169e43517e8db7841cd453c4660872f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                                      {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keywordflow">return</span> m_Population;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae086e0c242d4b916ec114d8d476087f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.strategies.NelderMeadSimplex.getPopulationSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the populationSize </dd></dl>
+<div class="fragment"><div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                                   {</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <span class="keywordflow">return</span> populationSize;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad4013ad5535b38e135f9e53b9d5c6e60"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> eva2.server.go.strategies.NelderMeadSimplex.getProblem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9402221cc9321347a9d1d0a894be937b">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                                                     {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <span class="keywordflow">return</span> m_Problem;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac6d851f043b2a35b96d5ba7773b5d82e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.NelderMeadSimplex.getStringRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a string describing all properties of the optimizer and the applied methods. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A descriptive string </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4cdfe0bff8295d1471effe39f8e2cdb0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                                            {</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        StringBuilder strB = <span class="keyword">new</span> StringBuilder(200);</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        strB.append(<span class="stringliteral">&quot;Nelder-Mead-Simplex Strategy:\nOptimization Problem: &quot;</span>);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        strB.append(this.m_Problem.getStringRepresentationForProblem(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        strB.append(<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        strB.append(this.m_Population.getStringRepresentation());</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <span class="keywordflow">return</span> strB.toString();</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa3493a3df263c8feaef6b60ab522a988"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String eva2.server.go.strategies.NelderMeadSimplex.globalInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                                      {</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;The Nelder-Mead simplex search algorithm for local search. Reflection on bounds may be used for constraint handling.&quot;</span>;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a58e92e1c4db0d3961cef5a492948810c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.NelderMeadSimplex.init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4efaea1c10726e848f4c56a9c6d9103f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                       {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a890e5502d54cb47d8e035577fb6fd084">initByPopulation</a>(m_Population, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_a890e5502d54cb47d8e035577fb6fd084"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a890e5502d54cb47d8e035577fb6fd084">eva2.server.go.strategies.NelderMeadSimplex.initByPopulation</a></div><div class="ttdeci">void initByPopulation(Population pop, boolean reset)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:240</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a890e5502d54cb47d8e035577fb6fd084"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.NelderMeadSimplex.initByPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>reset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer with a given population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pop</td><td>The initial population </td></tr>
+    <tr><td class="paramname">reset</td><td>If true the population is reinitialized and reevaluated. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2b9dd760178a114b8caf8c83fc202c5f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                                                                {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a68ea433c48c1ca767e689e451b87d71f">setPopulation</a>(pop);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        pop.addPopulationChangedEventListener(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        <span class="keywordflow">if</span> (reset) {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;            m_Problem.initPopulation(m_Population);</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            m_Problem.evaluate(m_Population);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        }</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="comment">//      fireNextGenerationPerformed();</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_a68ea433c48c1ca767e689e451b87d71f"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a68ea433c48c1ca767e689e451b87d71f">eva2.server.go.strategies.NelderMeadSimplex.setPopulation</a></div><div class="ttdeci">void setPopulation(Population pop)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:294</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a208fcd34cf5a276f1dbd5382030dfc63"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.NelderMeadSimplex.isCheckRange </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;                                  {</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        <span class="keywordflow">return</span> checkConstraints;</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a34f6e83c81470f4ea98dbf6c86da9fc1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.NelderMeadSimplex.optimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will optimize for a single iteration, after this step the population should be as big as possible (ie. the size of lambda and not mu) and all individual should be evaluated. This allows more usefull statistics on the population. </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a228d8e9883a253c5bbaf29e413e01704">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                           {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="comment">// make at least as many calls as there are individuals within the population.</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <span class="comment">// this simulates the generational loop expected by some other modules</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keywordtype">int</span> evalCntStart = m_Population.getFunctionCalls();</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="keywordtype">int</span> evalsDone = 0;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        m_Problem.evaluatePopulationStart(m_Population);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        <span class="keywordflow">do</span> {</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            AbstractEAIndividual ind = <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a1a306091ac9aad354018197ffacfc5b1">simplexStep</a>(m_Population);</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            <span class="keywordflow">if</span>(ind!=null){ <span class="comment">//Verbesserung gefunden</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                <span class="keywordtype">double</span>[] x=((InterfaceDataTypeDouble)ind).getDoubleData();</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                <span class="keywordtype">double</span>[][] range = ((InterfaceDataTypeDouble)ind).getDoubleRange();</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                <span class="keywordflow">if</span> (!Mathematics.isInRange(x, range)) {</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                    System.err.println(<span class="stringliteral">&quot;WARNING: nelder mead step produced indy out of range!&quot;</span>);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="comment">//                  Mathematics.projectToRange(x, range);</span></div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="comment">//                  ((InterfaceDataTypeDouble)ind).SetDoubleGenotype(x);</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="comment">//                  m_Problem.evaluate(ind);</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="comment">//                  this.m_Population.incrFunctionCalls();</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                m_Population.set(m_Population.getIndexOfWorstIndividualNoConstr(fitIndex), ind, fitIndex);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            }<span class="keywordflow">else</span>{<span class="comment">//keine Verbesserung gefunden shrink!!</span></div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                </div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                <span class="keywordtype">double</span>[] u_1 = ((InterfaceDataTypeDouble) m_Population.<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a22bf34da33b96c71ebcee61d49d105bb">getBestEAIndividual</a>(fitIndex)).getDoubleData();</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                </div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0;j&lt;m_Population.size();j++){</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                    <span class="keywordtype">double</span> [] c= ((InterfaceDataTypeDouble) m_Population.<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a7f8eae12a7436fa11826cbe365c25542">getEAIndividual</a>(j)).getDoubleData();</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;c.length; i++)  c[i] = 0.5*c[i] + 0.5*u_1[i];</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                    ((InterfaceDataTypeDouble) m_Population.<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a7f8eae12a7436fa11826cbe365c25542">getEAIndividual</a>(j)).SetDoubleGenotype(c);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="comment">//                  m_Population.getEAIndividual(j).resetConstraintViolation(); // not a good idea because during evaluation, a stats update may be performed which mustnt see indies which are evaluated, but possible constraints have been reset.</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                }</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                m_Problem.evaluate(m_Population);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            }</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            evalsDone =  m_Population.getFunctionCalls() - evalCntStart;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        } <span class="keywordflow">while</span> (evalsDone &lt; generationCycle);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        m_Problem.evaluatePopulationEnd(m_Population);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        this.m_Population.incrGeneration();</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a7f8eae12a7436fa11826cbe365c25542"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a7f8eae12a7436fa11826cbe365c25542">eva2.server.go.populations.Population.getEAIndividual</a></div><div class="ttdeci">AbstractEAIndividual getEAIndividual(int i)</div><div class="ttdef"><b>Definition:</b> Population.java:1608</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_a1a306091ac9aad354018197ffacfc5b1"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a1a306091ac9aad354018197ffacfc5b1">eva2.server.go.strategies.NelderMeadSimplex.simplexStep</a></div><div class="ttdeci">AbstractEAIndividual simplexStep(Population subpop)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:124</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a22bf34da33b96c71ebcee61d49d105bb"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a22bf34da33b96c71ebcee61d49d105bb">eva2.server.go.populations.Population.getBestEAIndividual</a></div><div class="ttdeci">AbstractEAIndividual getBestEAIndividual(Comparator&lt; Object &gt; comparator)</div><div class="ttdef"><b>Definition:</b> Population.java:918</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a011b81de31b4b33088c3e186037284a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.NelderMeadSimplex.populationSizeTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                                          {</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;The population size should be adapted to the dimensions of the problem (e.g. n+1)&quot;</span>;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4b66d1e12673c48464d583116920f85b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.NelderMeadSimplex.registerPopulationStateChanged </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows an optimizer to register a change in the optimizer. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The source of the event. </td></tr>
+    <tr><td class="paramname">name</td><td>Could be used to indicate the nature of the event. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html#ada114942c76af9331afbcaa215bca53f">eva2.server.go.InterfacePopulationChangedEventListener</a>.</p>
+<div class="fragment"><div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        <span class="keywordflow">if</span> (name.compareTo(Population.funCallIntervalReached) == 0) {</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;            fireNextGenerationPerformed();</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        }<span class="comment">// else System.err.println(&quot;unknown event!&quot;);</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9ef248350a7d686c9238175e0f50aea2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.NelderMeadSimplex.removePopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method removes a listener from the Optimizer. It returns true on success, false if the listener could not be found. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a6e732c957bbe8b9dd04657fadcb128fa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                                        {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">if</span> (m_Listener==null) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">return</span> m_Listener.remove(ea);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acfcb66b7e0c77945048ad07a53d55371"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.NelderMeadSimplex.setCheckRange </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>checkRange</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;                                                  {</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;        this.checkConstraints = checkRange;</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7c25fc839fb9ffd31495d92a89a8c557"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.NelderMeadSimplex.setCritIndex </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>fitIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;                                           {</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;        this.fitIndex = fitIndex;</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2509c783762b5a2b7b474487f058ce09"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.NelderMeadSimplex.setGenerationCycle </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>generationCycle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">generationCycle</td><td>the generationCycle to set </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;                                                        {</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;        this.generationCycle = generationCycle;</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6ccf8b893461180956f008bd9c4b36e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.NelderMeadSimplex.SetIdentifier </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to set an identifier for the algorithm </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The identifier </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4af2f49eef2cf833b15e88b25e382efd">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                           {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        m_Identifier = name;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a68ea433c48c1ca767e689e451b87d71f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.NelderMeadSimplex.setPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9a19bcf589f1375450e7c9588acee982">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                                              {</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        m_Population = pop;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        m_Population.addPopulationChangedEventListener(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        m_Population.setNotifyEvalInterval(populationSize);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a060da93664a026154e3a17343cff1f14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.NelderMeadSimplex.setPopulationSize </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>populationSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">populationSize</td><td>the populationSize to set </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                                                      {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        this.populationSize = populationSize;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        <span class="keywordflow">if</span> (m_Population!=null) {</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;            m_Population.setTargetSize(populationSize);</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            m_Population.setNotifyEvalInterval(m_Population.getTargetSize());</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        }</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3980a02090347b1da2f6e854861b3011"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.NelderMeadSimplex.SetProblem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>problem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will set the problem that is to be optimized. The problem should be initialized when this method is called.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problem</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2bf9e7ad9b3682cdb51fe65284d98af0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        m_Problem = (AbstractOptimizationProblem)problem;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a64c63a5707d9a517a5c8b230ca75d0bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.NelderMeadSimplex.setProblemAndPopSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>problem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a3980a02090347b1da2f6e854861b3011">SetProblem</a>(problem);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">if</span> (m_Problem instanceof AbstractProblemDouble) {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a060da93664a026154e3a17343cff1f14">setPopulationSize</a>(((AbstractProblemDouble)problem).getProblemDimension()+1);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            Object ret=BeanInspector.callIfAvailable(problem, <span class="stringliteral">&quot;getProblemDimension&quot;</span>, null);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <span class="keywordflow">if</span> (ret!=null) {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a060da93664a026154e3a17343cff1f14">setPopulationSize</a>(((Integer)ret)+1);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_a3980a02090347b1da2f6e854861b3011"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a3980a02090347b1da2f6e854861b3011">eva2.server.go.strategies.NelderMeadSimplex.SetProblem</a></div><div class="ttdeci">void SetProblem(InterfaceOptimizationProblem problem)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:65</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_a060da93664a026154e3a17343cff1f14"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a060da93664a026154e3a17343cff1f14">eva2.server.go.strategies.NelderMeadSimplex.setPopulationSize</a></div><div class="ttdeci">void setPopulationSize(int populationSize)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:315</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1a306091ac9aad354018197ffacfc5b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> eva2.server.go.strategies.NelderMeadSimplex.simplexStep </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>subpop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                                                               {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="comment">// parameter</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="comment">// hole die n-1 besten individuen der fitness dimension fitIndex</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        subpop.setSortingFitnessCriterion(fitIndex);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        Population bestpop = subpop.getBestNIndividuals(subpop.size()-1, fitIndex);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <span class="comment">// und das schlechteste</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        AbstractEAIndividual worst = subpop.getWorstEAIndividual(fitIndex);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        AbstractEAIndividual best=subpop.getBestEAIndividual(fitIndex);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        </div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="keywordtype">double</span>[][] range = ((InterfaceDataTypeDouble) worst).getDoubleRange();</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordtype">double</span>[] x_worst = ((InterfaceDataTypeDouble) worst).getDoubleData();</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordtype">int</span> dim = x_worst.length;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="comment">// Centroid berechnen</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordtype">double</span>[] centroid = <span class="keyword">new</span> <span class="keywordtype">double</span>[dim];</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;bestpop.size(); i++) {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j=0; j&lt;dim; j++) {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                AbstractEAIndividual bestIndi= (AbstractEAIndividual) bestpop.getIndividual(i);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                <span class="keywordtype">double</span>[] bestIndyPos = ((InterfaceDataTypeDouble)bestIndi).getDoubleDataWithoutUpdate();</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                centroid[j] +=bestIndyPos[j]/bestpop.size(); <span class="comment">// bug?</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            }</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        }</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="comment">// Reflection</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keywordtype">double</span>[] r = <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab77a813c60eb1abebeb79f7cb2c64abb">calcChallengeVect</a>(centroid, x_worst);</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        </div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">if</span> (checkConstraints) {</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <span class="keywordflow">if</span> (!Mathematics.isInRange(r, range)) {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                Mathematics.reflectBounds(r, range);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            }</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        }</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="comment">//      AbstractEAIndividual reflectedInd = (AbstractEAIndividual)((AbstractEAIndividual)bestpop.getIndividual(1)).clone(); </span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="comment">//      ((InterfaceDataTypeDouble)reflectedInd).SetDoubleGenotype(r);</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="comment">//      m_Problem.evaluate(reflectedInd);</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        AbstractEAIndividual reflectedInd = createEvalIndy(bestpop, r);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        this.m_Population.incrFunctionCalls();</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab364107d27c024acebdcf0d0c33827b1">firstIsBetter</a>(best, reflectedInd) &amp;&amp; <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab364107d27c024acebdcf0d0c33827b1">firstIsBetter</a>(reflectedInd, bestpop.getWorstEAIndividual(fitIndex))) {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            <span class="keywordflow">return</span> reflectedInd;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab364107d27c024acebdcf0d0c33827b1">firstIsBetter</a>(reflectedInd, best)) { <span class="comment">//neues besser als bisher bestes =&gt; Expansion</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            <span class="keywordtype">double</span>[] e = <span class="keyword">new</span> <span class="keywordtype">double</span>[dim];</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;dim; i++)  e[i] = 3*centroid[i] - 2*x_worst[i];</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            <span class="keywordflow">if</span> (checkConstraints &amp;&amp; !Mathematics.isInRange(e, range)) Mathematics.projectToRange(e, range);</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            </div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            AbstractEAIndividual e_ind = createEvalIndy(bestpop, e);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            this.m_Population.incrFunctionCalls();</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            </div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab364107d27c024acebdcf0d0c33827b1">firstIsBetter</a>(e_ind, reflectedInd)) { <span class="comment">//expandiertes ist besser als reflektiertes</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                <span class="keywordflow">return</span> e_ind;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                <span class="keywordflow">return</span> reflectedInd;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            }</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a652882fe738ba5e8384fb690d1e7b426">firstIsBetterEqual</a>(bestpop.getWorstEAIndividual(fitIndex), reflectedInd)) {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            <span class="comment">//kontrahiere da neues indi keine verbesserung brachte</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            <span class="keywordtype">double</span>[] c = <span class="keyword">new</span> <span class="keywordtype">double</span>[dim];</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;dim; i++)  c[i] = 0.5*centroid[i] + 0.5*x_worst[i];</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            <span class="keywordflow">if</span> (checkConstraints &amp;&amp; !Mathematics.isInRange(c, range)) Mathematics.projectToRange(c, range);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            </div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="comment">//          AbstractEAIndividual c_ind = (AbstractEAIndividual)((AbstractEAIndividual)bestpop.getIndividual(1)).clone(); </span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="comment">//          ((InterfaceDataTypeDouble)c_ind).SetDoubleGenotype(c);</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="comment">//          m_Problem.evaluate(c_ind);</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            AbstractEAIndividual c_ind = createEvalIndy(bestpop, c);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            this.m_Population.incrFunctionCalls();</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a652882fe738ba5e8384fb690d1e7b426">firstIsBetterEqual</a>(c_ind, worst)) {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                <span class="keywordflow">return</span> c_ind;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        }</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_a652882fe738ba5e8384fb690d1e7b426"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#a652882fe738ba5e8384fb690d1e7b426">eva2.server.go.strategies.NelderMeadSimplex.firstIsBetterEqual</a></div><div class="ttdeci">boolean firstIsBetterEqual(double[] first, double[] second)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:112</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_ab364107d27c024acebdcf0d0c33827b1"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab364107d27c024acebdcf0d0c33827b1">eva2.server.go.strategies.NelderMeadSimplex.firstIsBetter</a></div><div class="ttdeci">boolean firstIsBetter(double[] first, double[] second)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:108</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex_html_ab77a813c60eb1abebeb79f7cb2c64abb"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_nelder_mead_simplex.html#ab77a813c60eb1abebeb79f7cb2c64abb">eva2.server.go.strategies.NelderMeadSimplex.calcChallengeVect</a></div><div class="ttdeci">double[] calcChallengeVect(double[] centroid, double[] refX)</div><div class="ttdef"><b>Definition:</b> NelderMeadSimplex.java:100</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/eva2/server/go/strategies/<a class="el" href="_nelder_mead_simplex_8java.html">NelderMeadSimplex.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 24 de Noviembre de 2013 20:07:28 para EvaProyectDoc por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

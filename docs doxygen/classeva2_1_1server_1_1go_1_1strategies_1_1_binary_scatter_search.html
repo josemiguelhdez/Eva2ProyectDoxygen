@@ -1,0 +1,1655 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>EvaProyectDoc: Referencia de la Clase eva2.server.go.strategies.BinaryScatterSearch</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">EvaProyectDoc
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceeva2.html">eva2</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server.html">server</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go.html">go</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go_1_1strategies.html">strategies</a></li><li class="navelem"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html">BinaryScatterSearch</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase eva2.server.go.strategies.BinaryScatterSearch</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">eva2.server.go.strategies.InterfaceOptimizer</a>, Serializable y <a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">eva2.server.go.InterfacePopulationChangedEventListener</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:aa3fc2cb10b86e32f89a1163ab965cecb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#aa3fc2cb10b86e32f89a1163ab965cecb">BinaryScatterSearch</a> ()</td></tr>
+<tr class="separator:aa3fc2cb10b86e32f89a1163ab965cecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9d6918ce920f5f2d830557bc09a192c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#ad9d6918ce920f5f2d830557bc09a192c">BinaryScatterSearch</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html">BinaryScatterSearch</a> b)</td></tr>
+<tr class="separator:ad9d6918ce920f5f2d830557bc09a192c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86401d84ba98d2838135aec46cb030c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a86401d84ba98d2838135aec46cb030c7">BinaryScatterSearch</a> (int refSetS, int poolS, double lowerThreshold, double upperThreshold, double perCentFirstIndGenerator, double perCentSecondIndGenerator, <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">AbstractOptimizationProblem</a> prob)</td></tr>
+<tr class="separator:a86401d84ba98d2838135aec46cb030c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f4a38f5d3a17151725ca274a126e367"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a4f4a38f5d3a17151725ca274a126e367">BinaryScatterSearch</a> (int refSetS, int poolS, double lowerThreshold, double upperThreshold, double perCentFirstIndGenerator, double perCentSecondIndGenerator, <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">AbstractOptimizationProblem</a> prob, <a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_adaptive_crossover_e_a_mixer.html">AdaptiveCrossoverEAMixer</a> cross)</td></tr>
+<tr class="separator:a4f4a38f5d3a17151725ca274a126e367"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a07371909cdcfef569f55e4af9192dc"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a7a07371909cdcfef569f55e4af9192dc">clone</a> ()</td></tr>
+<tr class="separator:a7a07371909cdcfef569f55e4af9192dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a835d2d859d99677db7a4ee0b53b02d58"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a835d2d859d99677db7a4ee0b53b02d58">getName</a> ()</td></tr>
+<tr class="separator:a835d2d859d99677db7a4ee0b53b02d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55c2de0779da713c20bc86c93cb98880"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a55c2de0779da713c20bc86c93cb98880">addPopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:a55c2de0779da713c20bc86c93cb98880"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64dd7ded17ec449f73e92461a75bd2f6"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a64dd7ded17ec449f73e92461a75bd2f6">removePopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:a64dd7ded17ec449f73e92461a75bd2f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a876490e2a557745c34fd4eb197d26bff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a876490e2a557745c34fd4eb197d26bff">init</a> ()</td></tr>
+<tr class="separator:a876490e2a557745c34fd4eb197d26bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bacc9d6c2c2029c1787148a0d8746d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a4bacc9d6c2c2029c1787148a0d8746d8">initByPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop, boolean reset)</td></tr>
+<tr class="separator:a4bacc9d6c2c2029c1787148a0d8746d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a18bf34b6c7c8233b31fbe051047786"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; <a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a9a18bf34b6c7c8233b31fbe051047786">generateSubsets</a> ()</td></tr>
+<tr class="separator:a9a18bf34b6c7c8233b31fbe051047786"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa267de5cac98dac2a7906a6f295a99cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#aa267de5cac98dac2a7906a6f295a99cb">combineSolution</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop)</td></tr>
+<tr class="separator:aa267de5cac98dac2a7906a6f295a99cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac27154575ed1789a77f14231ab0f836b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#ac27154575ed1789a77f14231ab0f836b">optimize</a> ()</td></tr>
+<tr class="separator:ac27154575ed1789a77f14231ab0f836b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9711e325df71f57204f8258c6e9c2a23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a9711e325df71f57204f8258c6e9c2a23">getPopulation</a> ()</td></tr>
+<tr class="separator:a9711e325df71f57204f8258c6e9c2a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6fee940f86f3cb2c727e059f170a2ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#ad6fee940f86f3cb2c727e059f170a2ab">setPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop)</td></tr>
+<tr class="separator:ad6fee940f86f3cb2c727e059f170a2ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b605acca84395c5a674ae5732d78178"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a4b605acca84395c5a674ae5732d78178">populationTipText</a> ()</td></tr>
+<tr class="separator:a4b605acca84395c5a674ae5732d78178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e950a64281b7ae2a6f7559a00c17c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a62e950a64281b7ae2a6f7559a00c17c8">getAllSolutions</a> ()</td></tr>
+<tr class="separator:a62e950a64281b7ae2a6f7559a00c17c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad31f24c2b9fcda45d70e16ead53052d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#ad31f24c2b9fcda45d70e16ead53052d8">SetIdentifier</a> (String name)</td></tr>
+<tr class="separator:ad31f24c2b9fcda45d70e16ead53052d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd6cd3170f7667dcc36af6ebfeb56e4c"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#abd6cd3170f7667dcc36af6ebfeb56e4c">getIdentifier</a> ()</td></tr>
+<tr class="separator:abd6cd3170f7667dcc36af6ebfeb56e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cd0b31ab61df8d09e6a84b9426573a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a0cd0b31ab61df8d09e6a84b9426573a5">SetProblem</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> problem)</td></tr>
+<tr class="separator:a0cd0b31ab61df8d09e6a84b9426573a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21e849224f5846ff067ab220878ab729"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a21e849224f5846ff067ab220878ab729">getProblem</a> ()</td></tr>
+<tr class="separator:a21e849224f5846ff067ab220878ab729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06364a99b9cea269d7d31cda82a30ec3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a06364a99b9cea269d7d31cda82a30ec3">getStringRepresentation</a> ()</td></tr>
+<tr class="separator:a06364a99b9cea269d7d31cda82a30ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90a6aa10064bd959b6348be07f80a1d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a90a6aa10064bd959b6348be07f80a1d4">freeWilly</a> ()</td></tr>
+<tr class="separator:a90a6aa10064bd959b6348be07f80a1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7323256b31844e18161c7091252474ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a7323256b31844e18161c7091252474ea">registerPopulationStateChanged</a> (Object source, String name)</td></tr>
+<tr class="separator:a7323256b31844e18161c7091252474ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea65c002e7bb0449a84476564d1fb0a6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#aea65c002e7bb0449a84476564d1fb0a6">getPoolSize</a> ()</td></tr>
+<tr class="separator:aea65c002e7bb0449a84476564d1fb0a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65fed0b930798279b8a021a7fefc5b71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a65fed0b930798279b8a021a7fefc5b71">setPoolSize</a> (int i)</td></tr>
+<tr class="separator:a65fed0b930798279b8a021a7fefc5b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa341ee7f67c67537f885d272e1024917"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#aa341ee7f67c67537f885d272e1024917">poolSizeTipText</a> ()</td></tr>
+<tr class="separator:aa341ee7f67c67537f885d272e1024917"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb4fbaaa8a2717cb0b49f8bc15596242"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#aeb4fbaaa8a2717cb0b49f8bc15596242">getThresholdHigh</a> ()</td></tr>
+<tr class="separator:aeb4fbaaa8a2717cb0b49f8bc15596242"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0be367c862646fa89b2f1f6749940004"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a0be367c862646fa89b2f1f6749940004">setThresholdHigh</a> (double t)</td></tr>
+<tr class="separator:a0be367c862646fa89b2f1f6749940004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2bcf5e36500a878f6fcec98b0c302c1"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#ae2bcf5e36500a878f6fcec98b0c302c1">thresholdHighTipText</a> ()</td></tr>
+<tr class="separator:ae2bcf5e36500a878f6fcec98b0c302c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06a6800943b1c84b916c038b2444787f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a06a6800943b1c84b916c038b2444787f">getThresholdLow</a> ()</td></tr>
+<tr class="separator:a06a6800943b1c84b916c038b2444787f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59b6349ec6756f09c1a397c9e203592c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a59b6349ec6756f09c1a397c9e203592c">setThresholdLow</a> (double t)</td></tr>
+<tr class="separator:a59b6349ec6756f09c1a397c9e203592c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3ee01ca45c1bb576bac0ff5ccde8e76"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#aa3ee01ca45c1bb576bac0ff5ccde8e76">thresholdLowTipText</a> ()</td></tr>
+<tr class="separator:aa3ee01ca45c1bb576bac0ff5ccde8e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfdc815579a79db686a6e5883fb36890"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#acfdc815579a79db686a6e5883fb36890">getLocalSearchSteps</a> ()</td></tr>
+<tr class="separator:acfdc815579a79db686a6e5883fb36890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f3b4da0117ffd9819cc54b5e9ee83be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a2f3b4da0117ffd9819cc54b5e9ee83be">setLocalSearchSteps</a> (int i)</td></tr>
+<tr class="separator:a2f3b4da0117ffd9819cc54b5e9ee83be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad780040acbd3e2da44022db31496c9da"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#ad780040acbd3e2da44022db31496c9da">localSearchStepsTipText</a> ()</td></tr>
+<tr class="separator:ad780040acbd3e2da44022db31496c9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe20774cc13b93695e1d338192b70fa8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_adaptive_crossover_e_a_mixer.html">AdaptiveCrossoverEAMixer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#abe20774cc13b93695e1d338192b70fa8">getCrossoverMethods</a> ()</td></tr>
+<tr class="separator:abe20774cc13b93695e1d338192b70fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb716ac3f2c1191e1639d73fcf26de2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#aeb716ac3f2c1191e1639d73fcf26de2e">setCrossoverMethods</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_adaptive_crossover_e_a_mixer.html">AdaptiveCrossoverEAMixer</a> c)</td></tr>
+<tr class="separator:aeb716ac3f2c1191e1639d73fcf26de2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a394697dbb3b28edea2fa223204b5447e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a394697dbb3b28edea2fa223204b5447e">crossoverMethodsTipText</a> ()</td></tr>
+<tr class="separator:a394697dbb3b28edea2fa223204b5447e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b9e1cedc1f0c000cc60d53653574b50"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a5b9e1cedc1f0c000cc60d53653574b50">getGenerationCycle</a> ()</td></tr>
+<tr class="separator:a5b9e1cedc1f0c000cc60d53653574b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b3d88d23b090d34d25760fcc69809a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a7b3d88d23b090d34d25760fcc69809a2">setGenerationCycle</a> (int i)</td></tr>
+<tr class="separator:a7b3d88d23b090d34d25760fcc69809a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb63bc0c6f8ecf6c615a50a11c9b59f4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#aeb63bc0c6f8ecf6c615a50a11c9b59f4">generationCycleTipText</a> ()</td></tr>
+<tr class="separator:aeb63bc0c6f8ecf6c615a50a11c9b59f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ce75647b06f849f2127b059a041f668"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a4ce75647b06f849f2127b059a041f668">getPerCentFirstGenMethod</a> ()</td></tr>
+<tr class="separator:a4ce75647b06f849f2127b059a041f668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20e35295086e13ecc3e963c0365f2087"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a20e35295086e13ecc3e963c0365f2087">setPerCentFirstGenMethod</a> (double d)</td></tr>
+<tr class="separator:a20e35295086e13ecc3e963c0365f2087"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a382cf2dec5e41d82e8497cd85f69b493"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a382cf2dec5e41d82e8497cd85f69b493">perCentFirstGenMethodTipText</a> ()</td></tr>
+<tr class="separator:a382cf2dec5e41d82e8497cd85f69b493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53e91f76c6c2010c37e0d794d18902e9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a53e91f76c6c2010c37e0d794d18902e9">getPerCentSecondGenMethod</a> ()</td></tr>
+<tr class="separator:a53e91f76c6c2010c37e0d794d18902e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee81cdb1abf91d6826253688642f30e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a7ee81cdb1abf91d6826253688642f30e">setPerCentSecondGenMethod</a> (double d)</td></tr>
+<tr class="separator:a7ee81cdb1abf91d6826253688642f30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab27107b6c93e93a1b6cd6347834f8ac3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#ab27107b6c93e93a1b6cd6347834f8ac3">perCentSecondGenMethodTipText</a> ()</td></tr>
+<tr class="separator:ab27107b6c93e93a1b6cd6347834f8ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a26c3f860464965b85ba9c60e74659b46"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a26c3f860464965b85ba9c60e74659b46">generateG1Pop</a> (int targetSize, <a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> template)</td></tr>
+<tr class="separator:a26c3f860464965b85ba9c60e74659b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5343a274f8a58c13c3c7372d1feb08c"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#af5343a274f8a58c13c3c7372d1feb08c">score</a> (int i, <a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop)</td></tr>
+<tr class="separator:af5343a274f8a58c13c3c7372d1feb08c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2130e73abaea5a4723963fb98d7bd0e2"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a2130e73abaea5a4723963fb98d7bd0e2">globalInfo</a> ()</td></tr>
+<tr class="separator:a2130e73abaea5a4723963fb98d7bd0e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:ac4ea6ae3da009656694341214ba96b7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#ac4ea6ae3da009656694341214ba96b7e">firePropertyChangedEvent</a> (String name)</td></tr>
+<tr class="separator:ac4ea6ae3da009656694341214ba96b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>A <a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html">BinaryScatterSearch</a> implementation taken mainly from [i].</p>
+<dl class="section author"><dt>Autor</dt><dd>Alex</dd></dl>
+<p>F. Gortazar, A. Duarte, M. Laguna and R. Marti: Black Box Scatter Search for General Classes of Binary Optimization Problems Computers and Operations research, vol. 37, no. 11, pp. 1977-1986 (2010) </p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="aa3fc2cb10b86e32f89a1163ab965cecb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.BinaryScatterSearch.BinaryScatterSearch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Create a new <a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html">BinaryScatterSearch</a> with default values </p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad9d6918ce920f5f2d830557bc09a192c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.BinaryScatterSearch.BinaryScatterSearch </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html">BinaryScatterSearch</a>&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Create a new <a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html">BinaryScatterSearch</a> with the same parameters as the given <a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html">BinaryScatterSearch</a> </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">b</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                                     {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        this.m_Listener     = b.m_Listener;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        this.m_Identifier   = b.m_Identifier;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        this.MaxImpIter     = b.MaxImpIter;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        this.poolSize       = b.poolSize;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        this.refSetSize     = b.refSetSize;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        this.fitCrit        = b.fitCrit;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        this.probDim        = b.probDim;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        this.generationCycle= b.generationCycle;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        this.th1            = b.th1;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        this.th2            = b.th2;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        this.g1             = b.g1;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        this.g2             = b.g2;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        this.firstTime      = b.firstTime;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        this.template       = (AbstractEAIndividual) b.template.clone();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        this.problem        = (AbstractOptimizationProblem) b.problem.clone();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        this.pool           = (Population) b.pool.clone();</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        this.refSet         = (Population) b.refSet.clone();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        this.cross          = b.cross;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a86401d84ba98d2838135aec46cb030c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.BinaryScatterSearch.BinaryScatterSearch </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>refSetS</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>poolS</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>lowerThreshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>upperThreshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>perCentFirstIndGenerator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>perCentSecondIndGenerator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">AbstractOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>prob</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Create a new <a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html">BinaryScatterSearch</a> with the given Parameters </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">refSetS</td><td>the refSetSize </td></tr>
+    <tr><td class="paramname">poolS</td><td>the poolSize </td></tr>
+    <tr><td class="paramname">lowerThreshold</td><td>the lower Boundary for the local Search </td></tr>
+    <tr><td class="paramname">upperThreshold</td><td>the upper Boundary for the local Search </td></tr>
+    <tr><td class="paramname">perCentFirstIndGenerator</td><td>how many individuals (in prospect of the poolSize) are generated through the first Generator </td></tr>
+    <tr><td class="paramname">perCentSecondIndGenerator</td><td>how many individuals (in prospect of the poolSize) are generated through the second Generator </td></tr>
+    <tr><td class="paramname">prob</td><td>the Problem </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                                                                                                 {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        this.refSetSize = refSetS;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        this.poolSize= poolS;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        this.th1 = lowerThreshold;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        this.th2 = upperThreshold;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        this.g1 = perCentFirstIndGenerator;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        this.g2 = perCentSecondIndGenerator;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        this.problem = prob;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4f4a38f5d3a17151725ca274a126e367"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.BinaryScatterSearch.BinaryScatterSearch </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>refSetS</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>poolS</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>lowerThreshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>upperThreshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>perCentFirstIndGenerator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>perCentSecondIndGenerator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">AbstractOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>prob</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_adaptive_crossover_e_a_mixer.html">AdaptiveCrossoverEAMixer</a>&#160;</td>
+          <td class="paramname"><em>cross</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Create a new <a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html">BinaryScatterSearch</a> with the given Parameters </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">refSetS</td><td>the refSetSize </td></tr>
+    <tr><td class="paramname">poolS</td><td>the poolSize </td></tr>
+    <tr><td class="paramname">lowerThreshold</td><td>the lower Boundary for the local Search </td></tr>
+    <tr><td class="paramname">upperThreshold</td><td>the upper Boundary for the local Search </td></tr>
+    <tr><td class="paramname">perCentFirstIndGenerator</td><td>how many individuals (in prospect of the poolSize) are generated through the first Generator </td></tr>
+    <tr><td class="paramname">perCentSecondIndGenerator</td><td>how many individuals (in prospect of the poolSize) are generated through the second Generator </td></tr>
+    <tr><td class="paramname">prob</td><td>the Problem </td></tr>
+    <tr><td class="paramname">cross</td><td>the Crossover-Operators </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        this.refSetSize = refSetS;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        this.poolSize= poolS;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        this.th1 = lowerThreshold;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        this.th2 = upperThreshold;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        this.g1 = perCentFirstIndGenerator;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        this.g2 = perCentSecondIndGenerator;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        this.problem = prob;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        this.cross = cross;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a55c2de0779da713c20bc86c93cb98880"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.addPopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to add a listener to the Optimizer. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#ab4f4dad7ab7ce4428c8c3a7afb8c6f3e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                                                        {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        this.m_Listener = ea;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7a07371909cdcfef569f55e4af9192dc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object eva2.server.go.strategies.BinaryScatterSearch.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>a copy of the current <a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html">BinaryScatterSearch</a> </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3782515f3e073d9a970f1605836a38e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                         {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#aa3fc2cb10b86e32f89a1163ab965cecb">BinaryScatterSearch</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search_html_aa3fc2cb10b86e32f89a1163ab965cecb"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#aa3fc2cb10b86e32f89a1163ab965cecb">eva2.server.go.strategies.BinaryScatterSearch.BinaryScatterSearch</a></div><div class="ttdeci">BinaryScatterSearch()</div><div class="ttdef"><b>Definition:</b> BinaryScatterSearch.java:63</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa267de5cac98dac2a7906a6f295a99cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> eva2.server.go.strategies.BinaryScatterSearch.combineSolution </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>combine the first individual with the second one </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pop</td><td>the Population </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the new Individual </dd></dl>
+<div class="fragment"><div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;                                                               {</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;        AbstractEAIndividual result = (AbstractEAIndividual) <span class="keyword">template</span>.<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a7a07371909cdcfef569f55e4af9192dc">clone</a>();</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;        <span class="keywordflow">if</span>(pop.size()&gt;=2){</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;            AbstractEAIndividual indy1 = pop.getEAIndividual(0);</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;            pop.remove(0);</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;            <span class="comment">// Because some Crossover-Methods need the score, we need to give them the RefSet</span></div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;this.refSet.size(); i++){</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;                pop.add(this.refSet.getEAIndividual(i));</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;            }</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;            this.cross.update(indy1, problem, refSet, indy1.getFitness(0));</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;            result = this.cross.mate(indy1, pop)[0];</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;            <span class="comment">//result = indy1.mateWith(s)[0];</span></div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;        }<span class="keywordflow">else</span> <span class="keywordflow">if</span>(pop.size()&gt;0){</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;            result = pop.getBestEAIndividual();</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;        }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;            System.err.println(<span class="stringliteral">&quot;Population empty&quot;</span>);</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;            <span class="comment">//return null;</span></div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;        }</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search_html_a7a07371909cdcfef569f55e4af9192dc"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a7a07371909cdcfef569f55e4af9192dc">eva2.server.go.strategies.BinaryScatterSearch.clone</a></div><div class="ttdeci">Object clone()</div><div class="ttdef"><b>Definition:</b> BinaryScatterSearch.java:141</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a394697dbb3b28edea2fa223204b5447e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.BinaryScatterSearch.crossoverMethodsTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;                                           {</div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;The crossover Methods used to create the pool&quot;</span>;</div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac4ea6ae3da009656694341214ba96b7e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.firePropertyChangedEvent </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;                                                          {</div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;        <span class="keywordflow">if</span> (this.m_Listener != null) this.m_Listener.registerPopulationStateChanged(<span class="keyword">this</span>, name);</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a90a6aa10064bd959b6348be07f80a1d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.freeWilly </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method is required to free the memory on a RMIServer, but there is nothing to implement. </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3f5bc95f7781986c42165950d34131c">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;                            {</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;        <span class="comment">// TODO Auto-generated method stub</span></div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a26c3f860464965b85ba9c60e74659b46"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> eva2.server.go.strategies.BinaryScatterSearch.generateG1Pop </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>targetSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td>
+          <td class="paramname"><em>template</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Generate a new Population with diverse Individuals starting with 000...000, then 010101...01, 101010...10, 001001001...001, 110110110...110 and so on </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pop</td><td>the initial Population </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the new Population </dd></dl>
+<div class="fragment"><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                                                                                         {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordtype">boolean</span> method1 = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <span class="keywordtype">int</span> i=1;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        Population pop = <span class="keyword">new</span> Population(targetSize);</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="keywordflow">while</span>(pop.size() &lt; targetSize) {</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            AbstractEAIndividual indy = (AbstractEAIndividual) <span class="keyword">template</span>.<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a7a07371909cdcfef569f55e4af9192dc">clone</a>();</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            BitSet data = getBinaryData(indy);</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            <span class="keywordflow">if</span>(method1){</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                method1 = !method1;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                data.set(0, data.size(), <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0; j&lt;data.size(); j=j+i){</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                    data.flip(j);</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                }</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                ((InterfaceDataTypeBinary) indy).SetBinaryGenotype(data);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                <span class="keywordflow">if</span>(i==1){</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                    i++;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                    method1 = !method1;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;            }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                method1 = !method1;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                <span class="keywordflow">if</span>(i!=1){</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                    data.set(0, data.size(), <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0; j&lt;data.size(); j=j+i){</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                        data.flip(j);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                    }</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                    ((InterfaceDataTypeBinary) indy).SetBinaryGenotype(data);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                }</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                i++;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;            }</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            pop.add(indy);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        }</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <span class="keywordflow">return</span> pop;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search_html_a7a07371909cdcfef569f55e4af9192dc"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a7a07371909cdcfef569f55e4af9192dc">eva2.server.go.strategies.BinaryScatterSearch.clone</a></div><div class="ttdeci">Object clone()</div><div class="ttdef"><b>Definition:</b> BinaryScatterSearch.java:141</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9a18bf34b6c7c8233b31fbe051047786"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&gt; eva2.server.go.strategies.BinaryScatterSearch.generateSubsets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Combine all the individuals in the reference Set (always 2) </p>
+<dl class="section return"><dt>Devuelve</dt><dd>the List with all the combinations </dd></dl>
+<div class="fragment"><div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;                                                  {</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;        ArrayList&lt;Population&gt; result = <span class="keyword">new</span> ArrayList&lt;Population&gt;();</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;this.refSet.size(); i++){</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=i+1; j&lt;this.refSet.size(); j++){</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;                Population tmp = <span class="keyword">new</span> Population();</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;                tmp.add(this.refSet.getIndividual(i));</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;                tmp.add(this.refSet.getIndividual(j));</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;                result.add((Population) tmp.clone());</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;            }</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        }</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aeb63bc0c6f8ecf6c615a50a11c9b59f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.BinaryScatterSearch.generationCycleTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;                                          {</div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;The number of evaluations done in every generation Cycle&quot;</span>;</div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a62e950a64281b7ae2a6f7559a00c17c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a> eva2.server.go.strategies.BinaryScatterSearch.getAllSolutions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return all found solutions (local optima) if they are not contained in the current population. Be sure to set the Population properties, especially function calls and generation, with respect to the ongoing optimization. May return the the same set as getPopulation if the optimizer makes no distinction, i.e. does not collect solutions outside the current population.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>A solution set of the current population and possibly earlier solutions. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a613ed8378f2956c125ed149328eb07f9">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;                                                  {</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> SolutionSet(this.refSet);</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abe20774cc13b93695e1d338192b70fa8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_adaptive_crossover_e_a_mixer.html">AdaptiveCrossoverEAMixer</a> eva2.server.go.strategies.BinaryScatterSearch.getCrossoverMethods </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;                                                         {</div>
+<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;        <span class="keywordflow">return</span> this.cross;</div>
+<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5b9e1cedc1f0c000cc60d53653574b50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.strategies.BinaryScatterSearch.getGenerationCycle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;                                   {</div>
+<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;        <span class="keywordflow">return</span> this.generationCycle;</div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abd6cd3170f7667dcc36af6ebfeb56e4c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.BinaryScatterSearch.getIdentifier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a3f8f01e01e017474b76de8f473c01ec7">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;                                  {</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;        <span class="keywordflow">return</span> this.m_Identifier;</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acfdc815579a79db686a6e5883fb36890"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.strategies.BinaryScatterSearch.getLocalSearchSteps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;                                    {</div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;        <span class="keywordflow">return</span> this.MaxImpIter;</div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a835d2d859d99677db7a4ee0b53b02d58"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.BinaryScatterSearch.getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a naming String </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The name of the algorithm </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9c881980799f6de9a04cce7564ad16aa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                            {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;BSS&quot;</span>;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4ce75647b06f849f2127b059a041f668"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.strategies.BinaryScatterSearch.getPerCentFirstGenMethod </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;                                            {</div>
+<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;        <span class="keywordflow">return</span> this.g1;</div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a53e91f76c6c2010c37e0d794d18902e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.strategies.BinaryScatterSearch.getPerCentSecondGenMethod </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;                                             {</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;        <span class="keywordflow">return</span> this.g2;</div>
+<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aea65c002e7bb0449a84476564d1fb0a6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.strategies.BinaryScatterSearch.getPoolSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;                            {</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;        <span class="keywordflow">return</span> this.poolSize;</div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9711e325df71f57204f8258c6e9c2a23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> eva2.server.go.strategies.BinaryScatterSearch.getPopulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assuming that all optimizer will store their data in a population we will allow access to this population to query to current state of the optimizer. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The population of current solutions to a given problem. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9169e43517e8db7841cd453c4660872f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;                                      {</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;        <span class="keywordflow">return</span> this.refSet;</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a21e849224f5846ff067ab220878ab729"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> eva2.server.go.strategies.BinaryScatterSearch.getProblem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9402221cc9321347a9d1d0a894be937b">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;                                                     {</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;        <span class="keywordflow">return</span> this.problem;</div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a06364a99b9cea269d7d31cda82a30ec3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.BinaryScatterSearch.getStringRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a string describing all properties of the optimizer and the applied methods. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A descriptive string </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4cdfe0bff8295d1471effe39f8e2cdb0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;                                            {</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;BinaryScatterSearch&quot;</span>;</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aeb4fbaaa8a2717cb0b49f8bc15596242"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.strategies.BinaryScatterSearch.getThresholdHigh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;                                    {</div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;        <span class="keywordflow">return</span> th2;</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a06a6800943b1c84b916c038b2444787f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.strategies.BinaryScatterSearch.getThresholdLow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;                                   {</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;        <span class="keywordflow">return</span> th1;</div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2130e73abaea5a4723963fb98d7bd0e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String eva2.server.go.strategies.BinaryScatterSearch.globalInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;                                     {</div>
+<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;A basic implementation of a Binary ScatterSearch&quot;</span>;</div>
+<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a876490e2a557745c34fd4eb197d26bff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4efaea1c10726e848f4c56a9c6d9103f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                       {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        defaultInit();</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        initRefSet(diversify());</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4bacc9d6c2c2029c1787148a0d8746d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.initByPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>reset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer with a given population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pop</td><td>The initial population </td></tr>
+    <tr><td class="paramname">reset</td><td>If true the population is reinitialized and reevaluated. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2b9dd760178a114b8caf8c83fc202c5f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                                                                {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        defaultInit();</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        initRefSet(diversify(pop));</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad780040acbd3e2da44022db31496c9da"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.BinaryScatterSearch.localSearchStepsTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;                                           {</div>
+<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Maximum number of local search iterations&quot;</span>;</div>
+<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac27154575ed1789a77f14231ab0f836b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.optimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will optimize for a single iteration, after this step the population should be as big as possible (ie. the size of lambda and not mu) and all individual should be evaluated. This allows more usefull statistics on the population. </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a228d8e9883a253c5bbaf29e413e01704">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;                           {</div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;        problem.evaluatePopulationStart(refSet);</div>
+<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;        <span class="keywordtype">int</span> funCallsStart = this.refSet.getFunctionCalls();</div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;        <span class="keywordflow">do</span> {</div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;            <span class="comment">// generate a new Pool</span></div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;            this.pool = <span class="keyword">new</span> Population();</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;            ArrayList&lt;Population&gt; newSubsets = <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a9a18bf34b6c7c8233b31fbe051047786">generateSubsets</a>();</div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;newSubsets.size(); i++){</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;                Population s = newSubsets.get(i);</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;                AbstractEAIndividual x = <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#aa267de5cac98dac2a7906a6f295a99cb">combineSolution</a>(s);</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;                <span class="keywordflow">if</span>(!contains((InterfaceDataTypeBinary)x,this.pool)&amp;&amp;this.pool.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">size</a>()&lt;=this.poolSize){</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;                    this.pool.add(x);</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;                }</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;            }</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;            this.refSet.incrFunctionCallsBy(this.pool.size());</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;            <span class="comment">// increase the number of evaluations by the number of evaluations that are performed in the crossover-step</span></div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;this.cross.getEvaluations(); i++){</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;                this.refSet.incrFunctionCalls();</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;            }</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;            <span class="comment">// reset the extra evaluations</span></div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;            this.cross.resetEvaluations();</div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;            <span class="comment">// get the best half of the Populations</span></div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;            Population best = this.refSet.getBestNIndividuals(this.refSetSize/2, fitCrit);</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;            <span class="comment">// do a local search on the better half of the reference Set</span></div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0; i&lt;best.size(); i++){</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;                AbstractEAIndividual indy = best.getEAIndividual(i);</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;                AbstractEAIndividual x = improve((AbstractEAIndividual)indy.clone());</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;                <span class="keywordflow">if</span>(x.getFitness(0)&lt;indy.getFitness(0) &amp;&amp; !contains((InterfaceDataTypeBinary)x, this.refSet)){</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;                    this.refSet.remove(indy);</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;                    this.refSet.add(x);</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;                }</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;            }</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;            <span class="comment">// update the referenceSet</span></div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;            <span class="keywordtype">boolean</span> changed = refSetUpdate(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;            <span class="comment">// if no change occurred, replace the worst half of the referenceSet</span></div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;            <span class="keywordflow">if</span>(!changed){</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;                refSetUpdate(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;            }</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;        } <span class="keywordflow">while</span> (refSet.<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a4dcea9b0cfd7afc469cf20b88ab4f60d">getFunctionCalls</a>()-funCallsStart &lt; generationCycle);</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;        problem.evaluatePopulationEnd(refSet);</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search_html_aa267de5cac98dac2a7906a6f295a99cb"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#aa267de5cac98dac2a7906a6f295a99cb">eva2.server.go.strategies.BinaryScatterSearch.combineSolution</a></div><div class="ttdeci">AbstractEAIndividual combineSolution(Population pop)</div><div class="ttdef"><b>Definition:</b> BinaryScatterSearch.java:626</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a4dcea9b0cfd7afc469cf20b88ab4f60d"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a4dcea9b0cfd7afc469cf20b88ab4f60d">eva2.server.go.populations.Population.getFunctionCalls</a></div><div class="ttdeci">int getFunctionCalls()</div><div class="ttdef"><b>Definition:</b> Population.java:565</div></div>
+<div class="ttc" id="interfaceeva2_1_1server_1_1go_1_1_population_interface_html_a59db05427cda240edea2b2ea3c2a7513"><div class="ttname"><a href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">eva2.server.go.PopulationInterface.size</a></div><div class="ttdeci">int size()</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search_html_a9a18bf34b6c7c8233b31fbe051047786"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_binary_scatter_search.html#a9a18bf34b6c7c8233b31fbe051047786">eva2.server.go.strategies.BinaryScatterSearch.generateSubsets</a></div><div class="ttdeci">ArrayList&lt; Population &gt; generateSubsets()</div><div class="ttdef"><b>Definition:</b> BinaryScatterSearch.java:608</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a382cf2dec5e41d82e8497cd85f69b493"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.BinaryScatterSearch.perCentFirstGenMethodTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;                                                {</div>
+<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;The number of individuals generated with the first Generation Method. The percentage, that is not covered with the first and the second method will be covered with a third method&quot;</span>;</div>
+<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab27107b6c93e93a1b6cd6347834f8ac3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.BinaryScatterSearch.perCentSecondGenMethodTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;                                                 {</div>
+<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;The number of individuals generated with the second Generation Method. The percentage, that is not covered with the first and the second method will be covered with a third method&quot;</span>;</div>
+<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa341ee7f67c67537f885d272e1024917"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.BinaryScatterSearch.poolSizeTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;                                   {</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;The number of individuals created in the diversification step&quot;</span>;</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4b605acca84395c5a674ae5732d78178"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.BinaryScatterSearch.populationTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;                                     {</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;The Population&quot;</span>;</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7323256b31844e18161c7091252474ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.registerPopulationStateChanged </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows an optimizer to register a change in the optimizer. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The source of the event. </td></tr>
+    <tr><td class="paramname">name</td><td>Could be used to indicate the nature of the event. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html#ada114942c76af9331afbcaa215bca53f">eva2.server.go.InterfacePopulationChangedEventListener</a>.</p>
+<div class="fragment"><div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;        <span class="comment">// The events of the interim hill climbing population will be caught here </span></div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;        <span class="keywordflow">if</span> (name.compareTo(Population.funCallIntervalReached) == 0) {</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;            <span class="comment">// set funcalls to real value</span></div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;            refSet.SetFunctionCalls(((Population)source).getFunctionCalls());</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;            <span class="comment">//          System.out.println(&quot;FunCallIntervalReached at &quot; + (((Population)source).getFunctionCalls()));</span></div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;            this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;        } </div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a64dd7ded17ec449f73e92461a75bd2f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.BinaryScatterSearch.removePopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method removes a listener from the Optimizer. It returns true on success, false if the listener could not be found. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a6e732c957bbe8b9dd04657fadcb128fa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                                                        {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordflow">if</span> (m_Listener==ea) {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            m_Listener=null;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af5343a274f8a58c13c3c7372d1feb08c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static double eva2.server.go.strategies.BinaryScatterSearch.score </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>calculates a score that gives a reference Point if the Bit on the i-th position is right. If the bit is set to '1' and you get a high score then the Bit is probably set correct. If the bit is set to '0' and you get a low score then the Bit is probably set correct. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">i</td><td>the position </td></tr>
+    <tr><td class="paramname">pop</td><td>the population </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the score </dd></dl>
+<div class="fragment"><div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;                                                     {</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;        <span class="keywordtype">double</span> sumPI1 = calculateSumPI1(i, pop);</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        <span class="keywordtype">double</span> sumPI0 = calculateSumPI0(i, pop);</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;        <span class="keywordtype">double</span> numberOfPI1 = calculateNumberOFPI1(i, pop);</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;        <span class="keywordtype">double</span> numberOfPI0 = calculateNumberOFPI0(i, pop);</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        <span class="keywordtype">double</span> v= (sumPI1/numberOfPI1)/((sumPI1/numberOfPI1)+(sumPI0/numberOfPI0));</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;        <span class="keywordflow">return</span> v;</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aeb716ac3f2c1191e1639d73fcf26de2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.setCrossoverMethods </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_adaptive_crossover_e_a_mixer.html">AdaptiveCrossoverEAMixer</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;                                                               {</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;        this.cross = c;</div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7b3d88d23b090d34d25760fcc69809a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.setGenerationCycle </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;                                         {</div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;        this.generationCycle = i;</div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad31f24c2b9fcda45d70e16ead53052d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.SetIdentifier </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to set an identifier for the algorithm </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The identifier </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4af2f49eef2cf833b15e88b25e382efd">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;                                           {</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;        this.m_Identifier = name;</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2f3b4da0117ffd9819cc54b5e9ee83be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.setLocalSearchSteps </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;                                          {</div>
+<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;        this.MaxImpIter = i;</div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a20e35295086e13ecc3e963c0365f2087"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.setPerCentFirstGenMethod </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;                                                  {</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;        this.g1 = d;</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7ee81cdb1abf91d6826253688642f30e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.setPerCentSecondGenMethod </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;                                                   {</div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;        this.g2 = d;</div>
+<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a65fed0b930798279b8a021a7fefc5b71"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.setPoolSize </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;                                  {</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;        this.poolSize = i;</div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad6fee940f86f3cb2c727e059f170a2ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.setPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9a19bcf589f1375450e7c9588acee982">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;                                              {</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;        this.refSet = pop;</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;        this.refSetSize = pop.getTargetSize();</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0cd0b31ab61df8d09e6a84b9426573a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.SetProblem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>problem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will set the problem that is to be optimized. The problem should be initialized when this method is called.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problem</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2bf9e7ad9b3682cdb51fe65284d98af0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;        this.problem = (AbstractOptimizationProblem) problem;</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0be367c862646fa89b2f1f6749940004"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.setThresholdHigh </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;                                          {</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;        this.th2 = t;</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a59b6349ec6756f09c1a397c9e203592c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.BinaryScatterSearch.setThresholdLow </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;                                         {</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;        this.th1 = t;</div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae2bcf5e36500a878f6fcec98b0c302c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.BinaryScatterSearch.thresholdHighTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;                                        {</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Only scores set to 0 with a value below this value will be improved&quot;</span>;</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa3ee01ca45c1bb576bac0ff5ccde8e76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.BinaryScatterSearch.thresholdLowTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;                                       {</div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Only scores set to 1 with a value above this value will be improved&quot;</span>;</div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/eva2/server/go/strategies/<a class="el" href="_binary_scatter_search_8java.html">BinaryScatterSearch.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 24 de Noviembre de 2013 20:07:26 para EvaProyectDoc por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

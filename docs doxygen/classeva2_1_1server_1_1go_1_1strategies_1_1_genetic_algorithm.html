@@ -1,0 +1,1003 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>EvaProyectDoc: Referencia de la Clase eva2.server.go.strategies.GeneticAlgorithm</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">EvaProyectDoc
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceeva2.html">eva2</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server.html">server</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go.html">go</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go_1_1strategies.html">strategies</a></li><li class="navelem"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html">GeneticAlgorithm</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase eva2.server.go.strategies.GeneticAlgorithm</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">eva2.server.go.strategies.InterfaceOptimizer</a> y Serializable.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ab958a5058df19b5542d5fd297afa47c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#ab958a5058df19b5542d5fd297afa47c0">GeneticAlgorithm</a> ()</td></tr>
+<tr class="separator:ab958a5058df19b5542d5fd297afa47c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e87c0604bcdcffeb7fbd73b5174c1b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a3e87c0604bcdcffeb7fbd73b5174c1b6">GeneticAlgorithm</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html">GeneticAlgorithm</a> a)</td></tr>
+<tr class="separator:a3e87c0604bcdcffeb7fbd73b5174c1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34d199169fa86693114bf2fc6b289ce7"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a34d199169fa86693114bf2fc6b289ce7">clone</a> ()</td></tr>
+<tr class="separator:a34d199169fa86693114bf2fc6b289ce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf1a2f6b129c1b297d9722d1553f6745"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#adf1a2f6b129c1b297d9722d1553f6745">init</a> ()</td></tr>
+<tr class="separator:adf1a2f6b129c1b297d9722d1553f6745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53471dd9a443a12d04a459b1e6f6d5bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a53471dd9a443a12d04a459b1e6f6d5bc">initByPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop, boolean reset)</td></tr>
+<tr class="separator:a53471dd9a443a12d04a459b1e6f6d5bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d3804ecfb803cf535046fb472a7a2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a51d3804ecfb803cf535046fb472a7a2d">optimize</a> ()</td></tr>
+<tr class="separator:a51d3804ecfb803cf535046fb472a7a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17ae2fcd9ef1b1593824fa9e0d304455"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a17ae2fcd9ef1b1593824fa9e0d304455">addPopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:a17ae2fcd9ef1b1593824fa9e0d304455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af977cb06d5abcf32c89b812ef295f87f"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#af977cb06d5abcf32c89b812ef295f87f">removePopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:af977cb06d5abcf32c89b812ef295f87f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec2592b1d4c2df4c151b715e94f025ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#aec2592b1d4c2df4c151b715e94f025ea">SetProblem</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> problem)</td></tr>
+<tr class="separator:aec2592b1d4c2df4c151b715e94f025ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c6bceb64fa35cd05032c5cffed7c96c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a3c6bceb64fa35cd05032c5cffed7c96c">getProblem</a> ()</td></tr>
+<tr class="separator:a3c6bceb64fa35cd05032c5cffed7c96c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac95fb783a9273558cf3352f1a252212d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#ac95fb783a9273558cf3352f1a252212d">getStringRepresentation</a> ()</td></tr>
+<tr class="separator:ac95fb783a9273558cf3352f1a252212d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad08ee44ad8473f584dc16e8ec28c3cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#aad08ee44ad8473f584dc16e8ec28c3cc">SetIdentifier</a> (String name)</td></tr>
+<tr class="separator:aad08ee44ad8473f584dc16e8ec28c3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a967d81d2d4f65086c630ac098e5940f3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a967d81d2d4f65086c630ac098e5940f3">getIdentifier</a> ()</td></tr>
+<tr class="separator:a967d81d2d4f65086c630ac098e5940f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dac361916ffd815c65ff95876ef519d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a1dac361916ffd815c65ff95876ef519d">freeWilly</a> ()</td></tr>
+<tr class="separator:a1dac361916ffd815c65ff95876ef519d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0b6976ebaa362cb39eed8099129a10c"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#ad0b6976ebaa362cb39eed8099129a10c">getName</a> ()</td></tr>
+<tr class="separator:ad0b6976ebaa362cb39eed8099129a10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e467f372db5b472bec3bb5bf3c7dd7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a0e467f372db5b472bec3bb5bf3c7dd7c">getPopulation</a> ()</td></tr>
+<tr class="separator:a0e467f372db5b472bec3bb5bf3c7dd7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04313cadea25d62c9ec058e3faa820bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a04313cadea25d62c9ec058e3faa820bb">setPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop)</td></tr>
+<tr class="separator:a04313cadea25d62c9ec058e3faa820bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2505af4f4e2006fa45c7663ac3d1ff0"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#ad2505af4f4e2006fa45c7663ac3d1ff0">populationTipText</a> ()</td></tr>
+<tr class="separator:ad2505af4f4e2006fa45c7663ac3d1ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae96b6549534c64c0e8bb3bfeb5d2337e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#ae96b6549534c64c0e8bb3bfeb5d2337e">getAllSolutions</a> ()</td></tr>
+<tr class="separator:ae96b6549534c64c0e8bb3bfeb5d2337e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad823577e04be70e2e158bdf6d816b40e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#ad823577e04be70e2e158bdf6d816b40e">setParentSelection</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a> selection)</td></tr>
+<tr class="separator:ad823577e04be70e2e158bdf6d816b40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a093f18870aa54fea691d804c341fccbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a093f18870aa54fea691d804c341fccbc">getParentSelection</a> ()</td></tr>
+<tr class="separator:a093f18870aa54fea691d804c341fccbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ba29252cc26febc57f1103ef10deb61"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a5ba29252cc26febc57f1103ef10deb61">parentSelectionTipText</a> ()</td></tr>
+<tr class="separator:a5ba29252cc26febc57f1103ef10deb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a0803e12961419277b338caded4dc6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a75a0803e12961419277b338caded4dc6">setElitism</a> (boolean elitism)</td></tr>
+<tr class="separator:a75a0803e12961419277b338caded4dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa29c563f30722f2dd7324e4865d433be"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#aa29c563f30722f2dd7324e4865d433be">getElitism</a> ()</td></tr>
+<tr class="separator:aa29c563f30722f2dd7324e4865d433be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa75c54da22cc671390345dbe86b12342"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#aa75c54da22cc671390345dbe86b12342">elitismTipText</a> ()</td></tr>
+<tr class="separator:aa75c54da22cc671390345dbe86b12342"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a822c45c9ec24a1a2f69a108a4b044b1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a822c45c9ec24a1a2f69a108a4b044b1c">setNumberOfPartners</a> (int partners)</td></tr>
+<tr class="separator:a822c45c9ec24a1a2f69a108a4b044b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa95828f72649b2e15bbf8ec61e9666a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#aaa95828f72649b2e15bbf8ec61e9666a">getNumberOfPartners</a> ()</td></tr>
+<tr class="separator:aaa95828f72649b2e15bbf8ec61e9666a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3521309c054ffb6bc55ee280f395252b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a3521309c054ffb6bc55ee280f395252b">numberOfPartnersTipText</a> ()</td></tr>
+<tr class="separator:a3521309c054ffb6bc55ee280f395252b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04240f8f41ce215351ef6612117bd864"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a04240f8f41ce215351ef6612117bd864">setPartnerSelection</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a> selection)</td></tr>
+<tr class="separator:a04240f8f41ce215351ef6612117bd864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac978db2d78eef89fe5711c339db41197"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#ac978db2d78eef89fe5711c339db41197">getPartnerSelection</a> ()</td></tr>
+<tr class="separator:ac978db2d78eef89fe5711c339db41197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a833cc536796a89e341107a1b360aceb9"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a833cc536796a89e341107a1b360aceb9">partnerSelectionTipText</a> ()</td></tr>
+<tr class="separator:a833cc536796a89e341107a1b360aceb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:abb87d7bc57755e2275ae56999ae36956"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#abb87d7bc57755e2275ae56999ae36956">globalInfo</a> ()</td></tr>
+<tr class="separator:abb87d7bc57755e2275ae56999ae36956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a580a65fb04545d2419e2777aac813f74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a580a65fb04545d2419e2777aac813f74">firePropertyChangedEvent</a> (String name)</td></tr>
+<tr class="separator:a580a65fb04545d2419e2777aac813f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>The traditional genetic algorithms as devised by Holland. To only special here it the plague factor which reduces the population size to tune from a global to a more local search. But you have to be careful with that else the GA might not converge. This is a implementation of Genetic Algorithms. Copyright: Copyright (c) 2003 Company: University of Tuebingen, Computer Architecture </p>
+<dl class="section author"><dt>Autor</dt><dd>Felix Streichert </dd></dl>
+<dl class="section version"><dt>Versión</dt><dd>: </dd></dl>
+<dl class="section rcs"><dt>Revision:</dt><dd>307 </dd></dl>
+<dl class="section rcs"><dt>Date:</dt><dd>2007-12-04 14:31:47 +0100 (Tue, 04 Dec 2007) </dd></dl>
+<dl class="section rcs"><dt>Author:</dt><dd>mkron </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="ab958a5058df19b5542d5fd297afa47c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.GeneticAlgorithm.GeneticAlgorithm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                  {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3e87c0604bcdcffeb7fbd73b5174c1b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.GeneticAlgorithm.GeneticAlgorithm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html">GeneticAlgorithm</a>&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                                    {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            this.m_Population                   = (Population)a.m_Population.clone();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            this.m_Problem                      = (InterfaceOptimizationProblem)a.m_Problem.clone();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            this.m_Identifier                   = a.m_Identifier;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            this.m_Plague                       = a.m_Plague;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            this.m_NumberOfPartners             = a.m_NumberOfPartners;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            this.m_UseElitism                   = a.m_UseElitism;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            this.m_ParentSelection              = (InterfaceSelection)a.m_ParentSelection.clone();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            this.m_PartnerSelection             = (InterfaceSelection)a.m_PartnerSelection.clone();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a17ae2fcd9ef1b1593824fa9e0d304455"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.GeneticAlgorithm.addPopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to add the LectureGUI as listener to the Optimizer </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#ab4f4dad7ab7ce4428c8c3a7afb8c6f3e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                                                                                                  {</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            this.m_Listener = ea;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a34d199169fa86693114bf2fc6b289ce7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object eva2.server.go.strategies.GeneticAlgorithm.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return deep clone of the optimizer </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The clone </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3782515f3e073d9a970f1605836a38e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                              {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keywordflow">return</span> (Object) <span class="keyword">new</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#ab958a5058df19b5542d5fd297afa47c0">GeneticAlgorithm</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm_html_ab958a5058df19b5542d5fd297afa47c0"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#ab958a5058df19b5542d5fd297afa47c0">eva2.server.go.strategies.GeneticAlgorithm.GeneticAlgorithm</a></div><div class="ttdeci">GeneticAlgorithm()</div><div class="ttdef"><b>Definition:</b> GeneticAlgorithm.java:41</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa75c54da22cc671390345dbe86b12342"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.GeneticAlgorithm.elitismTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                                       {</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Enable/disable elitism.&quot;</span>;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a580a65fb04545d2419e2777aac813f74"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.GeneticAlgorithm.firePropertyChangedEvent </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Something has changed </p>
+<div class="fragment"><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                                                              {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            <span class="keywordflow">if</span> (this.m_Listener != null) this.m_Listener.registerPopulationStateChanged(<span class="keyword">this</span>, name);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1dac361916ffd815c65ff95876ef519d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.GeneticAlgorithm.freeWilly </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method is required to free the memory on a RMIServer, but there is nothing to implement. </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3f5bc95f7781986c42165950d34131c">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                                {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae96b6549534c64c0e8bb3bfeb5d2337e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a> eva2.server.go.strategies.GeneticAlgorithm.getAllSolutions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return all found solutions (local optima) if they are not contained in the current population. Be sure to set the Population properties, especially function calls and generation, with respect to the ongoing optimization. May return the the same set as getPopulation if the optimizer makes no distinction, i.e. does not collect solutions outside the current population.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>A solution set of the current population and possibly earlier solutions. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a613ed8378f2956c125ed149328eb07f9">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                                                      {</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> SolutionSet(<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a0e467f372db5b472bec3bb5bf3c7dd7c">getPopulation</a>());</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm_html_a0e467f372db5b472bec3bb5bf3c7dd7c"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_genetic_algorithm.html#a0e467f372db5b472bec3bb5bf3c7dd7c">eva2.server.go.strategies.GeneticAlgorithm.getPopulation</a></div><div class="ttdeci">Population getPopulation()</div><div class="ttdef"><b>Definition:</b> GeneticAlgorithm.java:262</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa29c563f30722f2dd7324e4865d433be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.GeneticAlgorithm.getElitism </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                    {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            <span class="keywordflow">return</span> this.m_UseElitism;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a967d81d2d4f65086c630ac098e5940f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.GeneticAlgorithm.getIdentifier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a3f8f01e01e017474b76de8f473c01ec7">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                                       {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;             <span class="keywordflow">return</span> this.m_Identifier;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;         }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad0b6976ebaa362cb39eed8099129a10c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.GeneticAlgorithm.getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a naming String </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The name of the algorithm </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9c881980799f6de9a04cce7564ad16aa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                                {</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&quot;GA&quot;</span>;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aaa95828f72649b2e15bbf8ec61e9666a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.strategies.GeneticAlgorithm.getNumberOfPartners </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                                         {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;            <span class="keywordflow">return</span> this.m_NumberOfPartners;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a093f18870aa54fea691d804c341fccbc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a> eva2.server.go.strategies.GeneticAlgorithm.getParentSelection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                                                       {</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            <span class="keywordflow">return</span> this.m_ParentSelection;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac978db2d78eef89fe5711c339db41197"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a> eva2.server.go.strategies.GeneticAlgorithm.getPartnerSelection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                                                        {</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;            <span class="keywordflow">return</span> this.m_PartnerSelection;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0e467f372db5b472bec3bb5bf3c7dd7c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> eva2.server.go.strategies.GeneticAlgorithm.getPopulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assuming that all optimizer will store thier data in a population we will allow acess to this population to query to current state of the optimizer. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The population of current solutions to a given problem. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9169e43517e8db7841cd453c4660872f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                                          {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            <span class="keywordflow">return</span> this.m_Population;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3c6bceb64fa35cd05032c5cffed7c96c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> eva2.server.go.strategies.GeneticAlgorithm.getProblem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9402221cc9321347a9d1d0a894be937b">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                                                          {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            <span class="keywordflow">return</span> this.m_Problem;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac95fb783a9273558cf3352f1a252212d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.GeneticAlgorithm.getStringRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a string describing all properties of the optimizer and the applied methods. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A descriptive string </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4cdfe0bff8295d1471effe39f8e2cdb0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                                                {</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            String result = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            result += <span class="stringliteral">&quot;Genetic Algorithm:\n&quot;</span>;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            result += <span class="stringliteral">&quot;Using:\n&quot;</span>;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;            result += <span class="stringliteral">&quot; Population Size    = &quot;</span> + this.m_Population.getTargetSize() + <span class="stringliteral">&quot;/&quot;</span> + this.m_Population.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">size</a>() + <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            result += <span class="stringliteral">&quot; Parent Selection   = &quot;</span> + this.m_ParentSelection.getClass().toString() + <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            result += <span class="stringliteral">&quot; Partner Selection  = &quot;</span> + this.m_PartnerSelection.getClass().toString() + <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            result += <span class="stringliteral">&quot; Number of Partners = &quot;</span> + this.m_NumberOfPartners + <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            result += <span class="stringliteral">&quot; Elitism            = &quot;</span> + this.m_UseElitism + <span class="stringliteral">&quot;\n&quot;</span>;       </div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            result += <span class="stringliteral">&quot;=&gt; The Optimization Problem: &quot;</span>;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            result += this.m_Problem.getStringRepresentationForProblem(<span class="keyword">this</span>) +<span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <span class="comment">//result += this.m_Population.getStringRepresentation();</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        }</div>
+<div class="ttc" id="interfaceeva2_1_1server_1_1go_1_1_population_interface_html_a59db05427cda240edea2b2ea3c2a7513"><div class="ttname"><a href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">eva2.server.go.PopulationInterface.size</a></div><div class="ttdeci">int size()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abb87d7bc57755e2275ae56999ae36956"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String eva2.server.go.strategies.GeneticAlgorithm.globalInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method returns a global info string </p>
+<dl class="section return"><dt>Devuelve</dt><dd>description </dd></dl>
+<div class="fragment"><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                                          {</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&quot;This is a basic generational Genetic Algorithm.&quot;</span>;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adf1a2f6b129c1b297d9722d1553f6745"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.GeneticAlgorithm.init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4efaea1c10726e848f4c56a9c6d9103f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                           {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            this.m_Problem.initPopulation(this.m_Population);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            this.evaluatePopulation(this.m_Population);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a53471dd9a443a12d04a459b1e6f6d5bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.GeneticAlgorithm.initByPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>reset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer with a given population </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reset</td><td>If true the population is reset. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2b9dd760178a114b8caf8c83fc202c5f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            this.m_Population = (Population)pop.clone();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <span class="keywordflow">if</span> (reset) {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                this.m_Problem.initPopulation(m_Population);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                this.m_Population.init();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                this.evaluatePopulation(this.m_Population);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3521309c054ffb6bc55ee280f395252b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.GeneticAlgorithm.numberOfPartnersTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                                                {</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&quot;The number of mating partners needed to create offsprings.&quot;</span>;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a51d3804ecfb803cf535046fb472a7a2d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.GeneticAlgorithm.optimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will optimize for a single iteration, after this step the population should be as big as possible (ie. the size of lambda and not mu) and all individual should be evaluated. This allows more usefull statistics on the population. </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a228d8e9883a253c5bbaf29e413e01704">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                               {</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            Population nextGeneration;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            nextGeneration = this.generateChildren();</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <span class="keywordflow">if</span> (this.m_UseElitism) {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                AbstractEAIndividual elite = this.m_Population.getBestEAIndividual();</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                <span class="keywordflow">if</span> (elite != null) {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                    this.m_Population = nextGeneration;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                    this.m_Population.remove(0);<span class="comment">// This implements a random replacement strategy for the elite</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                    this.m_Population.add(elite);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                }</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                this.m_Population = nextGeneration;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            }</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="keywordflow">if</span> (this.m_Plague &gt; 0) {</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.m_Plague; i++) <span class="keywordflow">if</span> (this.m_Population.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">size</a>() &gt; 2) this.m_Population.remove(<span class="keyword">this</span>.m_Population.getWorstEAIndividual());</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                this.m_Population.setTargetSize(this.m_Population.size());</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            }</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="comment">//            System.out.println(&quot;Population size: &quot; + this.m_Population.size());</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment">//            System.out.println(&quot;Population: &quot; + m_Population.getStringRepresentation());</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment">//        if (this.m_Population.getArchive() != null) {</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="comment">//            if (this.m_Population.getArchive().getArchive() != null) {</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="comment">//                System.out.println(&quot;Zwei Archive!&quot;);</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="comment">//                this.m_Population.getArchive().SetArchive(null);</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="comment">//            }</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="comment">//        }</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment">//        this.m_Population.incrGeneration();</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+<div class="ttc" id="interfaceeva2_1_1server_1_1go_1_1_population_interface_html_a59db05427cda240edea2b2ea3c2a7513"><div class="ttname"><a href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">eva2.server.go.PopulationInterface.size</a></div><div class="ttdeci">int size()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5ba29252cc26febc57f1103ef10deb61"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.GeneticAlgorithm.parentSelectionTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                                               {</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Choose a parent selection method.&quot;</span>;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a833cc536796a89e341107a1b360aceb9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.GeneticAlgorithm.partnerSelectionTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                                                {</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Choose a selection method for selecting recombination partners for given parents.&quot;</span>;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad2505af4f4e2006fa45c7663ac3d1ff0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.GeneticAlgorithm.populationTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                                          {</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&quot;Edit the properties of the population used.&quot;</span>;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af977cb06d5abcf32c89b812ef295f87f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.GeneticAlgorithm.removePopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method removes a listener from the Optimizer. It returns true on success, false if the listener could not be found. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a6e732c957bbe8b9dd04657fadcb128fa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                                                            {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            <span class="keywordflow">if</span> (m_Listener==ea) {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                m_Listener=null;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a75a0803e12961419277b338caded4dc6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.GeneticAlgorithm.setElitism </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>elitism</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Enable/disable elitism. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">elitism</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                                                 {</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            this.m_UseElitism = elitism;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aad08ee44ad8473f584dc16e8ec28c3cc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.GeneticAlgorithm.SetIdentifier </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to set an identifier for the algorithm </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The indenifier </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4af2f49eef2cf833b15e88b25e382efd">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                                                {</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            this.m_Identifier = name;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a822c45c9ec24a1a2f69a108a4b044b1c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.GeneticAlgorithm.setNumberOfPartners </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>partners</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The number of mating partners needed to create offsprings. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">partners</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                                                      {</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;            <span class="keywordflow">if</span> (partners &lt; 0) partners = 0;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            this.m_NumberOfPartners = partners;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad823577e04be70e2e158bdf6d816b40e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.GeneticAlgorithm.setParentSelection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a>&#160;</td>
+          <td class="paramname"><em>selection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will set the normation method that is to be used. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">normation</td><td>Choose a parent selection method. </td></tr>
+    <tr><td class="paramname">selection</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            this.m_ParentSelection = selection;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a04240f8f41ce215351ef6612117bd864"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.GeneticAlgorithm.setPartnerSelection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a>&#160;</td>
+          <td class="paramname"><em>selection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Choose a selection method for selecting recombination partners for given parents. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">selection</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;            this.m_PartnerSelection = selection;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a04313cadea25d62c9ec058e3faa820bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.GeneticAlgorithm.setPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9a19bcf589f1375450e7c9588acee982">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                                                 {</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            this.m_Population = pop;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aec2592b1d4c2df4c151b715e94f025ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.GeneticAlgorithm.SetProblem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>problem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will set the problem that is to be optimized </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problem</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2bf9e7ad9b3682cdb51fe65284d98af0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            this.m_Problem = problem;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/eva2/server/go/strategies/<a class="el" href="_genetic_algorithm_8java.html">GeneticAlgorithm.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 24 de Noviembre de 2013 20:07:28 para EvaProyectDoc por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

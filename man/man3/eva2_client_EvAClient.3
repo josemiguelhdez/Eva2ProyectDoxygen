@@ -1,0 +1,721 @@
+.TH "eva2.client.EvAClient" 3 "Domingo, 24 de Noviembre de 2013" "EvaProyectDoc" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+eva2.client.EvAClient \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Herencias RemoteStateListener y Serializable\&.
+.SS "Métodos públicos"
+
+.in +1c
+.ti -1c
+.RI "void \fBaddRemoteStateListener\fP (RemoteStateListener l)"
+.br
+.ti -1c
+.RI "boolean \fBremoveRemoteStateListener\fP (RemoteStateListener l)"
+.br
+.ti -1c
+.RI "\fBEvAClient\fP (final String hostName)"
+.br
+.ti -1c
+.RI "\fBEvAClient\fP (final String hostName, final String paramsFile, boolean autorun, boolean nosplash)"
+.br
+.ti -1c
+.RI "\fBEvAClient\fP (final String hostName, boolean autorun, boolean nosplash)"
+.br
+.ti -1c
+.RI "\fBEvAClient\fP (final String hostName, String paramsFile, boolean autorun, boolean noSplash, boolean noGui, boolean withTreeView)"
+.br
+.ti -1c
+.RI "\fBEvAClient\fP (final String hostName, InterfaceGOParameters goParams, boolean autorun, boolean noSplash, boolean noGui)"
+.br
+.ti -1c
+.RI "\fBEvAClient\fP (final String hostName, final Window parent, final String paramsFile, final InterfaceGOParameters goParams, final boolean autorun, final boolean noSplash, final boolean noGui)"
+.br
+.ti -1c
+.RI "\fBEvAClient\fP (final String hostName, final Window parent, final String paramsFile, final InterfaceGOParameters goParams, final boolean autorun, final boolean noSplash, final boolean noGui, final boolean showTreeView)"
+.br
+.ti -1c
+.RI "void \fBawaitClientInitialized\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBstartOptimization\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddWindowListener\fP (WindowListener l)"
+.br
+.ti -1c
+.RI "void \fBremoveWindowListener\fP (WindowListener l)"
+.br
+.ti -1c
+.RI "void \fBrefreshMainPanels\fP ()"
+.br
+.ti -1c
+.RI "InterfaceGOParameters \fBgetGOParameters\fP ()"
+.br
+.ti -1c
+.RI "AbstractStatistics \fBgetStatistics\fP ()"
+.br
+.ti -1c
+.RI "InterfaceStatisticsParameter \fBgetStatsParams\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisOptRunning\fP ()"
+.br
+.ti -1c
+.RI "JComponent \fBgetEvATreeView\fP (JParaPanel goPanel, String title, Object object)"
+.br
+.ti -1c
+.RI "void \fBperformedRestart\fP (String infoString)"
+.br
+.ti -1c
+.RI "void \fBperformedStart\fP (String infoString)"
+.br
+.ti -1c
+.RI "void \fBperformedStop\fP ()"
+.br
+.ti -1c
+.RI "void \fBupdateProgress\fP (final int percent, String msg)"
+.br
+.in -1c
+.SS "Métodos públicos estáticos"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.ti -1c
+.RI "static \fBEvAClient\fP \fBinitClientGUI\fP (GOParameters goParams, InterfaceStatisticsListener statisticsListener, WindowListener windowListener, final Window parent)"
+.br
+.ti -1c
+.RI "static String \fBusage\fP ()"
+.br
+.ti -1c
+.RI "static String \fBgetProductName\fP ()"
+.br
+.in -1c
+.SS "Atributos públicos"
+
+.in +1c
+.ti -1c
+.RI "JEFrame \fBm_Frame\fP"
+.br
+.in -1c
+.SS "Atributos públicos estáticos"
+
+.in +1c
+.ti -1c
+.RI "static boolean \fBTRACE\fP = false"
+.br
+.in -1c
+.SS "Métodos protegidos"
+
+.in +1c
+.ti -1c
+.RI "void \fBlogMessage\fP (String msg)"
+.br
+.in -1c
+.SH "Documentación del constructor y destructor"
+.PP 
+.SS "eva2\&.client\&.EvAClient\&.EvAClient (final StringhostName)"
+Constructor of GUI of EvA2\&. Works as client for the EvA2 server\&. Note that the \fBEvAClient\fP initialized multi-threaded for efficiency\&. Use \fBawaitGuiInitialized()\fP to await full initialization if necessary\&. 
+.PP
+.nf
+165                                             {
+166         this(hostName, null, false, false);
+167     }
+.fi
+.SS "eva2\&.client\&.EvAClient\&.EvAClient (final StringhostName, final StringparamsFile, booleanautorun, booleannosplash)"
+A constructor\&. Splash screen is optional, Gui is activated, no parent window\&. Note that the \fBEvAClient\fP initialized multi-threaded for efficiency\&. Use \fBawaitGuiInitialized()\fP to await full initialization if necessary\&.
+.PP
+\fBVer también:\fP
+.RS 4
+#EvAClient(String, Window, String, boolean, boolean, boolean) 
+.RE
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIhostName\fP 
+.br
+\fIparamsFile\fP 
+.br
+\fIautorun\fP 
+.br
+\fInosplash\fP 
+.RE
+.PP
+
+.PP
+.nf
+180                                                                                                         {
+181         this(hostName, null, paramsFile, null, autorun, nosplash, false, false);
+182     }
+.fi
+.SS "eva2\&.client\&.EvAClient\&.EvAClient (final StringhostName, booleanautorun, booleannosplash)"
+A constructor with optional spash screen\&. Note that the \fBEvAClient\fP initialized multi-threaded for efficiency\&. Use \fBawaitGuiInitialized()\fP to await full initialization if necessary\&. 
+.PP
+\fBVer también:\fP
+.RS 4
+#EvAClient(String, String, boolean, boolean)
+.RE
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIhostName\fP 
+.br
+\fIautorun\fP 
+.br
+\fInosplash\fP 
+.RE
+.PP
+
+.PP
+.nf
+194                                                                                {
+195         this(hostName, null, autorun, nosplash);
+196     }
+.fi
+.SS "eva2\&.client\&.EvAClient\&.EvAClient (final StringhostName, StringparamsFile, booleanautorun, booleannoSplash, booleannoGui, booleanwithTreeView)"
+A constructor with optional splash screen\&. Note that the \fBEvAClient\fP initialized multi-threaded for efficiency\&. Use \fBawaitGuiInitialized()\fP to await full initialization if necessary\&.
+.PP
+\fBVer también:\fP
+.RS 4
+#EvAClient(String, String, boolean, boolean) 
+.RE
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIhostName\fP 
+.br
+\fIparamsFile\fP 
+.br
+\fIautorun\fP 
+.br
+\fInoSplash\fP 
+.br
+\fInoGui\fP 
+.RE
+.PP
+
+.PP
+.nf
+210                                                                                                                                        {
+211         this(hostName, null, paramsFile, null, autorun, noSplash, noGui, withTreeView);
+212     }
+.fi
+.SS "eva2\&.client\&.EvAClient\&.EvAClient (final StringhostName, InterfaceGOParametersgoParams, booleanautorun, booleannoSplash, booleannoGui)"
+A constructor with optional splash screen\&. Note that the \fBEvAClient\fP initialized multi-threaded for efficiency\&. Use \fBawaitGuiInitialized()\fP to await full initialization if necessary\&.
+.PP
+\fBVer también:\fP
+.RS 4
+#EvAClient(String, String, boolean, boolean)
+.RE
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIhostName\fP 
+.br
+\fIparamsFile\fP 
+.br
+\fIautorun\fP 
+.br
+\fInoSplash\fP 
+.br
+\fInoGui\fP 
+.RE
+.PP
+
+.PP
+.nf
+227                                                                                                                               {
+228         this(hostName, null, null, goParams, autorun, noSplash, noGui, false);
+229     }
+.fi
+.SS "eva2\&.client\&.EvAClient\&.EvAClient (final StringhostName, final Windowparent, final StringparamsFile, final InterfaceGOParametersgoParams, final booleanautorun, final booleannoSplash, final booleannoGui)"
+Do not use the tree view by default\&.
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIhostName\fP 
+.br
+\fIparent\fP 
+.br
+\fIparamsFile\fP 
+.br
+\fIgoParams\fP 
+.br
+\fIautorun\fP 
+.br
+\fInoSplash\fP 
+.br
+\fInoGui\fP 
+.RE
+.PP
+
+.PP
+.nf
+242                                                                                                                                                                                                     {
+243         this(hostName, parent, paramsFile, goParams, autorun, noSplash, noGui, false);
+244     }
+.fi
+.SS "eva2\&.client\&.EvAClient\&.EvAClient (final StringhostName, final Windowparent, final StringparamsFile, final InterfaceGOParametersgoParams, final booleanautorun, final booleannoSplash, final booleannoGui, final booleanshowTreeView)"
+Main constructor of the EvA2 client GUI\&. Works as standalone verson locally or as client for the EvA2 server\&. GO parameters may be loaded from a file (paramsFile) or given directly as a java instance\&. Both may be null to start with standard parameters\&. If both are non null, the java instance has the higher priority\&. Note that the \fBEvAClient\fP initialized multi-threaded for efficiency\&. Use \fBawaitGuiInitialized()\fP to await full initialization if necessary\&.
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIhostName\fP 
+.br
+\fIparent\fP 
+.br
+\fIparamsFile\fP 
+.br
+\fIautorun\fP 
+.br
+\fInoSplash\fP 
+.br
+\fInoGui\fP 
+.RE
+.PP
+
+.PP
+.nf
+262                                                                                                                                                                                                                                 {
+263         clientInited = false;
+264         final SplashScreenShell fSplashScreen = new SplashScreenShell(EvAInfo\&.splashLocation);
+265 
+266         // preload some classes (into system cache) in a parallel thread
+267         preloadClasses();
+268 
+269         withGUI = !noGui;
+270         withTreeView = showTreeView;
+271         // activate the splash screen (show later using SwingUtilities)
+272         if (!noSplash && withGUI) {
+273             try {
+274                 fSplashScreen\&.splash();
+275             } catch(HeadlessException e) {
+276                 System\&.err\&.println("Error: no xserver present - deactivating GUI\&.");
+277                 withGUI=false;
+278             }
+279         }
+280         
+281         currentModule = null;
+282         
+283         m_ComAdapter = EvAComAdapter\&.getInstance();
+284 
+285         SwingUtilities\&.invokeLater( initRnbl = new Runnable() {
+286             public void run(){
+287                 synchronized (this) {
+288                     long startTime = System\&.currentTimeMillis();
+289                     init(hostName, paramsFile, goParams, parent); // this takes a bit
+290 
+291                     long wait = System\&.currentTimeMillis() - startTime;
+292                     if (!autorun) {
+293                         if (!noSplash) try {
+294                             // if splashScreenTime has not passed, sleep some more 
+295                             if (wait < splashScreenTime) Thread\&.sleep(splashScreenTime - wait);
+296                         } catch (Exception e) {}
+297                     } else {
+298                         if (!withGUI && (currentModuleAdapter instanceof GenericModuleAdapter)) {
+299                             // do not save new parameters for an autorun without GUI - they werent changed manually anyways\&.
+300                             ((GenericModuleAdapter)currentModuleAdapter)\&.getStatistics()\&.setSaveParams(false);
+301                             System\&.out\&.println("Autorun without GUI - not saving statistics parameters\&.\&.\&.");
+302                         }
+303                         if (withGUI) frmMkr\&.onUserStart();
+304                         else currentModuleAdapter\&.startOpt();
+305                     }
+306                     // close splash screen
+307                     if (!noSplash && withGUI) fSplashScreen\&.dispose();
+308                     clientInited = true;
+309                     notify();
+310                 }
+311             }
+312         });
+313     }
+.fi
+.SH "Documentación de las funciones miembro"
+.PP 
+.SS "void eva2\&.client\&.EvAClient\&.addRemoteStateListener (RemoteStateListenerl)"
+
+.PP
+.nf
+147                                                               {
+148         if (superListenerList == null) superListenerList = new Vector<RemoteStateListener>();
+149         superListenerList\&.add(l);
+150     }
+.fi
+.SS "void eva2\&.client\&.EvAClient\&.addWindowListener (WindowListenerl)"
+Add a window listener to the EvA2 JFrame instance\&.
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIl\fP 
+.RE
+.PP
+
+.PP
+.nf
+358                                                     {
+359         if (m_Frame != null) {
+360             m_Frame\&.addWindowListener(l);
+361         } else {
+362             System\&.err\&.println("Error, no JFrame existent in "
+363                     + this\&.getClass()\&.getSimpleName());
+364         }
+365     }
+.fi
+.SS "void eva2\&.client\&.EvAClient\&.awaitClientInitialized ()"
+Since the constructor runs multi-threaded for efficiency, this method may be called to await the full initialization of a client instance\&. As soon as it returns, the \fBEvAClient\fP GUI is fully initialized\&. 
+.PP
+.nf
+320                                          {
+321         if (initRnbl!=null) {
+322             synchronized (initRnbl) {
+323                 if (!clientInited) {
+324                     try {
+325                         initRnbl\&.wait();
+326                         initRnbl=null;
+327                     } catch (InterruptedException e) {
+328                         e\&.printStackTrace();
+329                     }
+330                 }
+331             }
+332         }
+333     }
+.fi
+.SS "JComponent eva2\&.client\&.EvAClient\&.getEvATreeView (JParaPanelgoPanel, Stringtitle, Objectobject)"
+Create a tree view of an object based on EvATreeNode\&. It is encapsulated in a JScrollPane\&.
+.PP
+\fBVer también:\fP
+.RS 4
+EvATreeNode 
+.RE
+.PP
+\fBParámetros:\fP
+.RS 4
+\fItitle\fP 
+.br
+\fIobject\fP 
+.RE
+.PP
+\fBDevuelve:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+.nf
+993                                                                                       {
+994         EvATreeNode root = new EvATreeNode(title, object); // the root of the tree
+995         JTree jtree = new JTree(root);
+996         JScrollPane treeView = new JScrollPane(jtree);
+997 
+998         EvATreeSelectionListener treeListener = new EvATreeSelectionListener(root, goPanel\&.getEditor(), jtree);
+999         // hooks itself up as the tree listener\&. It reacts both to changes in the selection
+1000         // state of the tree (to update the parameter panel) and to changes in the 
+1001         // parameters to update the tree
+1002         return treeView;
+1003     }
+.fi
+.SS "InterfaceGOParameters eva2\&.client\&.EvAClient\&.getGOParameters ()"
+Retrieve the GOParamters of a loaded module\&. Return null if no module is loaded\&.
+.PP
+\fBDevuelve:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+.nf
+870                                                    {
+871         if (currentModuleAdapter != null) {
+872             if (currentModuleAdapter instanceof AbstractModuleAdapter) {
+873                 return ((AbstractModuleAdapter)currentModuleAdapter)\&.getGOParameters();
+874             }
+875         }
+876         return null;
+877     }
+.fi
+.SS "static String eva2\&.client\&.EvAClient\&.getProductName ()\fC [static]\fP"
+
+.PP
+.nf
+800                                           {
+801         return EvAInfo\&.productName;
+802     }
+.fi
+.SS "AbstractStatistics eva2\&.client\&.EvAClient\&.getStatistics ()"
+
+.PP
+.nf
+879                                               {
+880         return ((GenericModuleAdapter)currentModuleAdapter)\&.getStatistics();
+881     }
+.fi
+.SS "InterfaceStatisticsParameter eva2\&.client\&.EvAClient\&.getStatsParams ()"
+
+.PP
+.nf
+883                                                          {
+884         return ((GenericModuleAdapter)currentModuleAdapter)\&.getStatistics()\&.getStatisticsParameter();
+885     }
+.fi
+.SS "static \fBEvAClient\fP eva2\&.client\&.EvAClient\&.initClientGUI (GOParametersgoParams, InterfaceStatisticsListenerstatisticsListener, WindowListenerwindowListener, final Windowparent)\fC [static]\fP"
+Initialize the client GUI with given parameters and set listeners\&. This will return as soon as the GUI is visible and ready\&.
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIgoParams\fP optimization parameters 
+.br
+\fIstatisticsListener\fP statistics listener receiving data during optimization 
+.br
+\fIwindowListener\fP additional window listener for client frame 
+.RE
+.PP
+
+.PP
+.nf
+529                                                                 {
+530         EvAClient evaClient;
+531         
+532         evaClient = new EvAClient(null, parent, null, goParams,
+533                 false, true, false, false); // initializes GUI in the background
+534         // important: wait for GUI initialization before accessing any internal
+535         // settings:
+536         evaClient\&.awaitClientInitialized(); // this returns as soon as the
+537         // GUI is ready
+538         evaClient\&.addWindowListener(windowListener);
+539         // modify initial settings:
+540         evaClient\&.getStatistics()\&.getStatisticsParameter()\&.setOutputAllFieldsAsText(true); // activate output of all data
+541         // fields
+542         // add a data listener instance:
+543         evaClient\&.getStatistics()\&.addDataListener(statisticsListener);
+544 
+545         evaClient\&.refreshMainPanels(); // GUI update due to the changes made through the API
+546 
+547         
+548         return evaClient;
+549     }
+.fi
+.SS "boolean eva2\&.client\&.EvAClient\&.isOptRunning ()"
+Check if there is an optimization currently running\&.
+.PP
+\fBDevuelve:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+.nf
+892                                   {
+893         if (currentModuleAdapter != null && (currentModuleAdapter instanceof AbstractModuleAdapter)) {
+894             return ((AbstractModuleAdapter)currentModuleAdapter)\&.isOptRunning();
+895         } else return false;
+896     }
+.fi
+.SS "void eva2\&.client\&.EvAClient\&.logMessage (Stringmsg)\fC [protected]\fP"
+
+.PP
+.nf
+804                                           {
+805         if (TRACE || m_LogPanel == null) System\&.out\&.println(msg);
+806         if (m_LogPanel != null) m_LogPanel\&.logMessage(msg);
+807     }
+.fi
+.SS "static void eva2\&.client\&.EvAClient\&.main (String[]args)\fC [static]\fP"
+The one and only main of the client program\&. Possible arguments: --autorun immediately starts the optimization (with parameters loaded from current directory if available\&. --hostname HOST: sets the hostname for the \fBEvAClient\fP to HOST --nosplash: skip the splash screen\&. --params PFILE: load the optimization parameter from the serialized file PFILE
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIargs\fP command line parameters 
+.RE
+.PP
+
+.PP
+.nf
+484                                            {
+485         if (TRACE) {
+486             System\&.out\&.println(EVAHELP\&.getSystemPropertyString());
+487         }
+488 
+489         String[] keys= new String[]{"--help", "--autorun", "--nosplash", "--nogui", "--remotehost", "--params", "--treeView"};
+490         int[] arities = new int[]{0, 0, 0, 0, 1, 1, 0};
+491         Object[] values = new Object[keys\&.length];
+492         
+493         Integer[] unknownArgs = StringTools\&.parseArguments(args, keys, arities, values, true);
+494         
+495         if (unknownArgs\&.length>0) {
+496             System\&.err\&.println("Unrecognized command line options: ");
+497             for (int i=0; i<unknownArgs\&.length; i++) System\&.err\&.println("   " + args[unknownArgs[i]]);
+498             if (values[0]==null) System\&.err\&.println("Try --help as argument\&.");
+499         }
+500         
+501         if (values[0]!=null) {
+502             System\&.out\&.println(usage());
+503         } else {
+504             boolean autorun=(values[1]!=null);
+505             boolean nosplash=(values[2]!=null);
+506             boolean nogui=(values[3]!=null);
+507             boolean treeView=(values[6]!=null);
+508             String hostName=StringTools\&.checkSingleStringArg(keys[4], values[4], arities[4]-1);
+509             String paramsFile=StringTools\&.checkSingleStringArg(keys[5], values[5], arities[5]-1);
+510             
+511             if (TRACE) System\&.out\&.println("Command line arguments were: ");
+512             if (TRACE) System\&.out\&.println("   " + BeanInspector\&.toString(keys));
+513             if (TRACE) System\&.out\&.println("   " + BeanInspector\&.toString(values));
+514             EvAClient Client = new EvAClient(hostName, paramsFile, autorun, nosplash, nogui, treeView);
+515         }
+516     }
+.fi
+.SS "void eva2\&.client\&.EvAClient\&.performedRestart (StringinfoString)"
+
+.PP
+.nf
+1083                                                     {
+1084         if (superListenerList != null) for (RemoteStateListener l : superListenerList) {
+1085             l\&.performedRestart(infoString);
+1086         }
+1087         logMessage("Restarted processing " + infoString);
+1088         startTime = System\&.currentTimeMillis();
+1089     }
+.fi
+.SS "void eva2\&.client\&.EvAClient\&.performedStart (StringinfoString)"
+
+.PP
+.nf
+1091                                                   {
+1092         if (superListenerList != null) for (RemoteStateListener l : superListenerList) {
+1093             l\&.performedStart(infoString);
+1094         }
+1095         logMessage("Started processing " + infoString);
+1096         startTime = System\&.currentTimeMillis();
+1097     }
+.fi
+.SS "void eva2\&.client\&.EvAClient\&.performedStop ()"
+
+.PP
+.nf
+1099                                 {
+1100         if (superListenerList != null) for (RemoteStateListener l : superListenerList) {
+1101             l\&.performedStop();
+1102         }
+1103         long t = (System\&.currentTimeMillis() - startTime);
+1104         logMessage(String\&.format("Stopped after %1$d\&.%2$tL s", (t / 1000), (t % 1000)));
+1105         if (!withGUI) System\&.exit(0);
+1106     }
+.fi
+.SS "void eva2\&.client\&.EvAClient\&.refreshMainPanels ()"
+Refresh the parameter panels (if settings have been changed outside of the GUI which should be updated in the GUI\&. 
+.PP
+.nf
+470                                     {
+471         frmMkr\&.refreshPanels();
+472     }
+.fi
+.SS "boolean eva2\&.client\&.EvAClient\&.removeRemoteStateListener (RemoteStateListenerl)"
+
+.PP
+.nf
+152                                                                     {
+153         if (superListenerList != null) { 
+154             return superListenerList\&.remove(l);
+155         } else return false;
+156     }
+.fi
+.SS "void eva2\&.client\&.EvAClient\&.removeWindowListener (WindowListenerl)"
+Remove a window listener to the EvA2 JFrame instance\&.
+.PP
+\fBParámetros:\fP
+.RS 4
+\fIl\fP 
+.RE
+.PP
+
+.PP
+.nf
+372                                                        {
+373         if (m_Frame != null) {
+374             m_Frame\&.removeWindowListener(l);
+375         } else {
+376             System\&.err\&.println("Error, no JFrame existent in "
+377                     + this\&.getClass()\&.getSimpleName());
+378         }
+379     }
+.fi
+.SS "boolean eva2\&.client\&.EvAClient\&.startOptimization ()"
+Try to start the optimization with current parameters on the loaded module\&. Return true on success, otherwise false\&.
+.PP
+\fBDevuelve:\fP
+.RS 4
+.RE
+.PP
+
+.PP
+.nf
+346                                        {
+347         if (currentModuleAdapter!=null) {
+348             currentModuleAdapter\&.startOpt();
+349             return true;
+350         } else return false;
+351     }
+.fi
+.SS "void eva2\&.client\&.EvAClient\&.updateProgress (final intpercent, Stringmsg)"
+When the worker needs to update the GUI we do so by queuing a Runnable for the event dispatching thread with SwingUtilities\&.invokeLater()\&. In this case we're just changing the progress bars value\&. 
+.PP
+.nf
+1114                                                               {
+1115         if (superListenerList != null) for (RemoteStateListener l : superListenerList) {
+1116             l\&.updateProgress(percent, msg);
+1117         }
+1118         if (msg != null) logMessage(msg);
+1119         if (this\&.m_ProgressBar != null) {
+1120             Runnable doSetProgressBarValue = new Runnable() {
+1121                 public void run() {
+1122                     m_ProgressBar\&.setValue(percent);
+1123                 }
+1124             };
+1125             SwingUtilities\&.invokeLater(doSetProgressBarValue);
+1126         }
+1127     }
+.fi
+.SS "static String eva2\&.client\&.EvAClient\&.usage ()\fC [static]\fP"
+
+.PP
+.nf
+551                                  {
+552         StringBuffer sbuf = new StringBuffer();
+553         sbuf\&.append(EvAInfo\&.productName);
+554         sbuf\&.append(" - ");
+555         sbuf\&.append(EvAInfo\&.productLongName);
+556         sbuf\&.append(" - Version ");
+557         sbuf\&.append(EvAInfo\&.getVersion());
+558         sbuf\&.append("\n");
+559         sbuf\&.append("License: ");
+560         sbuf\&.append(EvAInfo\&.LGPLFile);
+561         sbuf\&.append("\n");
+562         sbuf\&.append("Homepage: ");
+563         sbuf\&.append(EvAInfo\&.url);
+564         sbuf\&.append("\n");
+565         sbuf\&.append("Command-line arguments:\n");
+566         sbuf\&.append("    --help: Show this text and exit\n");
+567         sbuf\&.append("    --nosplash: Deactivate splash screen\n");
+568         sbuf\&.append("    --nogui: Deactivate GUI (makes most sense with autorun and params set)\n");
+569         sbuf\&.append("    --autorun: Start an optimization immediately and exit after execution\n");
+570         sbuf\&.append("    --params PARAMFILE: Load the (serialized) parameters file on start\n");
+571         sbuf\&.append("    --remotehost HOSTNAME: Try to load a module from a (remote) server\n");
+572         
+573         return sbuf\&.toString();
+574     }
+.fi
+.SH "Documentación de los datos miembro"
+.PP 
+.SS "JEFrame eva2\&.client\&.EvAClient\&.m_Frame"
+
+.SS "boolean eva2\&.client\&.EvAClient\&.TRACE = false\fC [static]\fP"
+
+
+.SH "Autor"
+.PP 
+Generado automáticamente por Doxygen para EvaProyectDoc del código fuente\&.

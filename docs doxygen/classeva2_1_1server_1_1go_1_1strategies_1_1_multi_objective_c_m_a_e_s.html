@@ -1,0 +1,874 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>EvaProyectDoc: Referencia de la Clase eva2.server.go.strategies.MultiObjectiveCMAES</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">EvaProyectDoc
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceeva2.html">eva2</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server.html">server</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go.html">go</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go_1_1strategies.html">strategies</a></li><li class="navelem"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html">MultiObjectiveCMAES</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase eva2.server.go.strategies.MultiObjectiveCMAES</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">eva2.server.go.strategies.InterfaceOptimizer</a> y Serializable.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>CounterClass</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a8341f0b3a76db0a189eb5ead01ffb3ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a8341f0b3a76db0a189eb5ead01ffb3ba">MultiObjectiveCMAES</a> ()</td></tr>
+<tr class="separator:a8341f0b3a76db0a189eb5ead01ffb3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e9ab365e890e3b63c1fd1f43048ebbe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a1e9ab365e890e3b63c1fd1f43048ebbe">MultiObjectiveCMAES</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html">MultiObjectiveCMAES</a> a)</td></tr>
+<tr class="separator:a1e9ab365e890e3b63c1fd1f43048ebbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d02ccf2414c40b2990507d062baf758"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html">MultiObjectiveCMAES</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a4d02ccf2414c40b2990507d062baf758">clone</a> ()</td></tr>
+<tr class="separator:a4d02ccf2414c40b2990507d062baf758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a320aced398c8743a2a94109ffbe04ce5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a320aced398c8743a2a94109ffbe04ce5">hideHideable</a> ()</td></tr>
+<tr class="separator:a320aced398c8743a2a94109ffbe04ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a696677e9bbbf31987d7c41326bb03dab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a696677e9bbbf31987d7c41326bb03dab">SetIdentifier</a> (String name)</td></tr>
+<tr class="separator:a696677e9bbbf31987d7c41326bb03dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abde82220777a4e24fae8bc2bb0ae7903"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#abde82220777a4e24fae8bc2bb0ae7903">SetProblem</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> problem)</td></tr>
+<tr class="separator:abde82220777a4e24fae8bc2bb0ae7903"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dacf0fcd62fbb2051774edf74e5bac4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a9dacf0fcd62fbb2051774edf74e5bac4">addPopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:a9dacf0fcd62fbb2051774edf74e5bac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b2487e697352b1a681b4250fcd862b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a7b2487e697352b1a681b4250fcd862b6">freeWilly</a> ()</td></tr>
+<tr class="separator:a7b2487e697352b1a681b4250fcd862b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7bf6116613f91b87d7963bd91154c52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#af7bf6116613f91b87d7963bd91154c52">getAllSolutions</a> ()</td></tr>
+<tr class="separator:af7bf6116613f91b87d7963bd91154c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a4059045f6c640c0d15ba22ba85d2f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#ad5a4059045f6c640c0d15ba22ba85d2f">getIdentifier</a> ()</td></tr>
+<tr class="separator:ad5a4059045f6c640c0d15ba22ba85d2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a679558ecac8bbe65b72b10194ebbcb00"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a679558ecac8bbe65b72b10194ebbcb00">getName</a> ()</td></tr>
+<tr class="separator:a679558ecac8bbe65b72b10194ebbcb00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae54e883e8356e64e5ba689f189efbc96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#ae54e883e8356e64e5ba689f189efbc96">getPopulation</a> ()</td></tr>
+<tr class="separator:ae54e883e8356e64e5ba689f189efbc96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af057295ed516455546804faeb0f4019f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#af057295ed516455546804faeb0f4019f">getProblem</a> ()</td></tr>
+<tr class="separator:af057295ed516455546804faeb0f4019f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a197945f35975f0f68fd2886717e5a3fd"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a197945f35975f0f68fd2886717e5a3fd">getStringRepresentation</a> ()</td></tr>
+<tr class="separator:a197945f35975f0f68fd2886717e5a3fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3816417b22c3b6d1ebc9a873f86194f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a3816417b22c3b6d1ebc9a873f86194f4">init</a> ()</td></tr>
+<tr class="separator:a3816417b22c3b6d1ebc9a873f86194f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b588d45da0f4162344554afd4547dae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a1b588d45da0f4162344554afd4547dae">initByPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop, boolean reset)</td></tr>
+<tr class="separator:a1b588d45da0f4162344554afd4547dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a507ee0dbd4becd5c04dd075ec7567ed2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a507ee0dbd4becd5c04dd075ec7567ed2">optimize</a> ()</td></tr>
+<tr class="separator:a507ee0dbd4becd5c04dd075ec7567ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b6d148d2907826434281077dba70a50"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a7b6d148d2907826434281077dba70a50">removePopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:a7b6d148d2907826434281077dba70a50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b35f7d160c4e675caf1aaf2d727d118"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a3b35f7d160c4e675caf1aaf2d727d118">setPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop)</td></tr>
+<tr class="separator:a3b35f7d160c4e675caf1aaf2d727d118"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34cb226e4490887c76cc945728ae7bf0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a34cb226e4490887c76cc945728ae7bf0">getLambda</a> ()</td></tr>
+<tr class="separator:a34cb226e4490887c76cc945728ae7bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabdd04c01635b5fa4ed10b41c2733701"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#aabdd04c01635b5fa4ed10b41c2733701">setLambda</a> (int mLambda)</td></tr>
+<tr class="separator:aabdd04c01635b5fa4ed10b41c2733701"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a0c1d06eda38accc83535cfe2532679c4"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a0c1d06eda38accc83535cfe2532679c4">globalInfo</a> ()</td></tr>
+<tr class="separator:a0c1d06eda38accc83535cfe2532679c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a12836895c70a1dafed285c0a59bf52b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a12836895c70a1dafed285c0a59bf52b8">firePropertyChangedEvent</a> (String name)</td></tr>
+<tr class="separator:a12836895c70a1dafed285c0a59bf52b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><dl class="section author"><dt>Autor</dt><dd>mkron </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a8341f0b3a76db0a189eb5ead01ffb3ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.MultiObjectiveCMAES.MultiObjectiveCMAES </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                 {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        m_Population = <span class="keyword">new</span> Population(m_lambdamo);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1e9ab365e890e3b63c1fd1f43048ebbe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.MultiObjectiveCMAES.MultiObjectiveCMAES </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html">MultiObjectiveCMAES</a>&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                                      {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        m_Problem = (AbstractOptimizationProblem) a.m_Problem.<a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a6064d6f87022fb0215d6b1472f456573">clone</a>();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a3b35f7d160c4e675caf1aaf2d727d118">setPopulation</a>((Population) a.m_Population.clone());</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        m_lambda = a.m_lambda;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem_html_a6064d6f87022fb0215d6b1472f456573"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a6064d6f87022fb0215d6b1472f456573">eva2.server.go.problems.AbstractOptimizationProblem.clone</a></div><div class="ttdeci">abstract Object clone()</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s_html_a3b35f7d160c4e675caf1aaf2d727d118"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a3b35f7d160c4e675caf1aaf2d727d118">eva2.server.go.strategies.MultiObjectiveCMAES.setPopulation</a></div><div class="ttdeci">void setPopulation(Population pop)</div><div class="ttdef"><b>Definition:</b> MultiObjectiveCMAES.java:374</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a9dacf0fcd62fbb2051774edf74e5bac4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.MultiObjectiveCMAES.addPopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to add the LectureGUI as listener to the Optimizer</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#ab4f4dad7ab7ce4428c8c3a7afb8c6f3e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                                                        {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        this.m_Listener = ea;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4d02ccf2414c40b2990507d062baf758"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html">MultiObjectiveCMAES</a> eva2.server.go.strategies.MultiObjectiveCMAES.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return deep clone of the optimizer </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The clone </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3782515f3e073d9a970f1605836a38e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                       {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a8341f0b3a76db0a189eb5ead01ffb3ba">MultiObjectiveCMAES</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s_html_a8341f0b3a76db0a189eb5ead01ffb3ba"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a8341f0b3a76db0a189eb5ead01ffb3ba">eva2.server.go.strategies.MultiObjectiveCMAES.MultiObjectiveCMAES</a></div><div class="ttdeci">MultiObjectiveCMAES()</div><div class="ttdef"><b>Definition:</b> MultiObjectiveCMAES.java:54</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a12836895c70a1dafed285c0a59bf52b8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.MultiObjectiveCMAES.firePropertyChangedEvent </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Something has changed</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;                                                         {</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        <span class="keywordflow">if</span> (this.m_Listener != null)</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;            this.m_Listener.registerPopulationStateChanged(<span class="keyword">this</span>, name);</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7b2487e697352b1a681b4250fcd862b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.MultiObjectiveCMAES.freeWilly </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method is required to free the memory on a RMIServer, but there is nothing to implement. </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3f5bc95f7781986c42165950d34131c">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                            {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af7bf6116613f91b87d7963bd91154c52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a> eva2.server.go.strategies.MultiObjectiveCMAES.getAllSolutions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return all found solutions (local optima) if they are not contained in the current population. Be sure to set the Population properties, especially function calls and generation, with respect to the ongoing optimization. May return the the same set as getPopulation if the optimizer makes no distinction, i.e. does not collect solutions outside the current population.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>A solution set of the current population and possibly earlier solutions. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a613ed8378f2956c125ed149328eb07f9">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                                                  {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        Population pop = <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#ae54e883e8356e64e5ba689f189efbc96">getPopulation</a>();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> SolutionSet(pop, pop);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s_html_ae54e883e8356e64e5ba689f189efbc96"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#ae54e883e8356e64e5ba689f189efbc96">eva2.server.go.strategies.MultiObjectiveCMAES.getPopulation</a></div><div class="ttdeci">Population getPopulation()</div><div class="ttdef"><b>Definition:</b> MultiObjectiveCMAES.java:150</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad5a4059045f6c640c0d15ba22ba85d2f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.MultiObjectiveCMAES.getIdentifier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a3f8f01e01e017474b76de8f473c01ec7">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                                  {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">return</span> m_Identifier;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a34cb226e4490887c76cc945728ae7bf0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.strategies.MultiObjectiveCMAES.getLambda </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;                           {</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        <span class="keywordflow">return</span> m_lambda;</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a679558ecac8bbe65b72b10194ebbcb00"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.MultiObjectiveCMAES.getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a naming String </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The name of the algorithm </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9c881980799f6de9a04cce7564ad16aa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                            {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;(1+&quot;</span> + m_lambda + <span class="stringliteral">&quot;) MO-CMA-ES&quot;</span>;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae54e883e8356e64e5ba689f189efbc96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> eva2.server.go.strategies.MultiObjectiveCMAES.getPopulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assuming that all optimizer will store their data in a population we will allow access to this population to query to current state of the optimizer. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The population of current solutions to a given problem. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9169e43517e8db7841cd453c4660872f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                                      {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">return</span> m_Population;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af057295ed516455546804faeb0f4019f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> eva2.server.go.strategies.MultiObjectiveCMAES.getProblem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9402221cc9321347a9d1d0a894be937b">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                                                     {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">return</span> m_Problem;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a197945f35975f0f68fd2886717e5a3fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.MultiObjectiveCMAES.getStringRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a string describing all properties of the optimizer and the applied methods. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A descriptive string </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4cdfe0bff8295d1471effe39f8e2cdb0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                                            {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        StringBuilder strB = <span class="keyword">new</span> StringBuilder(200);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        strB.append(<span class="stringliteral">&quot;(1+&quot;</span> + m_lambda + <span class="stringliteral">&quot;) MO-CMA-ES:\nOptimization Problem: &quot;</span>);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        strB.append(this.m_Problem.getStringRepresentationForProblem(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        strB.append(<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        strB.append(this.m_Population.getStringRepresentation());</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">return</span> strB.toString();</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0c1d06eda38accc83535cfe2532679c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String eva2.server.go.strategies.MultiObjectiveCMAES.globalInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                                      {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;A multi-objective CMA-ES variant after Igel, Hansen and Roth 2007 (EC 15(1),1-28).&quot;</span>;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a320aced398c8743a2a94109ffbe04ce5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.MultiObjectiveCMAES.hideHideable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                               {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        GenericObjectEditor</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                .setHideProperty(this.getClass(), <span class="stringliteral">&quot;population&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3816417b22c3b6d1ebc9a873f86194f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.MultiObjectiveCMAES.init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4efaea1c10726e848f4c56a9c6d9103f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                       {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="comment">// initByPopulation(m_Population, true);</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        this.m_Population.setTargetSize(m_lambdamo);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        this.m_Problem.initPopulation(this.m_Population);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="comment">// children = new Population(m_Population.size());</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        this.evaluatePopulation(this.m_Population);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1b588d45da0f4162344554afd4547dae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.MultiObjectiveCMAES.initByPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>reset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer with a given population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pop</td><td>The initial population </td></tr>
+    <tr><td class="paramname">reset</td><td>If true the population is reinitialized and reevaluated. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2b9dd760178a114b8caf8c83fc202c5f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                                                                {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a3b35f7d160c4e675caf1aaf2d727d118">setPopulation</a>(pop);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordflow">if</span> (reset) {</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            m_Problem.initPopulation(m_Population);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            m_Problem.evaluate(m_Population);</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        }</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s_html_a3b35f7d160c4e675caf1aaf2d727d118"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_multi_objective_c_m_a_e_s.html#a3b35f7d160c4e675caf1aaf2d727d118">eva2.server.go.strategies.MultiObjectiveCMAES.setPopulation</a></div><div class="ttdeci">void setPopulation(Population pop)</div><div class="ttdef"><b>Definition:</b> MultiObjectiveCMAES.java:374</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a507ee0dbd4becd5c04dd075ec7567ed2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.MultiObjectiveCMAES.optimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will optimize for a single iteration, after this step the population should be as big as possible (ie. the size of lambda and not mu) and all individual should be evaluated. This allows more usefull statistics on the population. </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a228d8e9883a253c5bbaf29e413e01704">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                           {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        HashMap&lt;Long, CounterClass&gt; SuccessCounterMap = <span class="keyword">new</span> HashMap&lt;Long, CounterClass&gt;();</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <span class="comment">// Eltern markieren und f�r die Z�hlung vorbereiten</span></div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; m_lambdamo &amp;&amp; j &lt; m_Population.size(); j++) {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            m_Population.getEAIndividual(j).putData(<span class="stringliteral">&quot;Parent&quot;</span>,</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                    m_Population.<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a7f8eae12a7436fa11826cbe365c25542">getEAIndividual</a>(j));</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            SuccessCounterMap.put(m_Population.getEAIndividual(j).getIndyID(),</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                    <span class="keyword">new</span> CounterClass(0));</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="comment">// Kinder erzeugen</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        Population children = <span class="keyword">new</span> Population(m_lambdamo * m_lambda);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        children.setGenerationTo(m_Population.getGeneration());</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; children.getTargetSize(); j++) {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            AbstractEAIndividual parent = m_Population.getEAIndividual(j</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                    % m_lambdamo);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            AbstractEAIndividual indy = (AbstractEAIndividual) parent.clone();</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;            indy.mutate();</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            indy.putData(<span class="stringliteral">&quot;Parent&quot;</span>, parent);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            children.add(indy);</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        }</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        evaluatePopulation(children);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        m_Population.addPopulation(children);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="comment">// Ranking</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        ArchivingNSGAII dummyArchive = <span class="keyword">new</span> ArchivingNSGAIISMeasure();</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        Population[] store = dummyArchive</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                .getNonDominatedSortedFronts(m_Population);</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        store = dummyArchive.getNonDominatedSortedFronts(m_Population);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        dummyArchive.calculateCrowdingDistance(store);</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="comment">// Vergleichen und den Successcounter hochz�hlen wenn wir besser als</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <span class="comment">// unser Elter sind</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; m_Population.size(); j++) {</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            AbstractEAIndividual parent = (AbstractEAIndividual) m_Population</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                    .getEAIndividual(j).getData(<span class="stringliteral">&quot;Parent&quot;</span>);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            <span class="keywordflow">if</span> (m_Population.<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a7f8eae12a7436fa11826cbe365c25542">getEAIndividual</a>(j) != parent) { <span class="comment">// Eltern nicht mit</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                <span class="comment">// sich selber</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                <span class="comment">// vergleichen</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                <span class="keywordtype">int</span> parentParetoLevel = ((Integer) parent</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                        .getData(<span class="stringliteral">&quot;ParetoLevel&quot;</span>)).intValue();</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                <span class="keywordtype">double</span> parentSMeasure = ((Double) parent.getData(<span class="stringliteral">&quot;HyperCube&quot;</span>))</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                        .doubleValue();</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                <span class="keywordtype">int</span> childParetoLevel = ((Integer) m_Population.<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a7f8eae12a7436fa11826cbe365c25542">getEAIndividual</a>(</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                        j).getData(<span class="stringliteral">&quot;ParetoLevel&quot;</span>)).intValue();</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                <span class="keywordtype">double</span> childSMeasure = ((Double) m_Population</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                        .getEAIndividual(j).getData(<span class="stringliteral">&quot;HyperCube&quot;</span>)).doubleValue();</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                <span class="keywordflow">if</span> (childParetoLevel &lt; parentParetoLevel</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                        || ((childParetoLevel == parentParetoLevel) &amp;&amp; childSMeasure &gt; parentSMeasure)) {</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                    SuccessCounterMap.get(parent.getIndyID()).value++;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                }</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            } <span class="keywordflow">else</span> { <span class="comment">// Debug</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                SuccessCounterMap.get(parent.getIndyID()).seen = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            }</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        }</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <span class="comment">// Selection</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        m_Population.clear();</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; store.length; i++) {</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            <span class="keywordflow">if</span> (m_Population.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">size</a>() + store[i].size() &lt;= m_lambdamo) { <span class="comment">// Die</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                <span class="comment">// Front</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                <span class="comment">// passt</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                <span class="comment">// noch</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                <span class="comment">// komplett</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                m_Population.addPopulation(store[i]);</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            } <span class="keywordflow">else</span> { <span class="comment">// die besten aus der aktuellen Front heraussuchen bis voll</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                <span class="keywordflow">while</span> (store[i].size() &gt; 0 &amp;&amp; m_Population.size() &lt; m_lambdamo) {</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                    AbstractEAIndividual indy = store[i].getEAIndividual(0);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                    <span class="keywordtype">double</span> bestMeasure = ((Double) indy.getData(<span class="stringliteral">&quot;HyperCube&quot;</span>))</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                            .doubleValue(); <span class="comment">// TODO mal noch effizient machen</span></div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                    <span class="comment">// (sortieren und die besten n</span></div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                    <span class="comment">// herausholen)</span></div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 1; j &lt; store[i].size(); j++) {</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                        <span class="keywordflow">if</span> (bestMeasure &lt; ((Double) store[i].getEAIndividual(j)</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                                .getData(<span class="stringliteral">&quot;HyperCube&quot;</span>)).doubleValue()) {</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                            bestMeasure = ((Double) store[i].getEAIndividual(j)</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                                    .getData(<span class="stringliteral">&quot;HyperCube&quot;</span>)).doubleValue();</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                            indy = store[i].getEAIndividual(j);</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                        }</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                    }</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                    m_Population.add(indy);</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                    store[i].removeMember(indy);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                }</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;            }</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        }</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        <span class="comment">// Strategieparemeter updaten</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; m_Population.size(); j++) {</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            AbstractEAIndividual indy = m_Population.getEAIndividual(j);</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;            <span class="keywordflow">if</span> (indy.getMutationOperator() instanceof MutateESCovarianceMatrixAdaptionPlus) { <span class="comment">// Das</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                <span class="comment">// geht</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                <span class="comment">// nur</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                <span class="comment">// wenn</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                <span class="comment">// wir</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                <span class="comment">// auch</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;                <span class="comment">// die</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                <span class="comment">// richtige</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;                <span class="comment">// Mutation</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;                <span class="comment">// haben</span></div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                AbstractEAIndividual parent = (AbstractEAIndividual) indy</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                        .getData(<span class="stringliteral">&quot;Parent&quot;</span>);</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;                MutateESCovarianceMatrixAdaptionPlus muta = (MutateESCovarianceMatrixAdaptionPlus) indy</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                        .getMutationOperator();</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                <span class="keywordtype">double</span> rate = ((double) SuccessCounterMap.get(parent</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;                        .getIndyID()).value)</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                        / ((double) m_lambda);</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                <span class="keywordflow">if</span> (indy != parent) {</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                    muta.updateCovariance();</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                }</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                muta.updateStepSize(rate);</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;            }</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        }</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; children.size(); j++) {</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;            children.getEAIndividual(j).putData(<span class="stringliteral">&quot;Parent&quot;</span>, null);</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        }</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        m_Population.incrFunctionCallsBy(children.size());</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        m_Population.incrGeneration();</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a7f8eae12a7436fa11826cbe365c25542"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a7f8eae12a7436fa11826cbe365c25542">eva2.server.go.populations.Population.getEAIndividual</a></div><div class="ttdeci">AbstractEAIndividual getEAIndividual(int i)</div><div class="ttdef"><b>Definition:</b> Population.java:1608</div></div>
+<div class="ttc" id="interfaceeva2_1_1server_1_1go_1_1_population_interface_html_a59db05427cda240edea2b2ea3c2a7513"><div class="ttname"><a href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">eva2.server.go.PopulationInterface.size</a></div><div class="ttdeci">int size()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7b6d148d2907826434281077dba70a50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.MultiObjectiveCMAES.removePopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method removes a listener from the Optimizer. It returns true on success, false if the listener could not be found. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a6e732c957bbe8b9dd04657fadcb128fa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;                                                        {</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a696677e9bbbf31987d7c41326bb03dab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.MultiObjectiveCMAES.SetIdentifier </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to set an identifier for the algorithm </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The identifier </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4af2f49eef2cf833b15e88b25e382efd">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                                           {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        m_Identifier = name;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aabdd04c01635b5fa4ed10b41c2733701"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.MultiObjectiveCMAES.setLambda </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mLambda</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;                                       {</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        m_lambda = mLambda;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3b35f7d160c4e675caf1aaf2d727d118"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.MultiObjectiveCMAES.setPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9a19bcf589f1375450e7c9588acee982">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;                                              {</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        m_Population = pop;</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        m_Population.setNotifyEvalInterval(1);</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        m_lambdamo = m_Population.getTargetSize();</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abde82220777a4e24fae8bc2bb0ae7903"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.MultiObjectiveCMAES.SetProblem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>problem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will set the problem that is to be optimized. The problem should be initialized when this method is called.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problem</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2bf9e7ad9b3682cdb51fe65284d98af0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        m_Problem = (AbstractOptimizationProblem) problem;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/eva2/server/go/strategies/<a class="el" href="_multi_objective_c_m_a_e_s_8java.html">MultiObjectiveCMAES.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 24 de Noviembre de 2013 20:07:28 para EvaProyectDoc por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

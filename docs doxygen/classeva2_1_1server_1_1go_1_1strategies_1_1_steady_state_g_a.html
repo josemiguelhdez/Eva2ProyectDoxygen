@@ -1,0 +1,963 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>EvaProyectDoc: Referencia de la Clase eva2.server.go.strategies.SteadyStateGA</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">EvaProyectDoc
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceeva2.html">eva2</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server.html">server</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go.html">go</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go_1_1strategies.html">strategies</a></li><li class="navelem"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html">SteadyStateGA</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase eva2.server.go.strategies.SteadyStateGA</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">eva2.server.go.strategies.InterfaceOptimizer</a> y Serializable.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a95ddf25499ccf586c58c38feed283b8b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a95ddf25499ccf586c58c38feed283b8b">SteadyStateGA</a> ()</td></tr>
+<tr class="separator:a95ddf25499ccf586c58c38feed283b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e49f976afb6c76fad008d5502e933d4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a2e49f976afb6c76fad008d5502e933d4">SteadyStateGA</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html">SteadyStateGA</a> a)</td></tr>
+<tr class="separator:a2e49f976afb6c76fad008d5502e933d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbe21f1825c9584c3442217d774e4986"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#adbe21f1825c9584c3442217d774e4986">clone</a> ()</td></tr>
+<tr class="separator:adbe21f1825c9584c3442217d774e4986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a355a3b350e293ea935400761582a7936"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a355a3b350e293ea935400761582a7936">init</a> ()</td></tr>
+<tr class="separator:a355a3b350e293ea935400761582a7936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aa8976cae665a3a071516e2c10287d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a0aa8976cae665a3a071516e2c10287d0">initByPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop, boolean reset)</td></tr>
+<tr class="separator:a0aa8976cae665a3a071516e2c10287d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fc53a1ba11f5ad8423402afef0cb5ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a1fc53a1ba11f5ad8423402afef0cb5ed">optimize</a> ()</td></tr>
+<tr class="separator:a1fc53a1ba11f5ad8423402afef0cb5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8847ee082fb6bb7152245938470eec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a9d8847ee082fb6bb7152245938470eec">addPopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:a9d8847ee082fb6bb7152245938470eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace2067e3d875d3c604b9d80f1ea25c21"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#ace2067e3d875d3c604b9d80f1ea25c21">removePopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:ace2067e3d875d3c604b9d80f1ea25c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a876457db328a983dd9f1b80809b4944b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a876457db328a983dd9f1b80809b4944b">SetProblem</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> problem)</td></tr>
+<tr class="separator:a876457db328a983dd9f1b80809b4944b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce64da163d796a9c74550ba5d2c1f74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#afce64da163d796a9c74550ba5d2c1f74">getProblem</a> ()</td></tr>
+<tr class="separator:afce64da163d796a9c74550ba5d2c1f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb07cabe8711a65a8c07d5a563f83e24"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#afb07cabe8711a65a8c07d5a563f83e24">getStringRepresentation</a> ()</td></tr>
+<tr class="separator:afb07cabe8711a65a8c07d5a563f83e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27d0b298dc94d0944fdd673725077b19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a27d0b298dc94d0944fdd673725077b19">SetIdentifier</a> (String name)</td></tr>
+<tr class="separator:a27d0b298dc94d0944fdd673725077b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28f32832c6b1ca9422b0e69ea105319c"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a28f32832c6b1ca9422b0e69ea105319c">getIdentifier</a> ()</td></tr>
+<tr class="separator:a28f32832c6b1ca9422b0e69ea105319c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac050a217812303ffe9de1e1f13aab878"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#ac050a217812303ffe9de1e1f13aab878">freeWilly</a> ()</td></tr>
+<tr class="separator:ac050a217812303ffe9de1e1f13aab878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0350d293d6d60d19296000a24a9e8ecd"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a0350d293d6d60d19296000a24a9e8ecd">getName</a> ()</td></tr>
+<tr class="separator:a0350d293d6d60d19296000a24a9e8ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb26998b8aaaa3ddecb2d030b4ac75d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#acb26998b8aaaa3ddecb2d030b4ac75d4">getPopulation</a> ()</td></tr>
+<tr class="separator:acb26998b8aaaa3ddecb2d030b4ac75d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d623864f953aade8a60753e6b2171f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a5d623864f953aade8a60753e6b2171f9">setPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop)</td></tr>
+<tr class="separator:a5d623864f953aade8a60753e6b2171f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a168a51d055b212fcad1d1c13fbd5b27d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a168a51d055b212fcad1d1c13fbd5b27d">populationTipText</a> ()</td></tr>
+<tr class="separator:a168a51d055b212fcad1d1c13fbd5b27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a620496936ceb1c7393e8970588754c14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a620496936ceb1c7393e8970588754c14">getAllSolutions</a> ()</td></tr>
+<tr class="separator:a620496936ceb1c7393e8970588754c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be43feee87a04bb56d097a6815a514f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a6be43feee87a04bb56d097a6815a514f">setParentSelection</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a> selection)</td></tr>
+<tr class="separator:a6be43feee87a04bb56d097a6815a514f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac552a43189d82e8fa8fbc913a6f6ead1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#ac552a43189d82e8fa8fbc913a6f6ead1">getParentSelection</a> ()</td></tr>
+<tr class="separator:ac552a43189d82e8fa8fbc913a6f6ead1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a395808c1d949d6f215c9d769d03a5ec2"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a395808c1d949d6f215c9d769d03a5ec2">parentSelectionTipText</a> ()</td></tr>
+<tr class="separator:a395808c1d949d6f215c9d769d03a5ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace30213bd917189b7229169129790e09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#ace30213bd917189b7229169129790e09">setNumberOfPartners</a> (int partners)</td></tr>
+<tr class="separator:ace30213bd917189b7229169129790e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a693cebee24d1ad030000d424563bd962"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a693cebee24d1ad030000d424563bd962">getNumberOfPartners</a> ()</td></tr>
+<tr class="separator:a693cebee24d1ad030000d424563bd962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a037bd563f45c663c0529515a2b9768c2"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a037bd563f45c663c0529515a2b9768c2">numberOfPartnersTipText</a> ()</td></tr>
+<tr class="separator:a037bd563f45c663c0529515a2b9768c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29b82bdf371c535bdd795b644dfc7e7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a29b82bdf371c535bdd795b644dfc7e7e">setPartnerSelection</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a> selection)</td></tr>
+<tr class="separator:a29b82bdf371c535bdd795b644dfc7e7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6600a5d219bdaabd06286d1eb73c211a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a6600a5d219bdaabd06286d1eb73c211a">getPartnerSelection</a> ()</td></tr>
+<tr class="separator:a6600a5d219bdaabd06286d1eb73c211a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e3b767aa47089e7cb619b4c564a3c95"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a6e3b767aa47089e7cb619b4c564a3c95">partnerSelectionTipText</a> ()</td></tr>
+<tr class="separator:a6e3b767aa47089e7cb619b4c564a3c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f4476a58221d212aeab36af324b6311"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a9f4476a58221d212aeab36af324b6311">setReplacementSelection</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1replacement_1_1_interface_replacement.html">InterfaceReplacement</a> selection)</td></tr>
+<tr class="separator:a9f4476a58221d212aeab36af324b6311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188c260e565532851759a78b9033c771"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1replacement_1_1_interface_replacement.html">InterfaceReplacement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a188c260e565532851759a78b9033c771">getReplacementSelection</a> ()</td></tr>
+<tr class="separator:a188c260e565532851759a78b9033c771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b79d8e288be91346ec9f9e02b4998f2"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a6b79d8e288be91346ec9f9e02b4998f2">replacementSelectionTipText</a> ()</td></tr>
+<tr class="separator:a6b79d8e288be91346ec9f9e02b4998f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:aaf99cc71c3f71a637dbf43b1e6b13c26"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#aaf99cc71c3f71a637dbf43b1e6b13c26">globalInfo</a> ()</td></tr>
+<tr class="separator:aaf99cc71c3f71a637dbf43b1e6b13c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:ad999a25dee71b28b30230060f3051a95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#ad999a25dee71b28b30230060f3051a95">firePropertyChangedEvent</a> (String name)</td></tr>
+<tr class="separator:ad999a25dee71b28b30230060f3051a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>A simple implementation of the steady-state GA with variable replacement schemes. To reduce the logging effort population.size() optimization steps are performed each time <a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a1fc53a1ba11f5ad8423402afef0cb5ed">optimize()</a> is called. Created by IntelliJ IDEA. User: streiche Date: 19.07.2005 Time: 14:30:20 To change this template use File | Settings | File Templates. </p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a95ddf25499ccf586c58c38feed283b8b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.SteadyStateGA.SteadyStateGA </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                               {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2e49f976afb6c76fad008d5502e933d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.SteadyStateGA.SteadyStateGA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html">SteadyStateGA</a>&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                                              {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            this.m_Population                   = (Population)a.m_Population.clone();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            this.m_Problem                      = (InterfaceOptimizationProblem)a.m_Problem.clone();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            this.m_Identifier                   = a.m_Identifier;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            this.m_NumberOfPartners             = a.m_NumberOfPartners;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            this.m_ParentSelection              = (InterfaceSelection)a.m_ParentSelection.clone();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            this.m_PartnerSelection             = (InterfaceSelection)a.m_PartnerSelection.clone();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            this.m_ReplacementSelection         = (InterfaceReplacement)a.m_ReplacementSelection.clone();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a9d8847ee082fb6bb7152245938470eec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SteadyStateGA.addPopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to add a listener to the Optimizer. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#ab4f4dad7ab7ce4428c8c3a7afb8c6f3e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                                                                                                  {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            this.m_Listener = ea;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adbe21f1825c9584c3442217d774e4986"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object eva2.server.go.strategies.SteadyStateGA.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return deep clone of the optimizer </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The clone </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3782515f3e073d9a970f1605836a38e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                              {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="keywordflow">return</span> (Object) <span class="keyword">new</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a95ddf25499ccf586c58c38feed283b8b">SteadyStateGA</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a_html_a95ddf25499ccf586c58c38feed283b8b"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#a95ddf25499ccf586c58c38feed283b8b">eva2.server.go.strategies.SteadyStateGA.SteadyStateGA</a></div><div class="ttdeci">SteadyStateGA()</div><div class="ttdef"><b>Definition:</b> SteadyStateGA.java:37</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad999a25dee71b28b30230060f3051a95"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SteadyStateGA.firePropertyChangedEvent </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                                                              {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            <span class="keywordflow">if</span> (this.m_Listener != null) this.m_Listener.registerPopulationStateChanged(<span class="keyword">this</span>, name);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac050a217812303ffe9de1e1f13aab878"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SteadyStateGA.freeWilly </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method is required to free the memory on a RMIServer, but there is nothing to implement. </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3f5bc95f7781986c42165950d34131c">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                                {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a620496936ceb1c7393e8970588754c14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a> eva2.server.go.strategies.SteadyStateGA.getAllSolutions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return all found solutions (local optima) if they are not contained in the current population. Be sure to set the Population properties, especially function calls and generation, with respect to the ongoing optimization. May return the the same set as getPopulation if the optimizer makes no distinction, i.e. does not collect solutions outside the current population.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>A solution set of the current population and possibly earlier solutions. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a613ed8378f2956c125ed149328eb07f9">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                                                  {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> SolutionSet(<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#acb26998b8aaaa3ddecb2d030b4ac75d4">getPopulation</a>());</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a_html_acb26998b8aaaa3ddecb2d030b4ac75d4"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_steady_state_g_a.html#acb26998b8aaaa3ddecb2d030b4ac75d4">eva2.server.go.strategies.SteadyStateGA.getPopulation</a></div><div class="ttdeci">Population getPopulation()</div><div class="ttdef"><b>Definition:</b> SteadyStateGA.java:189</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a28f32832c6b1ca9422b0e69ea105319c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SteadyStateGA.getIdentifier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a3f8f01e01e017474b76de8f473c01ec7">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                                       {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;             <span class="keywordflow">return</span> this.m_Identifier;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;         }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0350d293d6d60d19296000a24a9e8ecd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SteadyStateGA.getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a naming String </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The name of the algorithm </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9c881980799f6de9a04cce7564ad16aa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                            {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;SS-GA&quot;</span>;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a693cebee24d1ad030000d424563bd962"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.strategies.SteadyStateGA.getNumberOfPartners </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                                     {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <span class="keywordflow">return</span> this.m_NumberOfPartners;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac552a43189d82e8fa8fbc913a6f6ead1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a> eva2.server.go.strategies.SteadyStateGA.getParentSelection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                                                   {</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keywordflow">return</span> this.m_ParentSelection;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6600a5d219bdaabd06286d1eb73c211a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a> eva2.server.go.strategies.SteadyStateGA.getPartnerSelection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                                                    {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <span class="keywordflow">return</span> this.m_PartnerSelection;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acb26998b8aaaa3ddecb2d030b4ac75d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> eva2.server.go.strategies.SteadyStateGA.getPopulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assuming that all optimizer will store thier data in a population we will allow acess to this population to query to current state of the optimizer. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The population of current solutions to a given problem. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9169e43517e8db7841cd453c4660872f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                                      {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> this.m_Population;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afce64da163d796a9c74550ba5d2c1f74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> eva2.server.go.strategies.SteadyStateGA.getProblem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9402221cc9321347a9d1d0a894be937b">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                                                          {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            <span class="keywordflow">return</span> this.m_Problem;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a188c260e565532851759a78b9033c771"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1replacement_1_1_interface_replacement.html">InterfaceReplacement</a> eva2.server.go.strategies.SteadyStateGA.getReplacementSelection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                                                          {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <span class="keywordflow">return</span> this.m_ReplacementSelection;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afb07cabe8711a65a8c07d5a563f83e24"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SteadyStateGA.getStringRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a string describing all properties of the optimizer and the applied methods. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A descriptive string </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4cdfe0bff8295d1471effe39f8e2cdb0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                                                {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            String result = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            result += <span class="stringliteral">&quot;Genetic Algorithm:\n&quot;</span>;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            result += <span class="stringliteral">&quot;Optimization Problem: &quot;</span>;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            result += this.m_Problem.getStringRepresentationForProblem(<span class="keyword">this</span>) +<span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            result += this.m_Population.getStringRepresentation();</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aaf99cc71c3f71a637dbf43b1e6b13c26"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String eva2.server.go.strategies.SteadyStateGA.globalInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method returns a global info string </p>
+<dl class="section return"><dt>Devuelve</dt><dd>description </dd></dl>
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                                      {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;This is a Steady-State Genetic Algorithm.&quot;</span>;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a355a3b350e293ea935400761582a7936"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SteadyStateGA.init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4efaea1c10726e848f4c56a9c6d9103f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                           {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            this.m_Problem.initPopulation(this.m_Population);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            this.evaluatePopulation(this.m_Population);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0aa8976cae665a3a071516e2c10287d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SteadyStateGA.initByPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>reset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer with a given population </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reset</td><td>If true the population is reset. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2b9dd760178a114b8caf8c83fc202c5f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            this.m_Population = (Population)pop.clone();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordflow">if</span> (reset) {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                this.m_Population.init();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                this.evaluatePopulation(this.m_Population);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a037bd563f45c663c0529515a2b9768c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SteadyStateGA.numberOfPartnersTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                                            {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;The number of mating partners needed to create offsprings.&quot;</span>;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1fc53a1ba11f5ad8423402afef0cb5ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SteadyStateGA.optimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will optimize for a single iteration, after this step the population should be as big as possible (ie. the size of lambda and not mu) and all individual should be evaluated. This allows more usefull statistics on the population. </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a228d8e9883a253c5bbaf29e413e01704">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                               {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.m_Population.size(); i++) this.generateChildren();</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            this.m_Population.incrFunctionCallsBy(this.m_Population.size());</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            this.m_Population.incrGeneration();</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a395808c1d949d6f215c9d769d03a5ec2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SteadyStateGA.parentSelectionTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                                           {</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Choose a parent selection method.&quot;</span>;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6e3b767aa47089e7cb619b4c564a3c95"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SteadyStateGA.partnerSelectionTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                                            {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Choose a selection method for selecting recombination partners for given parents.&quot;</span>;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a168a51d055b212fcad1d1c13fbd5b27d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SteadyStateGA.populationTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                                      {</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Edit the properties of the population used.&quot;</span>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ace2067e3d875d3c604b9d80f1ea25c21"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.SteadyStateGA.removePopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method removes a listener from the Optimizer. It returns true on success, false if the listener could not be found. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a6e732c957bbe8b9dd04657fadcb128fa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                                                            {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            <span class="keywordflow">if</span> (m_Listener==ea) {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                m_Listener=null;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            } <span class="keywordflow">else</span> <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6b79d8e288be91346ec9f9e02b4998f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SteadyStateGA.replacementSelectionTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                                                {</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Choose a replacement strategy.&quot;</span>;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a27d0b298dc94d0944fdd673725077b19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SteadyStateGA.SetIdentifier </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to set an identifier for the algorithm </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The indenifier </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4af2f49eef2cf833b15e88b25e382efd">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                                                {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            this.m_Identifier = name;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ace30213bd917189b7229169129790e09"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SteadyStateGA.setNumberOfPartners </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>partners</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will set the number of partners that are needed to create offsprings by mating </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">partners</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                                                  {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keywordflow">if</span> (partners &lt; 0) partners = 0;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        this.m_NumberOfPartners = partners;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6be43feee87a04bb56d097a6815a514f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SteadyStateGA.setParentSelection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a>&#160;</td>
+          <td class="paramname"><em>selection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will set the parent selection method that is to be used </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">selection</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        this.m_ParentSelection = selection;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a29b82bdf371c535bdd795b644dfc7e7e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SteadyStateGA.setPartnerSelection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1_interface_selection.html">InterfaceSelection</a>&#160;</td>
+          <td class="paramname"><em>selection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Choose a selection method for selecting recombination partners for given parents </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">selection</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        this.m_PartnerSelection = selection;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5d623864f953aade8a60753e6b2171f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SteadyStateGA.setPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9a19bcf589f1375450e7c9588acee982">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                                             {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        this.m_Population = pop;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a876457db328a983dd9f1b80809b4944b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SteadyStateGA.SetProblem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>problem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will set the problem that is to be optimized </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problem</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2bf9e7ad9b3682cdb51fe65284d98af0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            this.m_Problem = problem;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9f4476a58221d212aeab36af324b6311"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SteadyStateGA.setReplacementSelection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1selection_1_1replacement_1_1_interface_replacement.html">InterfaceReplacement</a>&#160;</td>
+          <td class="paramname"><em>selection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Choose a replacement strategy </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">selection</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        this.m_ReplacementSelection = selection;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/eva2/server/go/strategies/<a class="el" href="_steady_state_g_a_8java.html">SteadyStateGA.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 24 de Noviembre de 2013 20:07:30 para EvaProyectDoc por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

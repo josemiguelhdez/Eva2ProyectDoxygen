@@ -1,0 +1,986 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>EvaProyectDoc: Referencia de la Clase eva2.server.go.operators.crossover.CrossoverEAMixer</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">EvaProyectDoc
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceeva2.html">eva2</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server.html">server</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go.html">go</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go_1_1operators.html">operators</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go_1_1operators_1_1crossover.html">crossover</a></li><li class="navelem"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html">CrossoverEAMixer</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase eva2.server.go.operators.crossover.CrossoverEAMixer</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_interface_crossover.html">eva2.server.go.operators.crossover.InterfaceCrossover</a>, <a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_interface_evaluating_crossover_operator.html">eva2.server.go.operators.crossover.InterfaceEvaluatingCrossoverOperator</a> y Serializable.</p>
+
+<p>Heredado por <a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_adaptive_crossover_e_a_mixer.html">eva2.server.go.operators.crossover.AdaptiveCrossoverEAMixer</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ad15702a90d6e317b8c393a9fb47de6c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ad15702a90d6e317b8c393a9fb47de6c1">CrossoverEAMixer</a> ()</td></tr>
+<tr class="separator:ad15702a90d6e317b8c393a9fb47de6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6ffc7e6a16cf928f8fc2cccac7f47ea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ac6ffc7e6a16cf928f8fc2cccac7f47ea">CrossoverEAMixer</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html">CrossoverEAMixer</a> mutator)</td></tr>
+<tr class="separator:ac6ffc7e6a16cf928f8fc2cccac7f47ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa70ff9f45d4372db46b066386acb2b58"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#aa70ff9f45d4372db46b066386acb2b58">clone</a> ()</td></tr>
+<tr class="separator:aa70ff9f45d4372db46b066386acb2b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f2274ddc72cf70f24144c1510f43a71"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a1f2274ddc72cf70f24144c1510f43a71">equals</a> (Object mutator)</td></tr>
+<tr class="separator:a1f2274ddc72cf70f24144c1510f43a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16d2f7f3b2337477ef6a127a32ba2ffc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a16d2f7f3b2337477ef6a127a32ba2ffc">init</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> individual, <a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> opt)</td></tr>
+<tr class="separator:a16d2f7f3b2337477ef6a127a32ba2ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acde8fcdda25d15317bf7cdcaa2bb9e1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#acde8fcdda25d15317bf7cdcaa2bb9e1d">mate</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> indy1, <a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> partners)</td></tr>
+<tr class="separator:acde8fcdda25d15317bf7cdcaa2bb9e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1022b67365eab2de5e67d36e0f214eb5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a1022b67365eab2de5e67d36e0f214eb5">getLastOperatorIndex</a> ()</td></tr>
+<tr class="separator:a1022b67365eab2de5e67d36e0f214eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee86693b2be80196effb723e7ef441d0"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#aee86693b2be80196effb723e7ef441d0">getStringRepresentation</a> ()</td></tr>
+<tr class="separator:aee86693b2be80196effb723e7ef441d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b8a24535b2c550b16f3a0b4aae12b14"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a2b8a24535b2c550b16f3a0b4aae12b14">getName</a> ()</td></tr>
+<tr class="separator:a2b8a24535b2c550b16f3a0b4aae12b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2cee2731bb5c34bfe6122c6775645eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ae2cee2731bb5c34bfe6122c6775645eb">setCrossovers</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_property_crossover_mixer.html">PropertyCrossoverMixer</a> d)</td></tr>
+<tr class="separator:ae2cee2731bb5c34bfe6122c6775645eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f54fdfb970573aa92a4a0918eb6c3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_property_crossover_mixer.html">PropertyCrossoverMixer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a19f54fdfb970573aa92a4a0918eb6c3c">getCrossovers</a> ()</td></tr>
+<tr class="separator:a19f54fdfb970573aa92a4a0918eb6c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a138723b0e5b6a165128ca6b2cbf6e44b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a138723b0e5b6a165128ca6b2cbf6e44b">CrossoversTipText</a> ()</td></tr>
+<tr class="separator:a138723b0e5b6a165128ca6b2cbf6e44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab03dbf88ae952d2487bf8935ed185018"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ab03dbf88ae952d2487bf8935ed185018">setUseSelfAdaption</a> (boolean d)</td></tr>
+<tr class="separator:ab03dbf88ae952d2487bf8935ed185018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31eeac0f51d85aebdf02d8171ae88ba0"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a31eeac0f51d85aebdf02d8171ae88ba0">getUseSelfAdaption</a> ()</td></tr>
+<tr class="separator:a31eeac0f51d85aebdf02d8171ae88ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a925fcb3fdb7ff046a3dc14270b881c49"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a925fcb3fdb7ff046a3dc14270b881c49">useSelfAdaptionTipText</a> ()</td></tr>
+<tr class="separator:a925fcb3fdb7ff046a3dc14270b881c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82b4c65eef3d0e32c20be218943815ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a82b4c65eef3d0e32c20be218943815ac">setLowerLimitChance</a> (double d)</td></tr>
+<tr class="separator:a82b4c65eef3d0e32c20be218943815ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a300257f1323d1aae8641bc94369738"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0a300257f1323d1aae8641bc94369738">getLowerLimitChance</a> ()</td></tr>
+<tr class="separator:a0a300257f1323d1aae8641bc94369738"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a055486076db25ad4080b255fbae49639"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a055486076db25ad4080b255fbae49639">lowerLimitChanceTipText</a> ()</td></tr>
+<tr class="separator:a055486076db25ad4080b255fbae49639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29ba63fe91a6e7cfb4a1026564dc4826"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a29ba63fe91a6e7cfb4a1026564dc4826">setTau1</a> (double d)</td></tr>
+<tr class="separator:a29ba63fe91a6e7cfb4a1026564dc4826"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e22a18fda939f4a5183e3f40bce5f5c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a9e22a18fda939f4a5183e3f40bce5f5c">getTau1</a> ()</td></tr>
+<tr class="separator:a9e22a18fda939f4a5183e3f40bce5f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e165c4d3e171ba8d8d869d42668602d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a1e165c4d3e171ba8d8d869d42668602d">tau1TipText</a> ()</td></tr>
+<tr class="separator:a1e165c4d3e171ba8d8d869d42668602d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3695b496da4bdd773522ff382ec9e6a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ae3695b496da4bdd773522ff382ec9e6a">getEvaluations</a> ()</td></tr>
+<tr class="separator:ae3695b496da4bdd773522ff382ec9e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d67b8f46b4121f79f30c7059e07dffc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a7d67b8f46b4121f79f30c7059e07dffc">resetEvaluations</a> ()</td></tr>
+<tr class="separator:a7d67b8f46b4121f79f30c7059e07dffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a5ad217de1d6d728385da574e9e9a4763"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a5ad217de1d6d728385da574e9e9a4763">globalInfo</a> ()</td></tr>
+<tr class="separator:a5ad217de1d6d728385da574e9e9a4763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:aeed40e077e738c4fe0818c8011785cad"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#aeed40e077e738c4fe0818c8011785cad">CROSSOVER_EA_MIXER_OPERATOR_KEY</a> = &quot;CrossoverEAMixerOperatorKey&quot;</td></tr>
+<tr class="separator:aeed40e077e738c4fe0818c8011785cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:ac39745919f272b4447dabca44514a0ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ac39745919f272b4447dabca44514a0ee">maybeAdaptWeights</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>[] indies)</td></tr>
+<tr class="separator:ac39745919f272b4447dabca44514a0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:a631483c4002f351aec83b36d7fd95b4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_property_crossover_mixer.html">PropertyCrossoverMixer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a631483c4002f351aec83b36d7fd95b4f">m_Crossers</a></td></tr>
+<tr class="separator:a631483c4002f351aec83b36d7fd95b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab57d0504a3bd62a2038913bf2283ce83"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ab57d0504a3bd62a2038913bf2283ce83">m_UseSelfAdaption</a> = false</td></tr>
+<tr class="separator:ab57d0504a3bd62a2038913bf2283ce83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4c95948ac683b8a30d41eee0089a93a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ad4c95948ac683b8a30d41eee0089a93a">m_Tau1</a> = 0.15</td></tr>
+<tr class="separator:ad4c95948ac683b8a30d41eee0089a93a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24076b65472f042413ce7cf565f3ff15"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a24076b65472f042413ce7cf565f3ff15">m_LowerLimitChance</a> = 0.05</td></tr>
+<tr class="separator:a24076b65472f042413ce7cf565f3ff15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0991439fd65573c9047dec4bc4fc3baf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0991439fd65573c9047dec4bc4fc3baf">lastOperatorIndex</a> = -1</td></tr>
+<tr class="separator:a0991439fd65573c9047dec4bc4fc3baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Created by IntelliJ IDEA. User: Dante Alighieri Date: 21.05.2005 Time: 11:36:38 To change this template use File | Settings | File Templates. </p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="ad15702a90d6e317b8c393a9fb47de6c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.operators.crossover.CrossoverEAMixer.CrossoverEAMixer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                              {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        InterfaceCrossover[] tmpList;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        ArrayList&lt;String&gt; crossers = GenericObjectEditor.getClassesFromProperties(InterfaceCrossover.class.getCanonicalName(), null);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        tmpList = <span class="keyword">new</span> InterfaceCrossover[crossers.size()];</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; crossers.size(); i++) {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            Class clz=null;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                clz = (Class)Class.forName((String)crossers.get(i));</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            } <span class="keywordflow">catch</span> (ClassNotFoundException e1) {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            }</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">if</span> (clz.isAssignableFrom(<span class="keyword">this</span>.getClass())) {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="comment">// Do not instanciate this class or its subclasses or die of an infinite loop</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">//              System.out.println(&quot;Skipping &quot; + clz.getClass().getName());</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">//              System.out.println(&quot;Taking &quot; + clz.getClass().getName());</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                tmpList[i] = (InterfaceCrossover)Class.forName((String)crossers.get(i)).newInstance();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            } <span class="keywordflow">catch</span> (java.lang.ClassNotFoundException e) {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                System.out.println(<span class="stringliteral">&quot;Could not find class for &quot;</span> +(String)crossers.get(i) );</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            }  <span class="keywordflow">catch</span> (java.lang.InstantiationException k) {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                System.out.println(<span class="stringliteral">&quot;Instantiation exception for &quot;</span> +(String)crossers.get(i) );</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            } <span class="keywordflow">catch</span> (java.lang.IllegalAccessException a) {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                System.out.println(<span class="stringliteral">&quot;Illegal access exception for &quot;</span> +(String)crossers.get(i) );</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        this.m_Crossers = <span class="keyword">new</span> PropertyCrossoverMixer(tmpList);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        tmpList = <span class="keyword">new</span> InterfaceCrossover[2];</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        tmpList[0] = <span class="keyword">new</span> CrossoverESArithmetical();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        tmpList[1] = <span class="keyword">new</span> CrossoverESSBX();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        this.m_Crossers.setSelectedCrossers(tmpList);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        this.m_Crossers.normalizeWeights();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        this.m_Crossers.setDescriptiveString(<span class="stringliteral">&quot;Combining alternative mutation operators, please norm the weights!&quot;</span>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        this.m_Crossers.setWeightsLabel(<span class="stringliteral">&quot;Weigths&quot;</span>);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac6ffc7e6a16cf928f8fc2cccac7f47ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.operators.crossover.CrossoverEAMixer.CrossoverEAMixer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html">CrossoverEAMixer</a>&#160;</td>
+          <td class="paramname"><em>mutator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                                                      {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        this.m_Crossers         = (PropertyCrossoverMixer)mutator.m_Crossers.clone();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        this.m_UseSelfAdaption  = mutator.m_UseSelfAdaption;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        this.m_Tau1             = mutator.m_Tau1;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        this.m_LowerLimitChance = mutator.m_LowerLimitChance;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="aa70ff9f45d4372db46b066386acb2b58"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object eva2.server.go.operators.crossover.CrossoverEAMixer.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will enable you to clone a given mutation operator </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The clone </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_interface_crossover.html#ab7762063ecfd5fd9bd0ff4e73da8562a">eva2.server.go.operators.crossover.InterfaceCrossover</a>.</p>
+<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                          {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ad15702a90d6e317b8c393a9fb47de6c1">CrossoverEAMixer</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer_html_ad15702a90d6e317b8c393a9fb47de6c1"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ad15702a90d6e317b8c393a9fb47de6c1">eva2.server.go.operators.crossover.CrossoverEAMixer.CrossoverEAMixer</a></div><div class="ttdeci">CrossoverEAMixer()</div><div class="ttdef"><b>Definition:</b> CrossoverEAMixer.java:28</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a138723b0e5b6a165128ca6b2cbf6e44b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.operators.crossover.CrossoverEAMixer.CrossoversTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                      {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Choose the set of crossover operators.&quot;</span>;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1f2274ddc72cf70f24144c1510f43a71"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.operators.crossover.CrossoverEAMixer.equals </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>mutator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to evaluate whether two mutation operators are actually the same. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mutator</td><td>The other mutation operator </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_interface_crossover.html#a90fe8ee2decd4e6a72eaeb8d2631a1f7">eva2.server.go.operators.crossover.InterfaceCrossover</a>.</p>
+<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                          {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">if</span> (mutator instanceof <a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ad15702a90d6e317b8c393a9fb47de6c1">CrossoverEAMixer</a>) {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            CrossoverEAMixer mut = (<a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ad15702a90d6e317b8c393a9fb47de6c1">CrossoverEAMixer</a>)mutator;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer_html_ad15702a90d6e317b8c393a9fb47de6c1"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ad15702a90d6e317b8c393a9fb47de6c1">eva2.server.go.operators.crossover.CrossoverEAMixer.CrossoverEAMixer</a></div><div class="ttdeci">CrossoverEAMixer()</div><div class="ttdef"><b>Definition:</b> CrossoverEAMixer.java:28</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a19f54fdfb970573aa92a4a0918eb6c3c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_property_crossover_mixer.html">PropertyCrossoverMixer</a> eva2.server.go.operators.crossover.CrossoverEAMixer.getCrossovers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                                                  {</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <span class="keywordflow">return</span> this.m_Crossers;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae3695b496da4bdd773522ff382ec9e6a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.operators.crossover.CrossoverEAMixer.getEvaluations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrieve the number of evaluations performed during crossover.</p>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_interface_evaluating_crossover_operator.html#ac77a7a22b7b0c300d98892c50b367c85">eva2.server.go.operators.crossover.InterfaceEvaluatingCrossoverOperator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                                {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <span class="keywordtype">int</span> numEvals=0;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        InterfaceCrossover[] crossers    = this.m_Crossers.getSelectedCrossers();</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; crossers.length; i++) {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="keywordflow">if</span> (crossers[i] instanceof InterfaceEvaluatingCrossoverOperator) {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                numEvals += ((InterfaceEvaluatingCrossoverOperator)crossers[i]).getEvaluations();</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            }</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <span class="keywordflow">return</span> numEvals;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1022b67365eab2de5e67d36e0f214eb5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.operators.crossover.CrossoverEAMixer.getLastOperatorIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                                      {</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0991439fd65573c9047dec4bc4fc3baf">lastOperatorIndex</a>;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer_html_a0991439fd65573c9047dec4bc4fc3baf"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0991439fd65573c9047dec4bc4fc3baf">eva2.server.go.operators.crossover.CrossoverEAMixer.lastOperatorIndex</a></div><div class="ttdeci">int lastOperatorIndex</div><div class="ttdef"><b>Definition:</b> CrossoverEAMixer.java:26</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0a300257f1323d1aae8641bc94369738"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.operators.crossover.CrossoverEAMixer.getLowerLimitChance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                                        {</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keywordflow">return</span> this.m_LowerLimitChance;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2b8a24535b2c550b16f3a0b4aae12b14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.operators.crossover.CrossoverEAMixer.getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows the CommonJavaObjectEditorPanel to read the name to the current object. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The name. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                            {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;EA mutation mixer&quot;</span>;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aee86693b2be80196effb723e7ef441d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.operators.crossover.CrossoverEAMixer.getStringRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to get a string representation of the mutation operator </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A descriptive string. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_interface_crossover.html#a58b3d9692f3ba27fa531d472f4771e0a">eva2.server.go.operators.crossover.InterfaceCrossover</a>.</p>
+<div class="fragment"><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                                            {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;EA mutation mixer&quot;</span>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9e22a18fda939f4a5183e3f40bce5f5c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.operators.crossover.CrossoverEAMixer.getTau1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                            {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">return</span> this.m_Tau1;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a31eeac0f51d85aebdf02d8171ae88ba0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.operators.crossover.CrossoverEAMixer.getUseSelfAdaption </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                                        {</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordflow">return</span> this.m_UseSelfAdaption;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5ad217de1d6d728385da574e9e9a4763"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String eva2.server.go.operators.crossover.CrossoverEAMixer.globalInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method returns a global info string </p>
+<dl class="section return"><dt>Devuelve</dt><dd>description </dd></dl>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                                      {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;This meta-mutation operator allows you to combine multiple alternative mutation operators.&quot;</span>;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a16d2f7f3b2337477ef6a127a32ba2ffc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.operators.crossover.CrossoverEAMixer.init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td>
+          <td class="paramname"><em>individual</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>opt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to init the crossover operator </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">individual</td><td>The individual that will be mutated. </td></tr>
+    <tr><td class="paramname">opt</td><td>The optimization problem. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_interface_crossover.html#a5e630c04bdbed28b8ca89b34da158a47">eva2.server.go.operators.crossover.InterfaceCrossover</a>.</p>
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                                                                       {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        InterfaceCrossover[] crossers    = this.m_Crossers.getSelectedCrossers();</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; crossers.length; i++) crossers[i].<a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a16d2f7f3b2337477ef6a127a32ba2ffc">init</a>(individual, opt);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer_html_a16d2f7f3b2337477ef6a127a32ba2ffc"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a16d2f7f3b2337477ef6a127a32ba2ffc">eva2.server.go.operators.crossover.CrossoverEAMixer.init</a></div><div class="ttdeci">void init(AbstractEAIndividual individual, InterfaceOptimizationProblem opt)</div><div class="ttdef"><b>Definition:</b> CrossoverEAMixer.java:96</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a055486076db25ad4080b255fbae49639"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.operators.crossover.CrossoverEAMixer.lowerLimitChanceTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                                            {</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Set the lower limit for the mutation chance.&quot;</span>;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acde8fcdda25d15317bf7cdcaa2bb9e1d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> [] eva2.server.go.operators.crossover.CrossoverEAMixer.mate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td>
+          <td class="paramname"><em>indy1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>partners</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method performs crossover on two individuals. If the individuals do not implement InterfaceGAIndividual, then nothing will happen. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indy1</td><td>The first individual </td></tr>
+    <tr><td class="paramname">partners</td><td>The second individual </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_interface_crossover.html#a1452b13c1390b25a7f0e20c4dd0cf071">eva2.server.go.operators.crossover.InterfaceCrossover</a>.</p>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                                                                                        {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        this.m_Crossers.normalizeWeights();</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordtype">double</span>[]            probs       = this.m_Crossers.getWeights();</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ab57d0504a3bd62a2038913bf2283ce83">m_UseSelfAdaption</a>) {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; probs.length; i++) {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                probs[i] = probs[i] * Math.exp(this.m_Tau1 * RNG.gaussianDouble(1));</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                <span class="keywordflow">if</span> (probs[i] &lt;= this.<a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a24076b65472f042413ce7cf565f3ff15">m_LowerLimitChance</a>) probs[i] = this.m_LowerLimitChance;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                <span class="keywordflow">if</span> (probs[i] &gt;= 1) probs[i] = 1;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            this.m_Crossers.normalizeWeights();</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        }</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        InterfaceCrossover[] crossover    = this.m_Crossers.getSelectedCrossers();</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordtype">double</span> pointer                  = RNG.randomFloat(0, 1);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordtype">double</span> dum                      = probs[0];</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0991439fd65573c9047dec4bc4fc3baf">lastOperatorIndex</a>                       = 0;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">while</span> ((pointer &gt; dum) &amp;&amp; (<a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0991439fd65573c9047dec4bc4fc3baf">lastOperatorIndex</a> &lt; probs.length-1)) {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0991439fd65573c9047dec4bc4fc3baf">lastOperatorIndex</a>++;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            dum += probs[<a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0991439fd65573c9047dec4bc4fc3baf">lastOperatorIndex</a>];</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        }</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0991439fd65573c9047dec4bc4fc3baf">lastOperatorIndex</a> == probs.length) <a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0991439fd65573c9047dec4bc4fc3baf">lastOperatorIndex</a> = RNG.randomInt(0, probs.length-1);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="comment">//        System.out.println(&quot;Using : &quot; + mutators[index].getStringRepresentation());</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment">//        for (int i = 0; i &lt; probs.length; i++) {</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="comment">//            System.out.println(&quot;&quot;+mutators[i].getStringRepresentation()+&quot; : &quot;+ probs[i]);</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="comment">//        }</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="comment">//        System.out.println(&quot;&quot;);</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        indy1.putData(<a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#aeed40e077e738c4fe0818c8011785cad">CROSSOVER_EA_MIXER_OPERATOR_KEY</a>, <a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0991439fd65573c9047dec4bc4fc3baf">lastOperatorIndex</a>);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;partners.size(); i++) {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            partners.getEAIndividual(i).putData(CROSSOVER_EA_MIXER_OPERATOR_KEY, <a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0991439fd65573c9047dec4bc4fc3baf">lastOperatorIndex</a>);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        }</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        AbstractEAIndividual[] indies = crossover[<a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0991439fd65573c9047dec4bc4fc3baf">lastOperatorIndex</a>].mate(indy1, partners);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        </div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ac39745919f272b4447dabca44514a0ee">maybeAdaptWeights</a>(indies);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keywordflow">return</span> indies;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer_html_ab57d0504a3bd62a2038913bf2283ce83"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ab57d0504a3bd62a2038913bf2283ce83">eva2.server.go.operators.crossover.CrossoverEAMixer.m_UseSelfAdaption</a></div><div class="ttdeci">boolean m_UseSelfAdaption</div><div class="ttdef"><b>Definition:</b> CrossoverEAMixer.java:23</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer_html_aeed40e077e738c4fe0818c8011785cad"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#aeed40e077e738c4fe0818c8011785cad">eva2.server.go.operators.crossover.CrossoverEAMixer.CROSSOVER_EA_MIXER_OPERATOR_KEY</a></div><div class="ttdeci">static final String CROSSOVER_EA_MIXER_OPERATOR_KEY</div><div class="ttdef"><b>Definition:</b> CrossoverEAMixer.java:20</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer_html_a0991439fd65573c9047dec4bc4fc3baf"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a0991439fd65573c9047dec4bc4fc3baf">eva2.server.go.operators.crossover.CrossoverEAMixer.lastOperatorIndex</a></div><div class="ttdeci">int lastOperatorIndex</div><div class="ttdef"><b>Definition:</b> CrossoverEAMixer.java:26</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer_html_a24076b65472f042413ce7cf565f3ff15"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#a24076b65472f042413ce7cf565f3ff15">eva2.server.go.operators.crossover.CrossoverEAMixer.m_LowerLimitChance</a></div><div class="ttdeci">double m_LowerLimitChance</div><div class="ttdef"><b>Definition:</b> CrossoverEAMixer.java:25</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer_html_ac39745919f272b4447dabca44514a0ee"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_crossover_e_a_mixer.html#ac39745919f272b4447dabca44514a0ee">eva2.server.go.operators.crossover.CrossoverEAMixer.maybeAdaptWeights</a></div><div class="ttdeci">void maybeAdaptWeights(AbstractEAIndividual[] indies)</div><div class="ttdef"><b>Definition:</b> CrossoverEAMixer.java:143</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac39745919f272b4447dabca44514a0ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.operators.crossover.CrossoverEAMixer.maybeAdaptWeights </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>[]&#160;</td>
+          <td class="paramname"><em>indies</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7d67b8f46b4121f79f30c7059e07dffc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.operators.crossover.CrossoverEAMixer.resetEvaluations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_interface_evaluating_crossover_operator.html#a04b2a70a75a8695845b6cb7fe5d35471">eva2.server.go.operators.crossover.InterfaceEvaluatingCrossoverOperator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                                   {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        InterfaceCrossover[] crossers    = this.m_Crossers.getSelectedCrossers();</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; crossers.length; i++) {</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            <span class="keywordflow">if</span> (crossers[i] instanceof InterfaceEvaluatingCrossoverOperator) {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                ((InterfaceEvaluatingCrossoverOperator)crossers[i]).resetEvaluations();</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            }</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        }</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae2cee2731bb5c34bfe6122c6775645eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.operators.crossover.CrossoverEAMixer.setCrossovers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_property_crossover_mixer.html">PropertyCrossoverMixer</a>&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Choose the set of crossers. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">d</td><td>The crossover operators. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                                                        {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        this.m_Crossers = d;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a82b4c65eef3d0e32c20be218943815ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.operators.crossover.CrossoverEAMixer.setLowerLimitChance </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set the lower limit for the mutation step size with this method. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">d</td><td>The mutation operator. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                                              {</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordflow">if</span> (d &lt; 0) d = 0;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        this.m_LowerLimitChance = d;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a29ba63fe91a6e7cfb4a1026564dc4826"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.operators.crossover.CrossoverEAMixer.setTau1 </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set the value for tau1 with this method. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">d</td><td>The mutation operator. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                                  {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <span class="keywordflow">if</span> (d &lt; 0) d = 0;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        this.m_Tau1 = d;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab03dbf88ae952d2487bf8935ed185018"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.operators.crossover.CrossoverEAMixer.setUseSelfAdaption </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set the lower limit for the mutation step size with this method. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">d</td><td>The mutation operator. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                                              {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        this.m_UseSelfAdaption = d;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1e165c4d3e171ba8d8d869d42668602d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.operators.crossover.CrossoverEAMixer.tau1TipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                                {</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Set the value for tau1.&quot;</span>;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a925fcb3fdb7ff046a3dc14270b881c49"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.operators.crossover.CrossoverEAMixer.useSelfAdaptionTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                                           {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Use my implementation of self-adaption for the mutation mixer.&quot;</span>;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="aeed40e077e738c4fe0818c8011785cad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String eva2.server.go.operators.crossover.CrossoverEAMixer.CROSSOVER_EA_MIXER_OPERATOR_KEY = &quot;CrossoverEAMixerOperatorKey&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0991439fd65573c9047dec4bc4fc3baf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.operators.crossover.CrossoverEAMixer.lastOperatorIndex = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a631483c4002f351aec83b36d7fd95b4f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1operators_1_1crossover_1_1_property_crossover_mixer.html">PropertyCrossoverMixer</a> eva2.server.go.operators.crossover.CrossoverEAMixer.m_Crossers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a24076b65472f042413ce7cf565f3ff15"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.operators.crossover.CrossoverEAMixer.m_LowerLimitChance = 0.05</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad4c95948ac683b8a30d41eee0089a93a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.operators.crossover.CrossoverEAMixer.m_Tau1 = 0.15</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab57d0504a3bd62a2038913bf2283ce83"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.operators.crossover.CrossoverEAMixer.m_UseSelfAdaption = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/eva2/server/go/operators/crossover/<a class="el" href="_crossover_e_a_mixer_8java.html">CrossoverEAMixer.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 24 de Noviembre de 2013 20:07:18 para EvaProyectDoc por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

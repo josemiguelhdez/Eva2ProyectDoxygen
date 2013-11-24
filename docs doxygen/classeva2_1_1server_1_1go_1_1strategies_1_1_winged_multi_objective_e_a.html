@@ -1,0 +1,950 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>EvaProyectDoc: Referencia de la Clase eva2.server.go.strategies.WingedMultiObjectiveEA</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">EvaProyectDoc
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceeva2.html">eva2</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server.html">server</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go.html">go</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go_1_1strategies.html">strategies</a></li><li class="navelem"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html">WingedMultiObjectiveEA</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase eva2.server.go.strategies.WingedMultiObjectiveEA</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">eva2.server.go.strategies.InterfaceOptimizer</a> y Serializable.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a3145d503256ccc83793010aef581ae55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a3145d503256ccc83793010aef581ae55">WingedMultiObjectiveEA</a> ()</td></tr>
+<tr class="separator:a3145d503256ccc83793010aef581ae55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7a00364c0b38dd90d4d82f337c93e0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#ae7a00364c0b38dd90d4d82f337c93e0a">WingedMultiObjectiveEA</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html">WingedMultiObjectiveEA</a> a)</td></tr>
+<tr class="separator:ae7a00364c0b38dd90d4d82f337c93e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f2749728df17f29719af0fe75b98cec"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a0f2749728df17f29719af0fe75b98cec">clone</a> ()</td></tr>
+<tr class="separator:a0f2749728df17f29719af0fe75b98cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a563e8cae8a17fb12f73f4fcd08bc507c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a563e8cae8a17fb12f73f4fcd08bc507c">init</a> ()</td></tr>
+<tr class="separator:a563e8cae8a17fb12f73f4fcd08bc507c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28e2209912ce0c5d9a0fcac2a62ce016"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a28e2209912ce0c5d9a0fcac2a62ce016">initByPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop, boolean reset)</td></tr>
+<tr class="separator:a28e2209912ce0c5d9a0fcac2a62ce016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a324cf3151ed5dd762ba1a6cf192b21eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a324cf3151ed5dd762ba1a6cf192b21eb">optimize</a> ()</td></tr>
+<tr class="separator:a324cf3151ed5dd762ba1a6cf192b21eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97aeedd3647a4d96533a0a69bf51cd60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a97aeedd3647a4d96533a0a69bf51cd60">addPopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:a97aeedd3647a4d96533a0a69bf51cd60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac25c27adeb797deb3c5a9e958962ee77"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#ac25c27adeb797deb3c5a9e958962ee77">removePopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:ac25c27adeb797deb3c5a9e958962ee77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60a14f8aa52b3c8ebe9aa722ed6fcd8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a60a14f8aa52b3c8ebe9aa722ed6fcd8d">SetProblem</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> problem)</td></tr>
+<tr class="separator:a60a14f8aa52b3c8ebe9aa722ed6fcd8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6993dc1d2a004f5973eafc4a534cf57"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#ab6993dc1d2a004f5973eafc4a534cf57">getProblem</a> ()</td></tr>
+<tr class="separator:ab6993dc1d2a004f5973eafc4a534cf57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e3defe0592b5c733f75d4afd937dee2"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a5e3defe0592b5c733f75d4afd937dee2">getStringRepresentation</a> ()</td></tr>
+<tr class="separator:a5e3defe0592b5c733f75d4afd937dee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a038ed380627c58c951323599a4ff3f3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a038ed380627c58c951323599a4ff3f3e">SetIdentifier</a> (String name)</td></tr>
+<tr class="separator:a038ed380627c58c951323599a4ff3f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac01f4f99ec6f8c48dd659702bd45148c"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#ac01f4f99ec6f8c48dd659702bd45148c">getIdentifier</a> ()</td></tr>
+<tr class="separator:ac01f4f99ec6f8c48dd659702bd45148c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3240ccca6feb6c858b10cdb3c4d7070b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a3240ccca6feb6c858b10cdb3c4d7070b">freeWilly</a> ()</td></tr>
+<tr class="separator:a3240ccca6feb6c858b10cdb3c4d7070b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30cb968c7fba6e2a0c093cdf725e771b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a30cb968c7fba6e2a0c093cdf725e771b">getName</a> ()</td></tr>
+<tr class="separator:a30cb968c7fba6e2a0c093cdf725e771b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e728ba464b2a3aeacb8ec02daff32eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a1e728ba464b2a3aeacb8ec02daff32eb">getPopulation</a> ()</td></tr>
+<tr class="separator:a1e728ba464b2a3aeacb8ec02daff32eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61710df290df1f0402d6830ec81b5932"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a61710df290df1f0402d6830ec81b5932">setPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop)</td></tr>
+<tr class="separator:a61710df290df1f0402d6830ec81b5932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad31f7b6f7a21137ba04ae0b50e782ef4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#ad31f7b6f7a21137ba04ae0b50e782ef4">populationTipText</a> ()</td></tr>
+<tr class="separator:ad31f7b6f7a21137ba04ae0b50e782ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21ee484f59f248cb830e95dc2f37c524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a21ee484f59f248cb830e95dc2f37c524">getAllSolutions</a> ()</td></tr>
+<tr class="separator:a21ee484f59f248cb830e95dc2f37c524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf72fb7b9835a734d2d8f067a977d5ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">InterfaceOptimizer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#aaf72fb7b9835a734d2d8f067a977d5ca">getMOOptimizer</a> ()</td></tr>
+<tr class="separator:aaf72fb7b9835a734d2d8f067a977d5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f403acf45d164dd21f150e65517a42d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a3f403acf45d164dd21f150e65517a42d">setMOOptimizer</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">InterfaceOptimizer</a> b)</td></tr>
+<tr class="separator:a3f403acf45d164dd21f150e65517a42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1892a05c59ae75f8ad132c44ac77fde"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#ad1892a05c59ae75f8ad132c44ac77fde">mOOptimizerTipText</a> ()</td></tr>
+<tr class="separator:ad1892a05c59ae75f8ad132c44ac77fde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27275f491c41484f0eb051ebe4290a84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">InterfaceOptimizer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a27275f491c41484f0eb051ebe4290a84">getSOOptimizer</a> ()</td></tr>
+<tr class="separator:a27275f491c41484f0eb051ebe4290a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa202bd60da1233a3bda89e3ab1f11399"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#aa202bd60da1233a3bda89e3ab1f11399">setSOOptimizer</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">InterfaceOptimizer</a> b)</td></tr>
+<tr class="separator:aa202bd60da1233a3bda89e3ab1f11399"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a179228bd0e39f58d208a4b5e4b6b0abf"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a179228bd0e39f58d208a4b5e4b6b0abf">sOOptimizerTipText</a> ()</td></tr>
+<tr class="separator:a179228bd0e39f58d208a4b5e4b6b0abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a371fb99e8f0275d499e028a096d81570"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a371fb99e8f0275d499e028a096d81570">getMigrationRate</a> ()</td></tr>
+<tr class="separator:a371fb99e8f0275d499e028a096d81570"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc1876183c3c39f7655ecbc0ede295f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#afc1876183c3c39f7655ecbc0ede295f2">setMigrationRate</a> (int b)</td></tr>
+<tr class="separator:afc1876183c3c39f7655ecbc0ede295f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fb7a2b373a13e4d08a46d57499bfe48"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a0fb7a2b373a13e4d08a46d57499bfe48">migrationRateTipText</a> ()</td></tr>
+<tr class="separator:a0fb7a2b373a13e4d08a46d57499bfe48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a368b457bb7bfca23a40c79a7f9dd0981"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a368b457bb7bfca23a40c79a7f9dd0981">globalInfo</a> ()</td></tr>
+<tr class="separator:a368b457bb7bfca23a40c79a7f9dd0981"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a191ebea6386825b310312ae057a3179a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a191ebea6386825b310312ae057a3179a">firePropertyChangedEvent</a> (String name)</td></tr>
+<tr class="separator:a191ebea6386825b310312ae057a3179a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>The winged MOEA was a nice idea, which didn't really work out. Here a standard MOEA is assisted by n additional local searchers, each optimizing just one objective. The idea was that these local optimizers would span the search space and would allow the MOEA to converge faster. But in the end the performance of this algorithm strongly depends on the optimization problem. Created by IntelliJ IDEA. User: streiche Date: 16.02.2005 Time: 16:34:22 To change this template use File | Settings | File Templates. </p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a3145d503256ccc83793010aef581ae55"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.WingedMultiObjectiveEA.WingedMultiObjectiveEA </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                    {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae7a00364c0b38dd90d4d82f337c93e0a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.WingedMultiObjectiveEA.WingedMultiObjectiveEA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html">WingedMultiObjectiveEA</a>&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                                                            {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        this.m_Problem                      = (InterfaceOptimizationProblem)a.m_Problem.clone();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        this.m_MOOptimizer                  = (InterfaceOptimizer)a.m_MOOptimizer.clone();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        this.m_SOOptimizer                  = (InterfaceOptimizer)a.m_SOOptimizer.clone();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">if</span> (a.m_SOOptimizers != null) {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            this.m_SOOptimizers = <span class="keyword">new</span> InterfaceOptimizer[a.m_SOOptimizers.length];</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.m_SOOptimizers.length; i++) {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                this.m_SOOptimizers[i]      = (InterfaceOptimizer)a.m_SOOptimizers[i].clone();</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        this.m_MigrationRate                = a.m_MigrationRate;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        this.m_Population                   = (Population)a.m_Population.clone();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a97aeedd3647a4d96533a0a69bf51cd60"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.WingedMultiObjectiveEA.addPopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to add the LectureGUI as listener to the Optimizer </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#ab4f4dad7ab7ce4428c8c3a7afb8c6f3e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                                                                                              {</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        this.m_Listener = ea;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0f2749728df17f29719af0fe75b98cec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object eva2.server.go.strategies.WingedMultiObjectiveEA.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return deep clone of the optimizer </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The clone </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3782515f3e073d9a970f1605836a38e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                          {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">return</span> (Object) <span class="keyword">new</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a3145d503256ccc83793010aef581ae55">WingedMultiObjectiveEA</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a_html_a3145d503256ccc83793010aef581ae55"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a3145d503256ccc83793010aef581ae55">eva2.server.go.strategies.WingedMultiObjectiveEA.WingedMultiObjectiveEA</a></div><div class="ttdeci">WingedMultiObjectiveEA()</div><div class="ttdef"><b>Definition:</b> WingedMultiObjectiveEA.java:44</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a191ebea6386825b310312ae057a3179a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.WingedMultiObjectiveEA.firePropertyChangedEvent </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Something has changed </p>
+<div class="fragment"><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                                                          {</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">if</span> (this.m_Listener != null) this.m_Listener.registerPopulationStateChanged(<span class="keyword">this</span>, name);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3240ccca6feb6c858b10cdb3c4d7070b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.WingedMultiObjectiveEA.freeWilly </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method is required to free the memory on a RMIServer, but there is nothing to implement. </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3f5bc95f7781986c42165950d34131c">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                            {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a21ee484f59f248cb830e95dc2f37c524"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a> eva2.server.go.strategies.WingedMultiObjectiveEA.getAllSolutions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return all found solutions (local optima) if they are not contained in the current population. Be sure to set the Population properties, especially function calls and generation, with respect to the ongoing optimization. May return the the same set as getPopulation if the optimizer makes no distinction, i.e. does not collect solutions outside the current population.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>A solution set of the current population and possibly earlier solutions. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a613ed8378f2956c125ed149328eb07f9">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                                                  {</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> SolutionSet(<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a1e728ba464b2a3aeacb8ec02daff32eb">getPopulation</a>());</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a_html_a1e728ba464b2a3aeacb8ec02daff32eb"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_winged_multi_objective_e_a.html#a1e728ba464b2a3aeacb8ec02daff32eb">eva2.server.go.strategies.WingedMultiObjectiveEA.getPopulation</a></div><div class="ttdeci">Population getPopulation()</div><div class="ttdef"><b>Definition:</b> WingedMultiObjectiveEA.java:288</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac01f4f99ec6f8c48dd659702bd45148c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.WingedMultiObjectiveEA.getIdentifier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a3f8f01e01e017474b76de8f473c01ec7">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                                   {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;         <span class="keywordflow">return</span> this.m_Identifier;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;     }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a371fb99e8f0275d499e028a096d81570"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.strategies.WingedMultiObjectiveEA.getMigrationRate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to set/get the archiving strategy to use. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The current optimizing method </dd></dl>
+<div class="fragment"><div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                                  {</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        <span class="keywordflow">return</span> this.m_MigrationRate;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aaf72fb7b9835a734d2d8f067a977d5ca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">InterfaceOptimizer</a> eva2.server.go.strategies.WingedMultiObjectiveEA.getMOOptimizer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to set/get the optimizing technique to use. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The current optimizing method </dd></dl>
+<div class="fragment"><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                                               {</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        <span class="keywordflow">return</span> this.m_MOOptimizer;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a30cb968c7fba6e2a0c093cdf725e771b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.WingedMultiObjectiveEA.getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a naming String </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The name of the algorithm </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9c881980799f6de9a04cce7564ad16aa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                            {</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;EMO-LS&quot;</span>;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1e728ba464b2a3aeacb8ec02daff32eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> eva2.server.go.strategies.WingedMultiObjectiveEA.getPopulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assuming that all optimizer will store their data in a population we will allow access to this population to query to current state of the optimizer. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The population of current solutions to a given problem. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9169e43517e8db7841cd453c4660872f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                                      {</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <span class="keywordflow">return</span> this.m_Population;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab6993dc1d2a004f5973eafc4a534cf57"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> eva2.server.go.strategies.WingedMultiObjectiveEA.getProblem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9402221cc9321347a9d1d0a894be937b">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                                                      {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="keywordflow">return</span> this.m_Problem;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a27275f491c41484f0eb051ebe4290a84"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">InterfaceOptimizer</a> eva2.server.go.strategies.WingedMultiObjectiveEA.getSOOptimizer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to set/get the optimizing technique to use. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The current optimizing method </dd></dl>
+<div class="fragment"><div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                                               {</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        <span class="keywordflow">return</span> this.m_SOOptimizer;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5e3defe0592b5c733f75d4afd937dee2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.WingedMultiObjectiveEA.getStringRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a string describing all properties of the optimizer and the applied methods. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A descriptive string </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4cdfe0bff8295d1471effe39f8e2cdb0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                                            {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        String result = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        result += <span class="stringliteral">&quot;EMO:\n&quot;</span>;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        result += <span class="stringliteral">&quot;Optimization Problem: &quot;</span>;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        result += this.m_Problem.getStringRepresentationForProblem(<span class="keyword">this</span>) +<span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        result += this.m_Population.getStringRepresentation();</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a368b457bb7bfca23a40c79a7f9dd0981"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String eva2.server.go.strategies.WingedMultiObjectiveEA.globalInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method returns a global info string </p>
+<dl class="section return"><dt>Devuelve</dt><dd>description </dd></dl>
+<div class="fragment"><div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                                      {</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;This is Evolutionary Multi-Criteria Optimization Algorithm hybridized with Local Searchers to span the Pareto-Front.&quot;</span>;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a563e8cae8a17fb12f73f4fcd08bc507c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.WingedMultiObjectiveEA.init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4efaea1c10726e848f4c56a9c6d9103f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                       {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">if</span> (this.m_Problem instanceof AbstractMultiObjectiveOptimizationProblem) {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            AbstractMultiObjectiveOptimizationProblem   tmpProb = (AbstractMultiObjectiveOptimizationProblem)this.m_Problem;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            AbstractMultiObjectiveOptimizationProblem   tmpP;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            MOSOWeightedFitness                         tmpWF;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            PropertyDoubleArray                         tmpDA;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <span class="keywordtype">int</span>         dim = this.m_OutputDimension;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keywordtype">double</span>[]    weights;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="comment">// dim = tmpProb.getOutputDimension();</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            this.m_MOOptimizer.SetProblem((InterfaceOptimizationProblem)this.m_Problem.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html#aad0c8b5df45ef27fd067a58ec3ee7f11">clone</a>());</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            this.m_MOOptimizer.init();</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            this.m_SOOptimizers = <span class="keyword">new</span> InterfaceOptimizer[dim];</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim; i++) {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                tmpP = (AbstractMultiObjectiveOptimizationProblem)this.m_Problem.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html#aad0c8b5df45ef27fd067a58ec3ee7f11">clone</a>();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                weights = <span class="keyword">new</span> <span class="keywordtype">double</span>[dim];</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; dim; j++) weights[j] = 0;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                weights[i] = 1;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                tmpDA = <span class="keyword">new</span> PropertyDoubleArray(weights);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                tmpWF = <span class="keyword">new</span> MOSOWeightedFitness();</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                tmpWF.setWeights(tmpDA);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                tmpP.setMOSOConverter(tmpWF);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                this.m_SOOptimizers[i] = (InterfaceOptimizer)this.m_SOOptimizer.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3782515f3e073d9a970f1605836a38e">clone</a>();</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                this.m_SOOptimizers[i].SetProblem(tmpP);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                this.m_SOOptimizers[i].init();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            this.m_SOOptimizer.SetProblem(this.m_Problem);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            this.m_SOOptimizer.init();</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        this.communicate();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+<div class="ttc" id="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer_html_aa3782515f3e073d9a970f1605836a38e"><div class="ttname"><a href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3782515f3e073d9a970f1605836a38e">eva2.server.go.strategies.InterfaceOptimizer.clone</a></div><div class="ttdeci">Object clone()</div></div>
+<div class="ttc" id="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem_html_aad0c8b5df45ef27fd067a58ec3ee7f11"><div class="ttname"><a href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html#aad0c8b5df45ef27fd067a58ec3ee7f11">eva2.server.go.problems.InterfaceOptimizationProblem.clone</a></div><div class="ttdeci">Object clone()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a28e2209912ce0c5d9a0fcac2a62ce016"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.WingedMultiObjectiveEA.initByPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>reset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer with a given population </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pop</td><td>The initial population </td></tr>
+    <tr><td class="paramname">reset</td><td>If true the population is reset. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2b9dd760178a114b8caf8c83fc202c5f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                                                {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">if</span> (this.m_Problem instanceof AbstractMultiObjectiveOptimizationProblem) {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            AbstractMultiObjectiveOptimizationProblem   tmpProb = (AbstractMultiObjectiveOptimizationProblem)this.m_Problem;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            AbstractMultiObjectiveOptimizationProblem   tmpP;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            MOSOWeightedFitness                         tmpWF;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            PropertyDoubleArray                         tmpDA;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="keywordtype">int</span>         dim = 2;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="keywordtype">double</span>[]    weights;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            <span class="comment">// dim = tmpProb.getOutputDimension();</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            this.m_MOOptimizer.SetProblem((InterfaceOptimizationProblem)this.m_Problem.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html#aad0c8b5df45ef27fd067a58ec3ee7f11">clone</a>());</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            this.m_MOOptimizer.initByPopulation(pop, reset);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            this.m_SOOptimizers = <span class="keyword">new</span> InterfaceOptimizer[dim];</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; dim; i++) {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                tmpP = (AbstractMultiObjectiveOptimizationProblem)this.m_Problem.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html#aad0c8b5df45ef27fd067a58ec3ee7f11">clone</a>();</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                weights = <span class="keyword">new</span> <span class="keywordtype">double</span>[dim];</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; dim; j++) weights[j] = 0;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                weights[i] = 1;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                tmpDA = <span class="keyword">new</span> PropertyDoubleArray(weights);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                tmpWF = <span class="keyword">new</span> MOSOWeightedFitness();</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                tmpWF.setWeights(tmpDA);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                tmpP.setMOSOConverter(tmpWF);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                this.m_SOOptimizers[i] = (InterfaceOptimizer)this.m_SOOptimizer.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3782515f3e073d9a970f1605836a38e">clone</a>();</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                this.m_SOOptimizers[i].SetProblem(tmpP);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                this.m_SOOptimizers[i].initByPopulation(pop, reset);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            this.m_SOOptimizer.SetProblem(this.m_Problem);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            this.m_SOOptimizer.initByPopulation(pop, reset);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        this.communicate();</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+<div class="ttc" id="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer_html_aa3782515f3e073d9a970f1605836a38e"><div class="ttname"><a href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3782515f3e073d9a970f1605836a38e">eva2.server.go.strategies.InterfaceOptimizer.clone</a></div><div class="ttdeci">Object clone()</div></div>
+<div class="ttc" id="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem_html_aad0c8b5df45ef27fd067a58ec3ee7f11"><div class="ttname"><a href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html#aad0c8b5df45ef27fd067a58ec3ee7f11">eva2.server.go.problems.InterfaceOptimizationProblem.clone</a></div><div class="ttdeci">Object clone()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0fb7a2b373a13e4d08a46d57499bfe48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.WingedMultiObjectiveEA.migrationRateTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                                         {</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Choose a proper migration rate.&quot;</span>;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad1892a05c59ae75f8ad132c44ac77fde"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.WingedMultiObjectiveEA.mOOptimizerTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                                       {</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Choose a population based optimizing technique to use.&quot;</span>;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a324cf3151ed5dd762ba1a6cf192b21eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.WingedMultiObjectiveEA.optimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The optimize method will compute a 'improved' and evaluated population </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a228d8e9883a253c5bbaf29e413e01704">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                           {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        this.m_MOOptimizer.optimize();</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.m_SOOptimizers.length; i++) {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            this.m_SOOptimizers[i].optimize();</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        }</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        this.m_Population.incrGeneration();</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keywordflow">if</span> ((this.m_Population.<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a8d27ce4bb3ed8e472afb98f327f28aab">getGeneration</a>() % this.m_MigrationRate) == 0) {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            this.communicate();</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        }</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        System.gc();</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a8d27ce4bb3ed8e472afb98f327f28aab"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a8d27ce4bb3ed8e472afb98f327f28aab">eva2.server.go.populations.Population.getGeneration</a></div><div class="ttdeci">int getGeneration()</div><div class="ttdef"><b>Definition:</b> Population.java:612</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad31f7b6f7a21137ba04ae0b50e782ef4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.WingedMultiObjectiveEA.populationTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                                      {</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;(Defunct)&quot;</span>;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac25c27adeb797deb3c5a9e958962ee77"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.WingedMultiObjectiveEA.removePopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method removes a listener from the Optimizer. It returns true on success, false if the listener could not be found. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a6e732c957bbe8b9dd04657fadcb128fa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                                                        {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <span class="keywordflow">if</span> (m_Listener==ea) {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            m_Listener=null;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a038ed380627c58c951323599a4ff3f3e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.WingedMultiObjectiveEA.SetIdentifier </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to set an identifier for the algorithm </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The indenifier </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4af2f49eef2cf833b15e88b25e382efd">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                                            {</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        this.m_Identifier = name;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afc1876183c3c39f7655ecbc0ede295f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.WingedMultiObjectiveEA.setMigrationRate </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                                       {</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        this.m_MigrationRate = b;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3f403acf45d164dd21f150e65517a42d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.WingedMultiObjectiveEA.setMOOptimizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">InterfaceOptimizer</a>&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                                    {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        this.m_MOOptimizer = b;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a61710df290df1f0402d6830ec81b5932"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.WingedMultiObjectiveEA.setPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9a19bcf589f1375450e7c9588acee982">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                                             {</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        this.m_Population = pop;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a60a14f8aa52b3c8ebe9aa722ed6fcd8d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.WingedMultiObjectiveEA.SetProblem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>problem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will set the problem that is to be optimized </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problem</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2bf9e7ad9b3682cdb51fe65284d98af0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        this.m_Problem = problem;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa202bd60da1233a3bda89e3ab1f11399"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.WingedMultiObjectiveEA.setSOOptimizer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">InterfaceOptimizer</a>&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                                                    {</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        this.m_SOOptimizer = b;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a179228bd0e39f58d208a4b5e4b6b0abf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.WingedMultiObjectiveEA.sOOptimizerTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                                       {</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Choose a population based optimizing technique to use.&quot;</span>;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/eva2/server/go/strategies/<a class="el" href="_winged_multi_objective_e_a_8java.html">WingedMultiObjectiveEA.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 24 de Noviembre de 2013 20:07:30 para EvaProyectDoc por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

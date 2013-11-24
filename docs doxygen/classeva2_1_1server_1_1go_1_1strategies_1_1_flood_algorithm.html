@@ -1,0 +1,973 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>EvaProyectDoc: Referencia de la Clase eva2.server.go.strategies.FloodAlgorithm</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">EvaProyectDoc
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceeva2.html">eva2</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server.html">server</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go.html">go</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go_1_1strategies.html">strategies</a></li><li class="navelem"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html">FloodAlgorithm</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase eva2.server.go.strategies.FloodAlgorithm</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">eva2.server.go.strategies.InterfaceOptimizer</a> y Serializable.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a2e612f8314f33949010d3b20415e1936"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a2e612f8314f33949010d3b20415e1936">FloodAlgorithm</a> ()</td></tr>
+<tr class="separator:a2e612f8314f33949010d3b20415e1936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3a457cec15a7ae93da9cac902a5f143"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#ac3a457cec15a7ae93da9cac902a5f143">FloodAlgorithm</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html">FloodAlgorithm</a> a)</td></tr>
+<tr class="separator:ac3a457cec15a7ae93da9cac902a5f143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ae11b18161520be88ea6ca4e5a00d91"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a7ae11b18161520be88ea6ca4e5a00d91">clone</a> ()</td></tr>
+<tr class="separator:a7ae11b18161520be88ea6ca4e5a00d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e1c9101ed7ce053c1260822d96c3347"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a7e1c9101ed7ce053c1260822d96c3347">init</a> ()</td></tr>
+<tr class="separator:a7e1c9101ed7ce053c1260822d96c3347"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fec3e66995cf63a9f71d06837e410fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a4fec3e66995cf63a9f71d06837e410fc">initByPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop, boolean reset)</td></tr>
+<tr class="separator:a4fec3e66995cf63a9f71d06837e410fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f5fc8487ea4a42a90cd83e484cbb00f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a9f5fc8487ea4a42a90cd83e484cbb00f">optimize</a> ()</td></tr>
+<tr class="separator:a9f5fc8487ea4a42a90cd83e484cbb00f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa65323766bf5dd02345c7de5cc5f8227"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#aa65323766bf5dd02345c7de5cc5f8227">SetProblem</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> problem)</td></tr>
+<tr class="separator:aa65323766bf5dd02345c7de5cc5f8227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a683e083c3101f064da26142ce99bd56b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a683e083c3101f064da26142ce99bd56b">getProblem</a> ()</td></tr>
+<tr class="separator:a683e083c3101f064da26142ce99bd56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d8ce7ca907a459c99cc15b000ae52b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a4d8ce7ca907a459c99cc15b000ae52b6">defaultInit</a> ()</td></tr>
+<tr class="separator:a4d8ce7ca907a459c99cc15b000ae52b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff43d3f9000a2e27187a09f590337738"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#aff43d3f9000a2e27187a09f590337738">defaultOptimize</a> ()</td></tr>
+<tr class="separator:aff43d3f9000a2e27187a09f590337738"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a996f005a2dd176ee1a09459d601c66c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a996f005a2dd176ee1a09459d601c66c6">addPopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:a996f005a2dd176ee1a09459d601c66c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e7c9a8b4fae23344f57f162020b0d39"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a8e7c9a8b4fae23344f57f162020b0d39">removePopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:a8e7c9a8b4fae23344f57f162020b0d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a173b0ebf8da3bbb23008689a190aa169"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a173b0ebf8da3bbb23008689a190aa169">getStringRepresentation</a> ()</td></tr>
+<tr class="separator:a173b0ebf8da3bbb23008689a190aa169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41e8391a55fe8d9b9de58fb4e6701a75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a41e8391a55fe8d9b9de58fb4e6701a75">SetIdentifier</a> (String name)</td></tr>
+<tr class="separator:a41e8391a55fe8d9b9de58fb4e6701a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a212f069c92f46b14c3ef3e52a49e9158"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a212f069c92f46b14c3ef3e52a49e9158">getIdentifier</a> ()</td></tr>
+<tr class="separator:a212f069c92f46b14c3ef3e52a49e9158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4464ab26652967a8e19c594b15dc1f09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a4464ab26652967a8e19c594b15dc1f09">freeWilly</a> ()</td></tr>
+<tr class="separator:a4464ab26652967a8e19c594b15dc1f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19ac31d471c59de3acb92bed53ad467b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a19ac31d471c59de3acb92bed53ad467b">getName</a> ()</td></tr>
+<tr class="separator:a19ac31d471c59de3acb92bed53ad467b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c8873c54ef1463b2e077f39a53f1690"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a0c8873c54ef1463b2e077f39a53f1690">getPopulation</a> ()</td></tr>
+<tr class="separator:a0c8873c54ef1463b2e077f39a53f1690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac78f6e25cc86472f31d284d7dd0b0477"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#ac78f6e25cc86472f31d284d7dd0b0477">setPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop)</td></tr>
+<tr class="separator:ac78f6e25cc86472f31d284d7dd0b0477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9d7b31372a33d518c75738f09d95ac8"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#ac9d7b31372a33d518c75738f09d95ac8">populationTipText</a> ()</td></tr>
+<tr class="separator:ac9d7b31372a33d518c75738f09d95ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5392e752dda9de478e66fd9ab2467cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#af5392e752dda9de478e66fd9ab2467cd">getAllSolutions</a> ()</td></tr>
+<tr class="separator:af5392e752dda9de478e66fd9ab2467cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74f70d60943d1c1be1b5be0637abc647"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a74f70d60943d1c1be1b5be0637abc647">getInitialFloodPeak</a> ()</td></tr>
+<tr class="separator:a74f70d60943d1c1be1b5be0637abc647"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5074c05032ce58dd93ecb1a4202163e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a5074c05032ce58dd93ecb1a4202163e7">setInitialFloodPeak</a> (double pop)</td></tr>
+<tr class="separator:a5074c05032ce58dd93ecb1a4202163e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae1c8167a52adc43429e4b00f83b1361"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#aae1c8167a52adc43429e4b00f83b1361">initialFloodPeakTipText</a> ()</td></tr>
+<tr class="separator:aae1c8167a52adc43429e4b00f83b1361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a746a3ea5ca5f195dbe07bfdeb7ab41be"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a746a3ea5ca5f195dbe07bfdeb7ab41be">getDrainRate</a> ()</td></tr>
+<tr class="separator:a746a3ea5ca5f195dbe07bfdeb7ab41be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77bf70f27a53a11e3455f2e0e6877d04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a77bf70f27a53a11e3455f2e0e6877d04">setDrainRate</a> (double a)</td></tr>
+<tr class="separator:a77bf70f27a53a11e3455f2e0e6877d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae50860d901cb81962e8c4a14ce2c615e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#ae50860d901cb81962e8c4a14ce2c615e">drainRateTipText</a> ()</td></tr>
+<tr class="separator:ae50860d901cb81962e8c4a14ce2c615e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a8ab6990ad83c3ef3a8fa6cac6414dede"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a8ab6990ad83c3ef3a8fa6cac6414dede">main</a> (String[] args)</td></tr>
+<tr class="separator:a8ab6990ad83c3ef3a8fa6cac6414dede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2da0cfc0c46de3804ed6df0bcaee5844"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a2da0cfc0c46de3804ed6df0bcaee5844">globalInfo</a> ()</td></tr>
+<tr class="separator:a2da0cfc0c46de3804ed6df0bcaee5844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:ad81eda9b33d0d35bdb35d4436a55fcfb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#ad81eda9b33d0d35bdb35d4436a55fcfb">m_InitialFloodPeak</a> = 2000.0</td></tr>
+<tr class="separator:ad81eda9b33d0d35bdb35d4436a55fcfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae43bd64f19fda86d0cc1cdd0b4e059f6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#ae43bd64f19fda86d0cc1cdd0b4e059f6">m_DrainRate</a> = 1.0</td></tr>
+<tr class="separator:ae43bd64f19fda86d0cc1cdd0b4e059f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a906ecf82906e4378e789135d8e284045"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a906ecf82906e4378e789135d8e284045">firePropertyChangedEvent</a> (String name)</td></tr>
+<tr class="separator:a906ecf82906e4378e789135d8e284045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>The flood algorithm, and alternative to the threshold algorithms. No really good but commonly known and sometimes even used. Here the problem is to choose the initial flood peak and the drain rate such that it fits the current optimization problem. But again this is a greedy local search strategy. Similar to the evolutionary programming strategy this strategy sets the mutation rate temporarily to 1.0. The algorithm regards only one-dimensional fitness. Created by IntelliJ IDEA. User: streiche Date: 01.10.2004 Time: 13:46:02 To change this template use File | Settings | File Templates. </p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a2e612f8314f33949010d3b20415e1936"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.FloodAlgorithm.FloodAlgorithm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                            {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        this.m_Population = <span class="keyword">new</span> Population();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        this.m_Population.setTargetSize(10);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac3a457cec15a7ae93da9cac902a5f143"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.FloodAlgorithm.FloodAlgorithm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html">FloodAlgorithm</a>&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                            {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        this.m_Population                   = (Population)a.m_Population.clone();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        this.m_Problem                      = (InterfaceOptimizationProblem)a.m_Problem.clone();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        this.m_InitialFloodPeak             = a.m_InitialFloodPeak;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        this.m_DrainRate                    = a.m_DrainRate;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a996f005a2dd176ee1a09459d601c66c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.FloodAlgorithm.addPopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to add the LectureGUI as listener to the Optimizer </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#ab4f4dad7ab7ce4428c8c3a7afb8c6f3e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                                                                                              {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        this.m_Listener = ea;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7ae11b18161520be88ea6ca4e5a00d91"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object eva2.server.go.strategies.FloodAlgorithm.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return deep clone of the optimizer </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The clone </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3782515f3e073d9a970f1605836a38e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                          {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> (Object) <span class="keyword">new</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a2e612f8314f33949010d3b20415e1936">FloodAlgorithm</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm_html_a2e612f8314f33949010d3b20415e1936"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a2e612f8314f33949010d3b20415e1936">eva2.server.go.strategies.FloodAlgorithm.FloodAlgorithm</a></div><div class="ttdeci">FloodAlgorithm()</div><div class="ttdef"><b>Definition:</b> FloodAlgorithm.java:40</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4d8ce7ca907a459c99cc15b000ae52b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.FloodAlgorithm.defaultInit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the HillClimber </p>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                              {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        this.m_FitnessCallsNeeded = 0;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        this.m_Best = <span class="keyword">new</span> GAIndividualBinaryData();</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        this.m_Best.defaultInit(m_Problem);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aff43d3f9000a2e27187a09f590337738"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.FloodAlgorithm.defaultOptimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will optimize </p>
+<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                                  {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_FitnessCalls; i++) {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            this.m_Test = (GAIndividualBinaryData)((this.m_Best).clone());</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            this.m_Test.defaultMutate();</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <span class="keywordflow">if</span> (this.m_Test.<a class="code" href="classeva2_1_1server_1_1go_1_1individuals_1_1_g_a_individual_binary_data.html#a5a66ec7e5d4d78036d8ccafc4b0a9559">defaultEvaulateAsMiniBits</a>() &lt; this.m_Best.defaultEvaulateAsMiniBits()) this.m_Best = this.m_Test;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            this.m_FitnessCallsNeeded = i;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            <span class="keywordflow">if</span> (this.m_Best.<a class="code" href="classeva2_1_1server_1_1go_1_1individuals_1_1_g_a_individual_binary_data.html#a5a66ec7e5d4d78036d8ccafc4b0a9559">defaultEvaulateAsMiniBits</a>() == 0) i = this.m_FitnessCalls +1;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        }</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1individuals_1_1_g_a_individual_binary_data_html_a5a66ec7e5d4d78036d8ccafc4b0a9559"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1individuals_1_1_g_a_individual_binary_data.html#a5a66ec7e5d4d78036d8ccafc4b0a9559">eva2.server.go.individuals.GAIndividualBinaryData.defaultEvaulateAsMiniBits</a></div><div class="ttdeci">double defaultEvaulateAsMiniBits()</div><div class="ttdef"><b>Definition:</b> GAIndividualBinaryData.java:88</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae50860d901cb81962e8c4a14ce2c615e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.FloodAlgorithm.drainRateTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                                     {</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Set the drain rate that reduces the current flood level each generation.&quot;</span>;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a906ecf82906e4378e789135d8e284045"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.FloodAlgorithm.firePropertyChangedEvent </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Something has changed </p>
+<div class="fragment"><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                                                          {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">if</span> (this.m_Listener != null) this.m_Listener.registerPopulationStateChanged(<span class="keyword">this</span>, name);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4464ab26652967a8e19c594b15dc1f09"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.FloodAlgorithm.freeWilly </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method is required to free the memory on a RMIServer, but there is nothing to implement. </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3f5bc95f7781986c42165950d34131c">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                            {</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af5392e752dda9de478e66fd9ab2467cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a> eva2.server.go.strategies.FloodAlgorithm.getAllSolutions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return all found solutions (local optima) if they are not contained in the current population. Be sure to set the Population properties, especially function calls and generation, with respect to the ongoing optimization. May return the the same set as getPopulation if the optimizer makes no distinction, i.e. does not collect solutions outside the current population.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>A solution set of the current population and possibly earlier solutions. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a613ed8378f2956c125ed149328eb07f9">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                                                  {</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> SolutionSet(<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a0c8873c54ef1463b2e077f39a53f1690">getPopulation</a>());</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm_html_a0c8873c54ef1463b2e077f39a53f1690"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a0c8873c54ef1463b2e077f39a53f1690">eva2.server.go.strategies.FloodAlgorithm.getPopulation</a></div><div class="ttdeci">Population getPopulation()</div><div class="ttdef"><b>Definition:</b> FloodAlgorithm.java:237</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a746a3ea5ca5f195dbe07bfdeb7ab41be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.strategies.FloodAlgorithm.getDrainRate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This methods allow you to set/get the drain rate of the flood algorithm procedure </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The drain rate. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                                 {</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <span class="keywordflow">return</span> this.m_DrainRate;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a212f069c92f46b14c3ef3e52a49e9158"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.FloodAlgorithm.getIdentifier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a3f8f01e01e017474b76de8f473c01ec7">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                                   {</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;         <span class="keywordflow">return</span> this.m_Identifier;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;     }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a74f70d60943d1c1be1b5be0637abc647"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.strategies.FloodAlgorithm.getInitialFloodPeak </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This methods allow you to set/get the temperatur of the flood algorithm procedure </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The initial flood level. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                                        {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="keywordflow">return</span> this.m_InitialFloodPeak;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a19ac31d471c59de3acb92bed53ad467b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.FloodAlgorithm.getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a naming String </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The name of the algorithm </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9c881980799f6de9a04cce7564ad16aa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                            {</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;MS-FA&quot;</span>;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0c8873c54ef1463b2e077f39a53f1690"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> eva2.server.go.strategies.FloodAlgorithm.getPopulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assuming that all optimizer will store thier data in a population we will allow acess to this population to query to current state of the optimizer. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The population of current solutions to a given problem. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9169e43517e8db7841cd453c4660872f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                                      {</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        <span class="keywordflow">return</span> this.m_Population;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a683e083c3101f064da26142ce99bd56b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> eva2.server.go.strategies.FloodAlgorithm.getProblem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9402221cc9321347a9d1d0a894be937b">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                                                      {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">return</span> this.m_Problem;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a173b0ebf8da3bbb23008689a190aa169"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.FloodAlgorithm.getStringRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a string describing all properties of the optimizer and the applied methods. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A descriptive string </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4cdfe0bff8295d1471effe39f8e2cdb0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                                            {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        String result = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordflow">if</span> (this.m_Population.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">size</a>() &gt; 1) result += <span class="stringliteral">&quot;Multi(&quot;</span> + this.m_Population.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">size</a>() + <span class="stringliteral">&quot;)-Start Hill Climbing:\n&quot;</span>;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <span class="keywordflow">else</span> result += <span class="stringliteral">&quot;Simulated Annealing:\n&quot;</span>;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        result += <span class="stringliteral">&quot;Optimization Problem: &quot;</span>;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        result += this.m_Problem.getStringRepresentationForProblem(<span class="keyword">this</span>) +<span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        result += this.m_Population.getStringRepresentation();</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    }</div>
+<div class="ttc" id="interfaceeva2_1_1server_1_1go_1_1_population_interface_html_a59db05427cda240edea2b2ea3c2a7513"><div class="ttname"><a href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">eva2.server.go.PopulationInterface.size</a></div><div class="ttdeci">int size()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2da0cfc0c46de3804ed6df0bcaee5844"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String eva2.server.go.strategies.FloodAlgorithm.globalInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method returns a global info string </p>
+<dl class="section return"><dt>Devuelve</dt><dd>description </dd></dl>
+<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                                      {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;The flood algorithm uses an declining flood peak to accpect new solutions (*shudder* check inital flood peak and drain very carefully!).&quot;</span>;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7e1c9101ed7ce053c1260822d96c3347"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.FloodAlgorithm.init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the HillClimber </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4efaea1c10726e848f4c56a9c6d9103f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                       {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        this.m_Problem.initPopulation(this.m_Population);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        this.m_Problem.evaluate(this.m_Population);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        this.m_CurrentFloodPeak = this.m_InitialFloodPeak;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4fec3e66995cf63a9f71d06837e410fc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.FloodAlgorithm.initByPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>reset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer with a given population </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reset</td><td>If true the population is reset. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2b9dd760178a114b8caf8c83fc202c5f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                                                {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        this.m_Population = (Population)pop.clone();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">if</span> (reset) {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            this.m_Population.init();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            this.m_Problem.evaluate(this.m_Population);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        this.m_CurrentFloodPeak = this.m_InitialFloodPeak;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aae1c8167a52adc43429e4b00f83b1361"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.FloodAlgorithm.initialFloodPeakTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                                            {</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Set the initial flood peak.&quot;</span>;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8ab6990ad83c3ef3a8fa6cac6414dede"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void eva2.server.go.strategies.FloodAlgorithm.main </td>
+          <td>(</td>
+          <td class="paramtype">String[]&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This main method will start a simple hillclimber. No arguments necessary. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                                           {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a2e612f8314f33949010d3b20415e1936">FloodAlgorithm</a> program = <span class="keyword">new</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a2e612f8314f33949010d3b20415e1936">FloodAlgorithm</a>();</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordtype">int</span> TmpMeanCalls = 0, TmpMeanFitness = 0;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; program.m_MultiRuns; i++) {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            program.defaultInit();</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            program.defaultOptimize();</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            TmpMeanCalls += program.m_FitnessCallsNeeded;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            TmpMeanFitness += program.m_Best.defaultEvaulateAsMiniBits();</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        }</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        TmpMeanCalls = TmpMeanCalls/program.m_MultiRuns;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        TmpMeanFitness = TmpMeanFitness/program.m_MultiRuns;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        System.out.println(<span class="stringliteral">&quot;(&quot;</span>+program.m_MultiRuns+<span class="stringliteral">&quot;/&quot;</span>+program.m_FitnessCalls+<span class="stringliteral">&quot;) Mean Fitness : &quot;</span> + TmpMeanFitness + <span class="stringliteral">&quot; Mean Calls needed: &quot;</span> + TmpMeanCalls);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm_html_a2e612f8314f33949010d3b20415e1936"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#a2e612f8314f33949010d3b20415e1936">eva2.server.go.strategies.FloodAlgorithm.FloodAlgorithm</a></div><div class="ttdeci">FloodAlgorithm()</div><div class="ttdef"><b>Definition:</b> FloodAlgorithm.java:40</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9f5fc8487ea4a42a90cd83e484cbb00f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.FloodAlgorithm.optimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will optimize </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a228d8e9883a253c5bbaf29e413e01704">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                           {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        AbstractEAIndividual    indy;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        Population              original = (Population)this.m_Population.<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#ae018a862516a2de5217c671b7988ccd6">clone</a>();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordtype">double</span>[]                fitness;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.m_Population.size(); i++) {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            indy = ((AbstractEAIndividual) this.m_Population.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a355f956615798c93f4c875524c11a921">get</a>(i));</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordtype">double</span> tmpD = indy.getMutationProbability();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            indy.setMutationProbability(1.0);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            indy.mutate();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            indy.setMutationProbability(tmpD);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        this.m_Problem.evaluate(this.m_Population);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.m_Population.size(); i++) {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            fitness = ((AbstractEAIndividual)this.m_Population.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a355f956615798c93f4c875524c11a921">get</a>(i)).getFitness();</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">if</span> (fitness[0] &gt; this.m_CurrentFloodPeak) {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                this.m_Population.remove(i);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                this.m_Population.add(i, original.get(i));</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        this.m_CurrentFloodPeak = this.m_CurrentFloodPeak - this.m_DrainRate;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        this.m_Population.incrGeneration();</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_ae018a862516a2de5217c671b7988ccd6"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#ae018a862516a2de5217c671b7988ccd6">eva2.server.go.populations.Population.clone</a></div><div class="ttdeci">Object clone()</div><div class="ttdef"><b>Definition:</b> Population.java:251</div></div>
+<div class="ttc" id="interfaceeva2_1_1server_1_1go_1_1_population_interface_html_a355f956615798c93f4c875524c11a921"><div class="ttname"><a href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a355f956615798c93f4c875524c11a921">eva2.server.go.PopulationInterface.get</a></div><div class="ttdeci">Object get(int i)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac9d7b31372a33d518c75738f09d95ac8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.FloodAlgorithm.populationTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                                      {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Change the number of best individuals stored (MS-FA).&quot;</span>;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8e7c9a8b4fae23344f57f162020b0d39"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.FloodAlgorithm.removePopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method removes a listener from the Optimizer. It returns true on success, false if the listener could not be found. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a6e732c957bbe8b9dd04657fadcb128fa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                                                        {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keywordflow">if</span> (m_Listener==ea) {</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            m_Listener=null;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a77bf70f27a53a11e3455f2e0e6877d04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.FloodAlgorithm.setDrainRate </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                                      {</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        this.m_DrainRate = a;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#ae43bd64f19fda86d0cc1cdd0b4e059f6">m_DrainRate</a> &lt; 0) this.m_DrainRate = 0.0;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm_html_ae43bd64f19fda86d0cc1cdd0b4e059f6"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_flood_algorithm.html#ae43bd64f19fda86d0cc1cdd0b4e059f6">eva2.server.go.strategies.FloodAlgorithm.m_DrainRate</a></div><div class="ttdeci">double m_DrainRate</div><div class="ttdef"><b>Definition:</b> FloodAlgorithm.java:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a41e8391a55fe8d9b9de58fb4e6701a75"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.FloodAlgorithm.SetIdentifier </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to set an identifier for the algorithm </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The indenifier </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4af2f49eef2cf833b15e88b25e382efd">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                                            {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        this.m_Identifier = name;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5074c05032ce58dd93ecb1a4202163e7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.FloodAlgorithm.setInitialFloodPeak </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                                               {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        this.m_InitialFloodPeak = pop;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac78f6e25cc86472f31d284d7dd0b0477"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.FloodAlgorithm.setPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9a19bcf589f1375450e7c9588acee982">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                                             {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        this.m_Population = pop;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa65323766bf5dd02345c7de5cc5f8227"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.FloodAlgorithm.SetProblem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>problem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will set the problem that is to be optimized </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problem</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2bf9e7ad9b3682cdb51fe65284d98af0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        this.m_Problem = problem;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="ae43bd64f19fda86d0cc1cdd0b4e059f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.strategies.FloodAlgorithm.m_DrainRate = 1.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad81eda9b33d0d35bdb35d4436a55fcfb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.strategies.FloodAlgorithm.m_InitialFloodPeak = 2000.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/eva2/server/go/strategies/<a class="el" href="_flood_algorithm_8java.html">FloodAlgorithm.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 24 de Noviembre de 2013 20:07:28 para EvaProyectDoc por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

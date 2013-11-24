@@ -1,0 +1,980 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>EvaProyectDoc: Referencia de la Clase eva2.server.go.strategies.SimulatedAnnealing</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">EvaProyectDoc
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceeva2.html">eva2</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server.html">server</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go.html">go</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go_1_1strategies.html">strategies</a></li><li class="navelem"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html">SimulatedAnnealing</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase eva2.server.go.strategies.SimulatedAnnealing</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">eva2.server.go.strategies.InterfaceOptimizer</a> y Serializable.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a57ead66940a9bb65fddb84a6f5560b61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a57ead66940a9bb65fddb84a6f5560b61">SimulatedAnnealing</a> ()</td></tr>
+<tr class="separator:a57ead66940a9bb65fddb84a6f5560b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f6f5728ec4277e7267a03514aae56c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a0f6f5728ec4277e7267a03514aae56c7">SimulatedAnnealing</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html">SimulatedAnnealing</a> a)</td></tr>
+<tr class="separator:a0f6f5728ec4277e7267a03514aae56c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af336766a554eb66256865c0c1e158743"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#af336766a554eb66256865c0c1e158743">clone</a> ()</td></tr>
+<tr class="separator:af336766a554eb66256865c0c1e158743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd727ff33505b5afd8971aabb92b9209"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#acd727ff33505b5afd8971aabb92b9209">init</a> ()</td></tr>
+<tr class="separator:acd727ff33505b5afd8971aabb92b9209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85f59fbcbb33efbd4eb5dfe39dfb0121"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a85f59fbcbb33efbd4eb5dfe39dfb0121">initByPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop, boolean reset)</td></tr>
+<tr class="separator:a85f59fbcbb33efbd4eb5dfe39dfb0121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a250f7eb9e8c4d1102e3ee10f8b77832f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a250f7eb9e8c4d1102e3ee10f8b77832f">optimize</a> ()</td></tr>
+<tr class="separator:a250f7eb9e8c4d1102e3ee10f8b77832f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2308f9261cc0e62285f69f0e9d8af51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#ad2308f9261cc0e62285f69f0e9d8af51">SetProblem</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> problem)</td></tr>
+<tr class="separator:ad2308f9261cc0e62285f69f0e9d8af51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2be9e7416fd34f2915a1c5b9024e387"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#ad2be9e7416fd34f2915a1c5b9024e387">getProblem</a> ()</td></tr>
+<tr class="separator:ad2be9e7416fd34f2915a1c5b9024e387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23aaaad29152698e19255c41c05a952c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a23aaaad29152698e19255c41c05a952c">defaultInit</a> ()</td></tr>
+<tr class="separator:a23aaaad29152698e19255c41c05a952c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58f45071df54f2642206b0d15805451d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a58f45071df54f2642206b0d15805451d">defaultOptimize</a> ()</td></tr>
+<tr class="separator:a58f45071df54f2642206b0d15805451d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaba9f09a0406a97444ef21f269272bb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#aaba9f09a0406a97444ef21f269272bb0">addPopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:aaba9f09a0406a97444ef21f269272bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ab1a7d350cc7cf4b17dd18f72c3b8ef"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a0ab1a7d350cc7cf4b17dd18f72c3b8ef">removePopulationChangedEventListener</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a> ea)</td></tr>
+<tr class="separator:a0ab1a7d350cc7cf4b17dd18f72c3b8ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be293cf0e40150cc8abaabb6651ecf7"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a6be293cf0e40150cc8abaabb6651ecf7">getStringRepresentation</a> ()</td></tr>
+<tr class="separator:a6be293cf0e40150cc8abaabb6651ecf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9694ae289aac7ebf25e1a71b95e91e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#ad9694ae289aac7ebf25e1a71b95e91e8">SetIdentifier</a> (String name)</td></tr>
+<tr class="separator:ad9694ae289aac7ebf25e1a71b95e91e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc82dfd4a7609fc0e43c5b682389c334"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#abc82dfd4a7609fc0e43c5b682389c334">getIdentifier</a> ()</td></tr>
+<tr class="separator:abc82dfd4a7609fc0e43c5b682389c334"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58dbc21e7cfa9f45fb7ea950a85c3bf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a58dbc21e7cfa9f45fb7ea950a85c3bf2">freeWilly</a> ()</td></tr>
+<tr class="separator:a58dbc21e7cfa9f45fb7ea950a85c3bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d93422d3313fe689a47c7e94bfbac74"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a6d93422d3313fe689a47c7e94bfbac74">getName</a> ()</td></tr>
+<tr class="separator:a6d93422d3313fe689a47c7e94bfbac74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a113c88296b60ccb6e3bdca405e9778db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a113c88296b60ccb6e3bdca405e9778db">getPopulation</a> ()</td></tr>
+<tr class="separator:a113c88296b60ccb6e3bdca405e9778db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a774b4d0e4d4bebca21ccf88ea3e68d23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a774b4d0e4d4bebca21ccf88ea3e68d23">setPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop)</td></tr>
+<tr class="separator:a774b4d0e4d4bebca21ccf88ea3e68d23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6416772b73763c723570d8602ff2323e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a6416772b73763c723570d8602ff2323e">populationTipText</a> ()</td></tr>
+<tr class="separator:a6416772b73763c723570d8602ff2323e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade21c95b157502e4691363ee92fb0b46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#ade21c95b157502e4691363ee92fb0b46">getAllSolutions</a> ()</td></tr>
+<tr class="separator:ade21c95b157502e4691363ee92fb0b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d2f9393fd4dbad021fc020d6e18388b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a5d2f9393fd4dbad021fc020d6e18388b">getInitialTemperature</a> ()</td></tr>
+<tr class="separator:a5d2f9393fd4dbad021fc020d6e18388b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad87806373287bd412c70737cc94fb913"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#ad87806373287bd412c70737cc94fb913">setInitialTemperature</a> (double pop)</td></tr>
+<tr class="separator:ad87806373287bd412c70737cc94fb913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d4f3dd2afb03fc6d588d6b919d658aa"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a5d4f3dd2afb03fc6d588d6b919d658aa">initialTemperatureTipText</a> ()</td></tr>
+<tr class="separator:a5d4f3dd2afb03fc6d588d6b919d658aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92ae6316fd7f34fc496a6d535163b43f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a92ae6316fd7f34fc496a6d535163b43f">getAlpha</a> ()</td></tr>
+<tr class="separator:a92ae6316fd7f34fc496a6d535163b43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab894004efe5e37bd1b1dddbc71bff067"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#ab894004efe5e37bd1b1dddbc71bff067">setAlpha</a> (double a)</td></tr>
+<tr class="separator:ab894004efe5e37bd1b1dddbc71bff067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9da5631aef7703a1f19f111671e451d0"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a9da5631aef7703a1f19f111671e451d0">alphaTipText</a> ()</td></tr>
+<tr class="separator:a9da5631aef7703a1f19f111671e451d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:aba5e73a5c66442beaefefa0086a42110"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#aba5e73a5c66442beaefefa0086a42110">main</a> (String[] args)</td></tr>
+<tr class="separator:aba5e73a5c66442beaefefa0086a42110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54f5d3710e5f5b8ec2fa57613d1d5f90"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a54f5d3710e5f5b8ec2fa57613d1d5f90">globalInfo</a> ()</td></tr>
+<tr class="separator:a54f5d3710e5f5b8ec2fa57613d1d5f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:ae239c0afd36ad2e483acdbc33669328f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#ae239c0afd36ad2e483acdbc33669328f">m_InitialTemperature</a> = 2</td></tr>
+<tr class="separator:ae239c0afd36ad2e483acdbc33669328f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac72074ac8c5e007a0b87aeb47d1ab555"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#ac72074ac8c5e007a0b87aeb47d1ab555">m_Alpha</a> = 0.9</td></tr>
+<tr class="separator:ac72074ac8c5e007a0b87aeb47d1ab555"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a058b0407890b930b68f6f45d7f249ae6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a058b0407890b930b68f6f45d7f249ae6">firePropertyChangedEvent</a> (String name)</td></tr>
+<tr class="separator:a058b0407890b930b68f6f45d7f249ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Simulated Annealing by Nelder and Mead, a simple yet efficient local search method. But to become less prone to premature convergence the cooling rate has to be tuned to the optimization problem at hand. Again the population size gives the number of multi-starts. Created by IntelliJ IDEA. User: streiche Date: 13.05.2004 Time: 10:30:26 To change this template use File | Settings | File Templates. </p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a57ead66940a9bb65fddb84a6f5560b61"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.SimulatedAnnealing.SimulatedAnnealing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        this.m_Population = <span class="keyword">new</span> Population();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        this.m_Population.setTargetSize(10);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0f6f5728ec4277e7267a03514aae56c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.strategies.SimulatedAnnealing.SimulatedAnnealing </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html">SimulatedAnnealing</a>&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                                    {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        this.m_Population                   = (Population)a.m_Population.clone();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        this.m_Problem                      = (InterfaceOptimizationProblem)a.m_Problem.clone();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        this.m_InitialTemperature           = a.m_InitialTemperature;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        this.m_CurrentTemperature           = a.m_CurrentTemperature;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        this.m_Alpha                        = a.m_Alpha;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="aaba9f09a0406a97444ef21f269272bb0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SimulatedAnnealing.addPopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to add a listener to the Optimizer. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#ab4f4dad7ab7ce4428c8c3a7afb8c6f3e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                                                                                              {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        this.m_Listener = ea;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9da5631aef7703a1f19f111671e451d0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SimulatedAnnealing.alphaTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                                 {</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Set alpha, which is used to degrade the temperaure.&quot;</span>;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af336766a554eb66256865c0c1e158743"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object eva2.server.go.strategies.SimulatedAnnealing.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return deep clone of the optimizer </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The clone </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3782515f3e073d9a970f1605836a38e">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                          {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">return</span> (Object) <span class="keyword">new</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a57ead66940a9bb65fddb84a6f5560b61">SimulatedAnnealing</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing_html_a57ead66940a9bb65fddb84a6f5560b61"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a57ead66940a9bb65fddb84a6f5560b61">eva2.server.go.strategies.SimulatedAnnealing.SimulatedAnnealing</a></div><div class="ttdeci">SimulatedAnnealing()</div><div class="ttdef"><b>Definition:</b> SimulatedAnnealing.java:38</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a23aaaad29152698e19255c41c05a952c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SimulatedAnnealing.defaultInit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the HillClimber </p>
+<div class="fragment"><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                              {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        this.m_FitnessCallsNeeded = 0;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        this.m_Best = <span class="keyword">new</span> GAIndividualBinaryData();</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        this.m_Best.defaultInit(m_Problem);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a58f45071df54f2642206b0d15805451d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SimulatedAnnealing.defaultOptimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will optimize </p>
+<div class="fragment"><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                                  {</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_FitnessCalls; i++) {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            this.m_Test = (GAIndividualBinaryData)((this.m_Best).clone());</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            this.m_Test.defaultMutate();</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <span class="keywordflow">if</span> (this.m_Test.<a class="code" href="classeva2_1_1server_1_1go_1_1individuals_1_1_g_a_individual_binary_data.html#a5a66ec7e5d4d78036d8ccafc4b0a9559">defaultEvaulateAsMiniBits</a>() &lt; this.m_Best.defaultEvaulateAsMiniBits()) this.m_Best = this.m_Test;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            this.m_FitnessCallsNeeded = i;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <span class="keywordflow">if</span> (this.m_Best.<a class="code" href="classeva2_1_1server_1_1go_1_1individuals_1_1_g_a_individual_binary_data.html#a5a66ec7e5d4d78036d8ccafc4b0a9559">defaultEvaulateAsMiniBits</a>() == 0) i = this.m_FitnessCalls +1;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        }</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1individuals_1_1_g_a_individual_binary_data_html_a5a66ec7e5d4d78036d8ccafc4b0a9559"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1individuals_1_1_g_a_individual_binary_data.html#a5a66ec7e5d4d78036d8ccafc4b0a9559">eva2.server.go.individuals.GAIndividualBinaryData.defaultEvaulateAsMiniBits</a></div><div class="ttdeci">double defaultEvaulateAsMiniBits()</div><div class="ttdef"><b>Definition:</b> GAIndividualBinaryData.java:88</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a058b0407890b930b68f6f45d7f249ae6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SimulatedAnnealing.firePropertyChangedEvent </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                                          {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">if</span> (this.m_Listener != null) this.m_Listener.registerPopulationStateChanged(<span class="keyword">this</span>, name);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a58dbc21e7cfa9f45fb7ea950a85c3bf2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SimulatedAnnealing.freeWilly </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method is required to free the memory on a RMIServer, but there is nothing to implement. </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#aa3f5bc95f7781986c42165950d34131c">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                            {</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    }    </div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ade21c95b157502e4691363ee92fb0b46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1populations_1_1_interface_solution_set.html">InterfaceSolutionSet</a> eva2.server.go.strategies.SimulatedAnnealing.getAllSolutions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return all found solutions (local optima) if they are not contained in the current population. Be sure to set the Population properties, especially function calls and generation, with respect to the ongoing optimization. May return the the same set as getPopulation if the optimizer makes no distinction, i.e. does not collect solutions outside the current population.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>A solution set of the current population and possibly earlier solutions. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a613ed8378f2956c125ed149328eb07f9">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                                                  {</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> SolutionSet(<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a113c88296b60ccb6e3bdca405e9778db">getPopulation</a>());</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing_html_a113c88296b60ccb6e3bdca405e9778db"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a113c88296b60ccb6e3bdca405e9778db">eva2.server.go.strategies.SimulatedAnnealing.getPopulation</a></div><div class="ttdeci">Population getPopulation()</div><div class="ttdef"><b>Definition:</b> SimulatedAnnealing.java:237</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a92ae6316fd7f34fc496a6d535163b43f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.strategies.SimulatedAnnealing.getAlpha </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set alpha, which is used to degrade the temperaure </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The cooling rate. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                             {</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="keywordflow">return</span> this.m_Alpha;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abc82dfd4a7609fc0e43c5b682389c334"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SimulatedAnnealing.getIdentifier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a3f8f01e01e017474b76de8f473c01ec7">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                                   {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;         <span class="keywordflow">return</span> this.m_Identifier;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;     }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5d2f9393fd4dbad021fc020d6e18388b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.strategies.SimulatedAnnealing.getInitialTemperature </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set the initial temperature </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The initial temperature. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                                          {</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">return</span> this.m_InitialTemperature;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6d93422d3313fe689a47c7e94bfbac74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SimulatedAnnealing.getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a naming String </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The name of the algorithm </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9c881980799f6de9a04cce7564ad16aa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                            {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;MS-SA&quot;</span>;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a113c88296b60ccb6e3bdca405e9778db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> eva2.server.go.strategies.SimulatedAnnealing.getPopulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Assuming that all optimizer will store thier data in a population we will allow acess to this population to query to current state of the optimizer. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>The population of current solutions to a given problem. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9169e43517e8db7841cd453c4660872f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                                      {</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        <span class="keywordflow">return</span> this.m_Population;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad2be9e7416fd34f2915a1c5b9024e387"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> eva2.server.go.strategies.SimulatedAnnealing.getProblem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9402221cc9321347a9d1d0a894be937b">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                                                      {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">return</span> this.m_Problem;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6be293cf0e40150cc8abaabb6651ecf7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SimulatedAnnealing.getStringRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will return a string describing all properties of the optimizer and the applied methods. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>A descriptive string </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4cdfe0bff8295d1471effe39f8e2cdb0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                                            {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        String result = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <span class="keywordflow">if</span> (this.m_Population.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">size</a>() &gt; 1) result += <span class="stringliteral">&quot;Multi(&quot;</span> + this.m_Population.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">size</a>() + <span class="stringliteral">&quot;)-Start Hill Climbing:\n&quot;</span>;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordflow">else</span> result += <span class="stringliteral">&quot;Simulated Annealing:\n&quot;</span>;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        result += <span class="stringliteral">&quot;Optimization Problem: &quot;</span>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        result += this.m_Problem.getStringRepresentationForProblem(<span class="keyword">this</span>) +<span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        result += this.m_Population.getStringRepresentation();</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    }</div>
+<div class="ttc" id="interfaceeva2_1_1server_1_1go_1_1_population_interface_html_a59db05427cda240edea2b2ea3c2a7513"><div class="ttname"><a href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a59db05427cda240edea2b2ea3c2a7513">eva2.server.go.PopulationInterface.size</a></div><div class="ttdeci">int size()</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a54f5d3710e5f5b8ec2fa57613d1d5f90"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String eva2.server.go.strategies.SimulatedAnnealing.globalInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method returns a global info string </p>
+<dl class="section return"><dt>Devuelve</dt><dd>description </dd></dl>
+<div class="fragment"><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                                      {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;The simulated annealing uses an additional cooling rate instead of a simple dominate criteria to accpect worse solutions by chance.&quot;</span>;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acd727ff33505b5afd8971aabb92b9209"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SimulatedAnnealing.init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the HillClimber </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4efaea1c10726e848f4c56a9c6d9103f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                       {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        this.m_Problem.initPopulation(this.m_Population);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        this.m_Problem.evaluate(this.m_Population);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        this.m_CurrentTemperature = this.m_InitialTemperature;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a85f59fbcbb33efbd4eb5dfe39dfb0121"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SimulatedAnnealing.initByPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>reset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will init the optimizer with a given population </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pop</td><td>The initial population </td></tr>
+    <tr><td class="paramname">reset</td><td>If true the population is reset. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2b9dd760178a114b8caf8c83fc202c5f">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                                                {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        this.m_Population = (Population)pop.clone();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        this.m_CurrentTemperature = this.m_InitialTemperature;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">if</span> (reset) {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            this.m_Population.init();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            this.m_Problem.evaluate(this.m_Population);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5d4f3dd2afb03fc6d588d6b919d658aa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SimulatedAnnealing.initialTemperatureTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                                              {</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Set the initial temperature.&quot;</span>;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aba5e73a5c66442beaefefa0086a42110"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void eva2.server.go.strategies.SimulatedAnnealing.main </td>
+          <td>(</td>
+          <td class="paramtype">String[]&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This main method will start a simple hillclimber. No arguments necessary. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                                           {</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a57ead66940a9bb65fddb84a6f5560b61">SimulatedAnnealing</a> program = <span class="keyword">new</span> <a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a57ead66940a9bb65fddb84a6f5560b61">SimulatedAnnealing</a>();</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <span class="keywordtype">int</span> TmpMeanCalls = 0, TmpMeanFitness = 0;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; program.m_MultiRuns; i++) {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            program.defaultInit();</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            program.defaultOptimize();</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            TmpMeanCalls += program.m_FitnessCallsNeeded;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            TmpMeanFitness += program.m_Best.defaultEvaulateAsMiniBits();</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        }</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        TmpMeanCalls = TmpMeanCalls/program.m_MultiRuns;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        TmpMeanFitness = TmpMeanFitness/program.m_MultiRuns;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        System.out.println(<span class="stringliteral">&quot;(&quot;</span>+program.m_MultiRuns+<span class="stringliteral">&quot;/&quot;</span>+program.m_FitnessCalls+<span class="stringliteral">&quot;) Mean Fitness : &quot;</span> + TmpMeanFitness + <span class="stringliteral">&quot; Mean Calls needed: &quot;</span> + TmpMeanCalls);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing_html_a57ead66940a9bb65fddb84a6f5560b61"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#a57ead66940a9bb65fddb84a6f5560b61">eva2.server.go.strategies.SimulatedAnnealing.SimulatedAnnealing</a></div><div class="ttdeci">SimulatedAnnealing()</div><div class="ttdef"><b>Definition:</b> SimulatedAnnealing.java:38</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a250f7eb9e8c4d1102e3ee10f8b77832f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SimulatedAnnealing.optimize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will optimize </p>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a228d8e9883a253c5bbaf29e413e01704">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                           {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        AbstractEAIndividual    indy;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        Population              original = (Population)this.m_Population.<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#ae018a862516a2de5217c671b7988ccd6">clone</a>();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordtype">double</span>                  delta;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.m_Population.size(); i++) {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            indy = ((AbstractEAIndividual) this.m_Population.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a355f956615798c93f4c875524c11a921">get</a>(i));</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordtype">double</span> tmpD = indy.getMutationProbability();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            indy.setMutationProbability(1.0);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            indy.mutate();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            indy.setMutationProbability(tmpD);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        this.m_Problem.evaluate(this.m_Population);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.m_Population.size(); i++) {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordflow">if</span> (((AbstractEAIndividual)original.get(i)).isDominatingDebConstraints(((AbstractEAIndividual)this.m_Population.<a class="code" href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a355f956615798c93f4c875524c11a921">get</a>(i)))) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                this.m_Population.remove(i);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                this.m_Population.add(i, original.get(i));</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                delta = this.calculateDelta(((AbstractEAIndividual)original.get(i)), ((AbstractEAIndividual)this.m_Population.get(i)));</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                <span class="comment">//System.out.println(&quot;delta: &quot; + delta);</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                if (Math.exp(-delta/this.m_CurrentTemperature) &gt; RNG.randomInt(0,1)) {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                    this.m_Population.remove(i);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                    this.m_Population.add(i, original.get(i));</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                }</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        this.m_CurrentTemperature = this.m_Alpha * this.m_CurrentTemperature;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        this.m_Population.incrGeneration();</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        this.firePropertyChangedEvent(<a class="code" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">Population.nextGenerationPerformed</a>);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_a2192033bcca32489ec1c2c1509a23b74"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#a2192033bcca32489ec1c2c1509a23b74">eva2.server.go.populations.Population.nextGenerationPerformed</a></div><div class="ttdeci">static final String nextGenerationPerformed</div><div class="ttdef"><b>Definition:</b> Population.java:83</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1populations_1_1_population_html_ae018a862516a2de5217c671b7988ccd6"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html#ae018a862516a2de5217c671b7988ccd6">eva2.server.go.populations.Population.clone</a></div><div class="ttdeci">Object clone()</div><div class="ttdef"><b>Definition:</b> Population.java:251</div></div>
+<div class="ttc" id="interfaceeva2_1_1server_1_1go_1_1_population_interface_html_a355f956615798c93f4c875524c11a921"><div class="ttname"><a href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html#a355f956615798c93f4c875524c11a921">eva2.server.go.PopulationInterface.get</a></div><div class="ttdeci">Object get(int i)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6416772b73763c723570d8602ff2323e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.strategies.SimulatedAnnealing.populationTipText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                                      {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Change the number of best individuals stored (MS-SA)).&quot;</span>;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0ab1a7d350cc7cf4b17dd18f72c3b8ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean eva2.server.go.strategies.SimulatedAnnealing.removePopulationChangedEventListener </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1_interface_population_changed_event_listener.html">InterfacePopulationChangedEventListener</a>&#160;</td>
+          <td class="paramname"><em>ea</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method removes a listener from the Optimizer. It returns true on success, false if the listener could not be found. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ea</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a6e732c957bbe8b9dd04657fadcb128fa">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                                                        {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">if</span> (m_Listener==ea) {</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            m_Listener=null;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab894004efe5e37bd1b1dddbc71bff067"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SimulatedAnnealing.setAlpha </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                                  {</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        this.m_Alpha = a;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#ac72074ac8c5e007a0b87aeb47d1ab555">m_Alpha</a> &gt; 1) this.m_Alpha = 1.0;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing_html_ac72074ac8c5e007a0b87aeb47d1ab555"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1strategies_1_1_simulated_annealing.html#ac72074ac8c5e007a0b87aeb47d1ab555">eva2.server.go.strategies.SimulatedAnnealing.m_Alpha</a></div><div class="ttdeci">double m_Alpha</div><div class="ttdef"><b>Definition:</b> SimulatedAnnealing.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad9694ae289aac7ebf25e1a71b95e91e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SimulatedAnnealing.SetIdentifier </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method allows you to set an identifier for the algorithm </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The indenifier </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a4af2f49eef2cf833b15e88b25e382efd">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                                            {</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        this.m_Identifier = name;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad87806373287bd412c70737cc94fb913"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SimulatedAnnealing.setInitialTemperature </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                                                 {</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        this.m_InitialTemperature = pop;</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a774b4d0e4d4bebca21ccf88ea3e68d23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SimulatedAnnealing.setPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a9a19bcf589f1375450e7c9588acee982">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                                             {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        this.m_Population = pop;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad2308f9261cc0e62285f69f0e9d8af51"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.strategies.SimulatedAnnealing.SetProblem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>problem</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method will set the problem that is to be optimized </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">problem</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html#a2bf9e7ad9b3682cdb51fe65284d98af0">eva2.server.go.strategies.InterfaceOptimizer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        this.m_Problem = problem;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="ac72074ac8c5e007a0b87aeb47d1ab555"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.strategies.SimulatedAnnealing.m_Alpha = 0.9</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae239c0afd36ad2e483acdbc33669328f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double eva2.server.go.strategies.SimulatedAnnealing.m_InitialTemperature = 2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/eva2/server/go/strategies/<a class="el" href="_simulated_annealing_8java.html">SimulatedAnnealing.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 24 de Noviembre de 2013 20:07:30 para EvaProyectDoc por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

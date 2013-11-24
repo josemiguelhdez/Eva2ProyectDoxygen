@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['xlogx',['xlogx',['../classeva2_1_1tools_1_1math_1_1_statistic_utils.html#ac19a45aa47e16100ff7ec997a5e184a9',1,'eva2.tools.math.StatisticUtils.xlogx(int c)'],['../classeva2_1_1tools_1_1math_1_1_statistic_utils.html#aeb406120722aaa955f7f1aa06af35ffd',1,'eva2.tools.math.StatisticUtils.xlogx(double c)']]],
+  ['xmeanstiptext',['xMeansTipText',['../classeva2_1_1server_1_1go_1_1operators_1_1migration_1_1_m_o_x_means_separation.html#a234c4cfa557575e6475088997706ea8e',1,'eva2::server::go::operators::migration::MOXMeansSeparation']]],
+  ['xoffsettiptext',['XOffsetTipText',['../classeva2_1_1server_1_1go_1_1problems_1_1_abstract_problem_double_offset.html#ac6db9a5ca4fe15a29ca28da871fa442f',1,'eva2.server.go.problems.AbstractProblemDoubleOffset.XOffsetTipText()'],['../classeva2_1_1server_1_1go_1_1problems_1_1_f_lens_problem.html#acd4eca0c66df2f340aa5193f55bfae03',1,'eva2.server.go.problems.FLensProblem.xOffSetTipText()'],['../classeva2_1_1server_1_1go_1_1problems_1_1_t_f1_problem.html#a1ae5297789357922413f5ee2bad0ec1e',1,'eva2.server.go.problems.TF1Problem.xOffSetTipText()']]],
+  ['xydoublearray',['XYDoubleArray',['../classeva2_1_1tools_1_1sort_1_1_x_y_double_array.html#a926231c81732abc823a42d882b002228',1,'eva2.tools.sort.XYDoubleArray.XYDoubleArray(int length)'],['../classeva2_1_1tools_1_1sort_1_1_x_y_double_array.html#a75ca5cd5b9072b4ba0729719bc9dc0a7',1,'eva2.tools.sort.XYDoubleArray.XYDoubleArray(double[] x, double[] y)']]]
+];

@@ -1,0 +1,954 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>EvaProyectDoc: Referencia de la Clase eva2.server.go.problems.AbstractDynTransProblem</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">EvaProyectDoc
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Valores de enumeraciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespaceeva2.html">eva2</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server.html">server</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go.html">go</a></li><li class="navelem"><a class="el" href="namespaceeva2_1_1server_1_1go_1_1problems.html">problems</a></li><li class="navelem"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html">AbstractDynTransProblem</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase eva2.server.go.problems.AbstractDynTransProblem<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html">eva2.server.go.problems.AbstractSynchronousOptimizationProblem</a>.</p>
+
+<p>Heredado por <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_dyn_jump_problem.html">eva2.server.go.problems.DynJumpProblem</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a5b38aeb5969cde0713db4c5d2ebcda6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a5b38aeb5969cde0713db4c5d2ebcda6d">AbstractDynTransProblem</a> ()</td></tr>
+<tr class="separator:a5b38aeb5969cde0713db4c5d2ebcda6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62713cf85e0b9f661c6b110ca4760211"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a62713cf85e0b9f661c6b110ca4760211">evaluateAt</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> individual, double time)</td></tr>
+<tr class="separator:a62713cf85e0b9f661c6b110ca4760211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48fa1c5288c62741296b5f5d1eb4deed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a48fa1c5288c62741296b5f5d1eb4deed">evaluatePopulationEnd</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> population)</td></tr>
+<tr class="separator:a48fa1c5288c62741296b5f5d1eb4deed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaacc33be325a06e0fb141ea2674ab2dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aaacc33be325a06e0fb141ea2674ab2dc">initProblem</a> ()</td></tr>
+<tr class="separator:aaacc33be325a06e0fb141ea2674ab2dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd305f344f681b86a4838d042ccd4a8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#acd305f344f681b86a4838d042ccd4a8e">resetProblem</a> (double <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a388b45e82f5168534e8cfeb2171f61ae">severity</a>)</td></tr>
+<tr class="separator:acd305f344f681b86a4838d042ccd4a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fc5f7f35b3288ff5f25b5faa8713561"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a7fc5f7f35b3288ff5f25b5faa8713561">initPopulationAt</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> population, double time)</td></tr>
+<tr class="separator:a7fc5f7f35b3288ff5f25b5faa8713561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a183ad6167bbf357c2c347bd309c56117"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a183ad6167bbf357c2c347bd309c56117">getProblemDimension</a> ()</td></tr>
+<tr class="separator:a183ad6167bbf357c2c347bd309c56117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98e5dd08391b06b291fca18321d5e60a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a98e5dd08391b06b291fca18321d5e60a">getStringRepresentationForProblem</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">InterfaceOptimizer</a> opt)</td></tr>
+<tr class="separator:a98e5dd08391b06b291fca18321d5e60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac456a519b34b9f2a707edc2d38a2bb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aac456a519b34b9f2a707edc2d38a2bb8">getProblem</a> ()</td></tr>
+<tr class="separator:aac456a519b34b9f2a707edc2d38a2bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb666ffed6d9dac1a39472689c1709e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#afb666ffed6d9dac1a39472689c1709e1">setProblem</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a87b8161f1d488e9f3c5a257ace97e280">prob</a>)</td></tr>
+<tr class="separator:afb666ffed6d9dac1a39472689c1709e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d9ddf7a476d4c9cb260fcd6062aac63"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a8d9ddf7a476d4c9cb260fcd6062aac63">getSeed</a> ()</td></tr>
+<tr class="separator:a8d9ddf7a476d4c9cb260fcd6062aac63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacedafcbfc25117e0749d2ee3936b4a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aacedafcbfc25117e0749d2ee3936b4a3">setSeed</a> (int <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a1e1011e1ab8d25900a7fd10f64b57aa4">seed</a>)</td></tr>
+<tr class="separator:aacedafcbfc25117e0749d2ee3936b4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html">eva2.server.go.problems.AbstractSynchronousOptimizationProblem</a></td></tr>
+<tr class="memitem:a5efb7d1e38beca7697c5bd6f273ed274 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#a5efb7d1e38beca7697c5bd6f273ed274">AbstractSynchronousOptimizationProblem</a> ()</td></tr>
+<tr class="separator:a5efb7d1e38beca7697c5bd6f273ed274 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a5e4690d0b0be568fc2e570a7a806d2 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#a4a5e4690d0b0be568fc2e570a7a806d2">initProblem</a> ()</td></tr>
+<tr class="separator:a4a5e4690d0b0be568fc2e570a7a806d2 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8051be025541d0cd5253b36fdb1e21c1 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#a8051be025541d0cd5253b36fdb1e21c1">setFrequency</a> (double <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#aae0c120b0a688409e4b1e48abf466663">frequency</a>)</td></tr>
+<tr class="separator:a8051be025541d0cd5253b36fdb1e21c1 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39a40546aec18559e028c2211d1f847a inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#a39a40546aec18559e028c2211d1f847a">setFrequencyRelative</a> (boolean <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a4dc13de957e86adf682328223c745adb">frequencyRelative</a>)</td></tr>
+<tr class="separator:a39a40546aec18559e028c2211d1f847a inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac496d4693b81c0270c1d58267de8a163 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#ac496d4693b81c0270c1d58267de8a163">evaluatePopulationStart</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> population)</td></tr>
+<tr class="separator:ac496d4693b81c0270c1d58267de8a163 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html">eva2.server.go.problems.AbstractDynamicOptimizationProblem</a></td></tr>
+<tr class="memitem:ab292b9103c109f45ba7ae3043759fb9d inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#ab292b9103c109f45ba7ae3043759fb9d">AbstractDynamicOptimizationProblem</a> ()</td></tr>
+<tr class="separator:ab292b9103c109f45ba7ae3043759fb9d inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabf2cc2ee1a57fe946ea6417fe678b78 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#aabf2cc2ee1a57fe946ea6417fe678b78">initialize</a> (double startT, double sev, double freq)</td></tr>
+<tr class="separator:aabf2cc2ee1a57fe946ea6417fe678b78 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb3f42c7541f7d2f0ce1c08cf28b8375 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#aeb3f42c7541f7d2f0ce1c08cf28b8375">initPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> population)</td></tr>
+<tr class="separator:aeb3f42c7541f7d2f0ce1c08cf28b8375 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cbf065abbbdeb7f3094521435db81b2 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a1cbf065abbbdeb7f3094521435db81b2">getStartTime</a> ()</td></tr>
+<tr class="separator:a1cbf065abbbdeb7f3094521435db81b2 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab88217e8495d284eed0d94943c03390 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#aab88217e8495d284eed0d94943c03390">setStartTime</a> (double <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a277710e5b203d45e2c43a9f5837f6aa3">startTime</a>)</td></tr>
+<tr class="separator:aab88217e8495d284eed0d94943c03390 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11ffbeac4086c30366f38147d868f482 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a11ffbeac4086c30366f38147d868f482">problemTimeTipText</a> ()</td></tr>
+<tr class="separator:a11ffbeac4086c30366f38147d868f482 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e5a728fa940334c5bbf3a72df77362 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#ac1e5a728fa940334c5bbf3a72df77362">setSeverity</a> (double sev)</td></tr>
+<tr class="separator:ac1e5a728fa940334c5bbf3a72df77362 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba7fb127ffe1a8b29788bf77f43979e inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a9ba7fb127ffe1a8b29788bf77f43979e">getSeverity</a> ()</td></tr>
+<tr class="separator:a9ba7fb127ffe1a8b29788bf77f43979e inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9624ff054aaa0a53ce6e524dc96dc3d1 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a9624ff054aaa0a53ce6e524dc96dc3d1">getFrequency</a> ()</td></tr>
+<tr class="separator:a9624ff054aaa0a53ce6e524dc96dc3d1 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfca89985e83d40d40c37ee1f08ca9c4 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#acfca89985e83d40d40c37ee1f08ca9c4">setFrequency</a> (double <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#aae0c120b0a688409e4b1e48abf466663">frequency</a>)</td></tr>
+<tr class="separator:acfca89985e83d40d40c37ee1f08ca9c4 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a227f5fa4a9087e776c05dbd580002e55 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a227f5fa4a9087e776c05dbd580002e55">isFrequencyRelative</a> ()</td></tr>
+<tr class="separator:a227f5fa4a9087e776c05dbd580002e55 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42a966256060fbbfe763537f00f14c13 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a42a966256060fbbfe763537f00f14c13">frequencyTipText</a> ()</td></tr>
+<tr class="separator:a42a966256060fbbfe763537f00f14c13 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ec676bf772b8baeb763096e7799cd63 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a6ec676bf772b8baeb763096e7799cd63">setFrequencyRelative</a> (boolean <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a4dc13de957e86adf682328223c745adb">frequencyRelative</a>)</td></tr>
+<tr class="separator:a6ec676bf772b8baeb763096e7799cd63 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf35b0feb20cee0c016b0069ecdbf9d0 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#acf35b0feb20cee0c016b0069ecdbf9d0">frequencyRelativeTipText</a> ()</td></tr>
+<tr class="separator:acf35b0feb20cee0c016b0069ecdbf9d0 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4be4d40a1c8376f23c2f3eafc45813e4 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a4be4d40a1c8376f23c2f3eafc45813e4">getCurrentOptimum</a> ()</td></tr>
+<tr class="separator:a4be4d40a1c8376f23c2f3eafc45813e4 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c7fa78c60c2a29b81e07df1353dc545 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a2c7fa78c60c2a29b81e07df1353dc545">evaluate</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> individual)</td></tr>
+<tr class="separator:a2c7fa78c60c2a29b81e07df1353dc545 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ca3260a648b8daebbc8b1e844f17250 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a5ca3260a648b8daebbc8b1e844f17250">evaluateInstantly</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> individual)</td></tr>
+<tr class="separator:a5ca3260a648b8daebbc8b1e844f17250 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89c81cd136dae98d50c9172b737c8b78 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a89c81cd136dae98d50c9172b737c8b78">evaluatePopulationEnd</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> population)</td></tr>
+<tr class="separator:a89c81cd136dae98d50c9172b737c8b78 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a015e614c845bb07dc5bde481486330d8 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a015e614c845bb07dc5bde481486330d8">getName</a> ()</td></tr>
+<tr class="separator:a015e614c845bb07dc5bde481486330d8 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">eva2.server.go.problems.AbstractOptimizationProblem</a></td></tr>
+<tr class="memitem:a6064d6f87022fb0215d6b1472f456573 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">abstract Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a6064d6f87022fb0215d6b1472f456573">clone</a> ()</td></tr>
+<tr class="separator:a6064d6f87022fb0215d6b1472f456573 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07ae8b42e89338da83e26e493e317bc0 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a07ae8b42e89338da83e26e493e317bc0">getParallelThreads</a> ()</td></tr>
+<tr class="separator:a07ae8b42e89338da83e26e493e317bc0 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d77128f7faeb5092624f2a6ecd9b1ae inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a3d77128f7faeb5092624f2a6ecd9b1ae">setParallelThreads</a> (int parallelthreads)</td></tr>
+<tr class="separator:a3d77128f7faeb5092624f2a6ecd9b1ae inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2251a767436ad0a9784130fb2518d235 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a2251a767436ad0a9784130fb2518d235">parallelThreadsTipText</a> ()</td></tr>
+<tr class="separator:a2251a767436ad0a9784130fb2518d235 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae89d7d45adf44b8b540ab0e04b1961ff inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#ae89d7d45adf44b8b540ab0e04b1961ff">evaluate</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> population)</td></tr>
+<tr class="separator:ae89d7d45adf44b8b540ab0e04b1961ff inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae83db92b333237a0121506752fce288 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#aae83db92b333237a0121506752fce288">evaluatePopulationStart</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> population)</td></tr>
+<tr class="separator:aae83db92b333237a0121506752fce288 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95a0c62449ab2e32a6153af9afa7cc7d inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a95a0c62449ab2e32a6153af9afa7cc7d">evaluatePopulationEnd</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> population)</td></tr>
+<tr class="separator:a95a0c62449ab2e32a6153af9afa7cc7d inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91b199a72537e7de24d6a5f2d23beeb5 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a91b199a72537e7de24d6a5f2d23beeb5">getSolutionRepresentationFor</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> individual)</td></tr>
+<tr class="separator:a91b199a72537e7de24d6a5f2d23beeb5 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbb02e258fe1cb7a9b608042230e943b inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">Double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#adbb02e258fe1cb7a9b608042230e943b">getDoublePlotValue</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop)</td></tr>
+<tr class="separator:adbb02e258fe1cb7a9b608042230e943b inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61683c8ae3c2052db2c280b0467e6c64 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a61683c8ae3c2052db2c280b0467e6c64">getAdditionalDataHeader</a> ()</td></tr>
+<tr class="separator:a61683c8ae3c2052db2c280b0467e6c64 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b7a6425716d26c215d77931946e5a8 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">String[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a54b7a6425716d26c215d77931946e5a8">getAdditionalDataInfo</a> ()</td></tr>
+<tr class="separator:a54b7a6425716d26c215d77931946e5a8 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f2e7a975f3cdb348c5fa89a6d765583 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">Object[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a1f2e7a975f3cdb348c5fa89a6d765583">getAdditionalDataValue</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1_population_interface.html">PopulationInterface</a> pop)</td></tr>
+<tr class="separator:a1f2e7a975f3cdb348c5fa89a6d765583 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06ac719e329382e3dca586592ca5c44b inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">JComponent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a06ac719e329382e3dca586592ca5c44b">drawIndividual</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> indy)</td></tr>
+<tr class="separator:a06ac719e329382e3dca586592ca5c44b inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a222dce4a6d3dc988bd38192fea70ebf4 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">JComponent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a222dce4a6d3dc988bd38192fea70ebf4">drawIndividual</a> (int generation, int funCalls, <a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> indy)</td></tr>
+<tr class="separator:a222dce4a6d3dc988bd38192fea70ebf4 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad99b14a793915cf3f534b0840298ff53 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#ad99b14a793915cf3f534b0840298ff53">isMultiObjective</a> ()</td></tr>
+<tr class="separator:ad99b14a793915cf3f534b0840298ff53 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b9332c87d648e34d29584ad9352e68e inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a8b9332c87d648e34d29584ad9352e68e">informAboutOptimizer</a> (<a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">InterfaceOptimizer</a> opt)</td></tr>
+<tr class="separator:a8b9332c87d648e34d29584ad9352e68e inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af66e36eb0292a31389226cbac6b1ad7c inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#af66e36eb0292a31389226cbac6b1ad7c">getIndividualTemplate</a> ()</td></tr>
+<tr class="separator:af66e36eb0292a31389226cbac6b1ad7c inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef47099af272414201bb022de9b4df7 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a4ef47099af272414201bb022de9b4df7">individualTemplateTipText</a> ()</td></tr>
+<tr class="separator:a4ef47099af272414201bb022de9b4df7 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff70388e58eebf492e7416a28f63072f inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#aff70388e58eebf492e7416a28f63072f">isPotentialOptimum</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> orig, double epsilon, double mutationStepSize, int numOfFailures)</td></tr>
+<tr class="separator:aff70388e58eebf492e7416a28f63072f inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad4d93a706f7e47178944f6baecf03cb inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#aad4d93a706f7e47178944f6baecf03cb">getDefaultAccuracy</a> ()</td></tr>
+<tr class="separator:aad4d93a706f7e47178944f6baecf03cb inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20a506449b6d80a40b5c459bb21673e2 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a20a506449b6d80a40b5c459bb21673e2">SetDefaultAccuracy</a> (double defAcc)</td></tr>
+<tr class="separator:a20a506449b6d80a40b5c459bb21673e2 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1ad26cb2fdc9d1fe9007a437e932ae2 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#ab1ad26cb2fdc9d1fe9007a437e932ae2">setDefaultAccuracy</a> (double defAcc)</td></tr>
+<tr class="separator:ab1ad26cb2fdc9d1fe9007a437e932ae2 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7a55df368a5ce08b96708f21cc639ad inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#aa7a55df368a5ce08b96708f21cc639ad">defaultAccuracyTipText</a> ()</td></tr>
+<tr class="separator:aa7a55df368a5ce08b96708f21cc639ad inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb83abf74fe0f1b0d1ab8405d328d489 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#abb83abf74fe0f1b0d1ab8405d328d489">getName</a> ()</td></tr>
+<tr class="separator:abb83abf74fe0f1b0d1ab8405d328d489 inherit pub_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:ab35075f8900998cbb93c066953fc4ad3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">AbstractOptimizationProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#ab35075f8900998cbb93c066953fc4ad3">getInstance</a> ()</td></tr>
+<tr class="separator:ab35075f8900998cbb93c066953fc4ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed23f23c8cffc22e87e22ef0276f10d3"><td class="memItemLeft" align="right" valign="top">abstract double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aed23f23c8cffc22e87e22ef0276f10d3">getTranslation</a> (int dim, double time)</td></tr>
+<tr class="separator:aed23f23c8cffc22e87e22ef0276f10d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb315e32e67b795e4e5255d71c028eb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#adb315e32e67b795e4e5255d71c028eb5">transform</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> individual, double time)</td></tr>
+<tr class="separator:adb315e32e67b795e4e5255d71c028eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem')"><img src="closed.png" alt="-"/>&#160;Métodos protegidos heredados desde <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html">eva2.server.go.problems.AbstractSynchronousOptimizationProblem</a></td></tr>
+<tr class="memitem:ae98df717cfdc81b1e9109f38d3e5e4ce inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#ae98df717cfdc81b1e9109f38d3e5e4ce">changeProblemAt</a> (double problemTime)</td></tr>
+<tr class="separator:ae98df717cfdc81b1e9109f38d3e5e4ce inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86af9cd1b35d516c3f9a47e8a332db88 inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#a86af9cd1b35d516c3f9a47e8a332db88">problemToChangeAt</a> (double problemTime)</td></tr>
+<tr class="separator:a86af9cd1b35d516c3f9a47e8a332db88 inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add2c07db53b6595e3525572b6de26512 inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#add2c07db53b6595e3525572b6de26512">setConstantProblemEvals</a> (double constEvals)</td></tr>
+<tr class="separator:add2c07db53b6595e3525572b6de26512 inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ff21a0ee2ac640ca1f116d9420e2bf inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#a47ff21a0ee2ac640ca1f116d9420e2bf">countEvaluation</a> ()</td></tr>
+<tr class="separator:a47ff21a0ee2ac640ca1f116d9420e2bf inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c8caf0e380fc36b71bd0035cb04ce52 inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#a9c8caf0e380fc36b71bd0035cb04ce52">getConstantProblemEvals</a> ()</td></tr>
+<tr class="separator:a9c8caf0e380fc36b71bd0035cb04ce52 inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem')"><img src="closed.png" alt="-"/>&#160;Métodos protegidos heredados desde <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html">eva2.server.go.problems.AbstractDynamicOptimizationProblem</a></td></tr>
+<tr class="memitem:a8d48c38c1d01c3bae18ed4dfe30ab58d inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a8d48c38c1d01c3bae18ed4dfe30ab58d">setCurrentProblemTime</a> (double newTime)</td></tr>
+<tr class="separator:a8d48c38c1d01c3bae18ed4dfe30ab58d inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82df8b686654069fb54e54f9ef003bd1 inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a82df8b686654069fb54e54f9ef003bd1">getCurrentProblemTime</a> ()</td></tr>
+<tr class="separator:a82df8b686654069fb54e54f9ef003bd1 inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54dc65eb394428cfdda2b6356ef39d5 inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#aa54dc65eb394428cfdda2b6356ef39d5">incProblemTime</a> (double dt)</td></tr>
+<tr class="separator:aa54dc65eb394428cfdda2b6356ef39d5 inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c30a5a778195256de4e824484e594a9 inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a2c30a5a778195256de4e824484e594a9">setExtraPlot</a> (boolean doPlot)</td></tr>
+<tr class="separator:a2c30a5a778195256de4e824484e594a9 inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a676fcdfa25e63585dea1ecfd58fa0bcb inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a676fcdfa25e63585dea1ecfd58fa0bcb">isExtraPlot</a> ()</td></tr>
+<tr class="separator:a676fcdfa25e63585dea1ecfd58fa0bcb inherit pro_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:a87b8161f1d488e9f3c5a257ace97e280"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a87b8161f1d488e9f3c5a257ace97e280">prob</a></td></tr>
+<tr class="separator:a87b8161f1d488e9f3c5a257ace97e280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecb8a4a4b2cc13a93efb0f75c726371f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aecb8a4a4b2cc13a93efb0f75c726371f">bestIndividual</a> = null</td></tr>
+<tr class="separator:aecb8a4a4b2cc13a93efb0f75c726371f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e1011e1ab8d25900a7fd10f64b57aa4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a1e1011e1ab8d25900a7fd10f64b57aa4">seed</a> = 1</td></tr>
+<tr class="separator:a1e1011e1ab8d25900a7fd10f64b57aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8dc4e6e9526beabed6f6f7dbd511df0"><td class="memItemLeft" align="right" valign="top">Random&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#ae8dc4e6e9526beabed6f6f7dbd511df0">rand</a> = new Random(<a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a1e1011e1ab8d25900a7fd10f64b57aa4">seed</a>)</td></tr>
+<tr class="separator:ae8dc4e6e9526beabed6f6f7dbd511df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cc57883e5de76b6fb25ae8359255efe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a6cc57883e5de76b6fb25ae8359255efe">problemDimension</a></td></tr>
+<tr class="separator:a6cc57883e5de76b6fb25ae8359255efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaebc96155561a06ede4eb0481fed8cbe"><td class="memItemLeft" align="right" valign="top">double[][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aaebc96155561a06ede4eb0481fed8cbe">range</a></td></tr>
+<tr class="separator:aaebc96155561a06ede4eb0481fed8cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem')"><img src="closed.png" alt="-"/>&#160;Atributos protegidos heredados desde <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html">eva2.server.go.problems.AbstractSynchronousOptimizationProblem</a></td></tr>
+<tr class="memitem:a28b59e3dda530ab34dc16673644b2827 inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#a28b59e3dda530ab34dc16673644b2827">evalsSinceChange</a></td></tr>
+<tr class="separator:a28b59e3dda530ab34dc16673644b2827 inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e1a8935ec7ff651975d889be2a6a0ba inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#a5e1a8935ec7ff651975d889be2a6a0ba">constantProblemEvals</a></td></tr>
+<tr class="separator:a5e1a8935ec7ff651975d889be2a6a0ba inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac0d8a4492f1267e1800987d62c6fea5 inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#aac0d8a4492f1267e1800987d62c6fea5">shiftPerChange</a></td></tr>
+<tr class="separator:aac0d8a4492f1267e1800987d62c6fea5 inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem')"><img src="closed.png" alt="-"/>&#160;Atributos protegidos heredados desde <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html">eva2.server.go.problems.AbstractDynamicOptimizationProblem</a></td></tr>
+<tr class="memitem:a277710e5b203d45e2c43a9f5837f6aa3 inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a277710e5b203d45e2c43a9f5837f6aa3">startTime</a></td></tr>
+<tr class="separator:a277710e5b203d45e2c43a9f5837f6aa3 inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b99c9f724841655f79e775d4572408d inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a3b99c9f724841655f79e775d4572408d">currentProblemTime</a></td></tr>
+<tr class="separator:a3b99c9f724841655f79e775d4572408d inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a388b45e82f5168534e8cfeb2171f61ae inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a388b45e82f5168534e8cfeb2171f61ae">severity</a></td></tr>
+<tr class="separator:a388b45e82f5168534e8cfeb2171f61ae inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae0c120b0a688409e4b1e48abf466663 inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#aae0c120b0a688409e4b1e48abf466663">frequency</a></td></tr>
+<tr class="separator:aae0c120b0a688409e4b1e48abf466663 inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dc13de957e86adf682328223c745adb inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a4dc13de957e86adf682328223c745adb">frequencyRelative</a></td></tr>
+<tr class="separator:a4dc13de957e86adf682328223c745adb inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7988c3571efa37c393721041fa47091f inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a7988c3571efa37c393721041fa47091f">TRACE</a></td></tr>
+<tr class="separator:a7988c3571efa37c393721041fa47091f inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f22fc03f860e0043f11e504021ff4a9 inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memItemLeft" align="right" valign="top">transient <a class="el" href="classeva2_1_1gui_1_1_plot.html">Plot</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a8f22fc03f860e0043f11e504021ff4a9">myplot</a> = null</td></tr>
+<tr class="separator:a8f22fc03f860e0043f11e504021ff4a9 inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem')"><img src="closed.png" alt="-"/>&#160;Atributos protegidos heredados desde <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">eva2.server.go.problems.AbstractOptimizationProblem</a></td></tr>
+<tr class="memitem:a663529dd132a417779297a03ac73f462 inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a663529dd132a417779297a03ac73f462">m_Template</a> = null</td></tr>
+<tr class="separator:a663529dd132a417779297a03ac73f462 inherit pro_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem')"><img src="closed.png" alt="-"/>&#160;Métodos públicos estáticos heredados desde <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">eva2.server.go.problems.AbstractOptimizationProblem</a></td></tr>
+<tr class="memitem:ab2fcbc4454d6d6e23d94a324f65bad52 inherit pub_static_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#ab2fcbc4454d6d6e23d94a324f65bad52">defaultInitPopulation</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> population, <a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> template, <a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> prob)</td></tr>
+<tr class="separator:ab2fcbc4454d6d6e23d94a324f65bad52 inherit pub_static_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7e49121e47317dd4de79bcf6eec15c8 inherit pub_static_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#ad7e49121e47317dd4de79bcf6eec15c8">extractPotentialOptima</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">AbstractOptimizationProblem</a> prob, <a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a> pop, double epsilonPhenoSpace, double epsilonFitConv, double clusterSigma, int maxEvalsPerIndy)</td></tr>
+<tr class="separator:ad7e49121e47317dd4de79bcf6eec15c8 inherit pub_static_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa13c5e7400b5fd59746bfaf5207d596f inherit pub_static_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#aa13c5e7400b5fd59746bfaf5207d596f">isPotentialOptimumNMS</a> (<a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">AbstractOptimizationProblem</a> prob, <a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> orig, double epsilonPhenoSpace, double epsilonFitConv, int maxEvaluations)</td></tr>
+<tr class="separator:aa13c5e7400b5fd59746bfaf5207d596f inherit pub_static_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003233805707cba1b016f17a33beaf51 inherit pub_static_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a003233805707cba1b016f17a33beaf51">globalInfo</a> ()</td></tr>
+<tr class="separator:a003233805707cba1b016f17a33beaf51 inherit pub_static_methods_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">eva2.server.go.problems.AbstractOptimizationProblem</a></td></tr>
+<tr class="memitem:a929a964bbef709f6656247d65ae25102 inherit pub_static_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#a929a964bbef709f6656247d65ae25102">STAT_SOLUTION_HEADER</a> = &quot;solution&quot;</td></tr>
+<tr class="separator:a929a964bbef709f6656247d65ae25102 inherit pub_static_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3db1691a4131514eb894c22ba00fa5b inherit pub_static_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html#ad3db1691a4131514eb894c22ba00fa5b">OLD_FITNESS_KEY</a> = &quot;oldFitness&quot;</td></tr>
+<tr class="separator:ad3db1691a4131514eb894c22ba00fa5b inherit pub_static_attribs_classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a5b38aeb5969cde0713db4c5d2ebcda6d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">eva2.server.go.problems.AbstractDynTransProblem.AbstractDynTransProblem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                                     {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        super();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#afb666ffed6d9dac1a39472689c1709e1">setProblem</a>(<span class="keyword">new</span> F1Problem());</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#a39a40546aec18559e028c2211d1f847a">setFrequencyRelative</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem_html_a39a40546aec18559e028c2211d1f847a"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_synchronous_optimization_problem.html#a39a40546aec18559e028c2211d1f847a">eva2.server.go.problems.AbstractSynchronousOptimizationProblem.setFrequencyRelative</a></div><div class="ttdeci">void setFrequencyRelative(boolean frequencyRelative)</div><div class="ttdef"><b>Definition:</b> AbstractSynchronousOptimizationProblem.java:120</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_afb666ffed6d9dac1a39472689c1709e1"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#afb666ffed6d9dac1a39472689c1709e1">eva2.server.go.problems.AbstractDynTransProblem.setProblem</a></div><div class="ttdeci">void setProblem(InterfaceOptimizationProblem prob)</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:157</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a62713cf85e0b9f661c6b110ca4760211"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.problems.AbstractDynTransProblem.evaluateAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td>
+          <td class="paramname"><em>individual</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Evaluate the function at the individuals position using an arbitrary translation which may be dynamically changing.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">individual</td><td>the individual to be evaluated </td></tr>
+    <tr><td class="paramname">t</td><td>timestamp of the evaluation </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a0fb39de1ca50ecdf8072ac8036666766">eva2.server.go.problems.AbstractDynamicOptimizationProblem</a>.</p>
+<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                                                                         {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="comment">/* the fitness ist set by the evaluate function */</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        AbstractEAIndividual tussy = (AbstractEAIndividual)individual.clone();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#adb315e32e67b795e4e5255d71c028eb5">transform</a>(tussy, time);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aac456a519b34b9f2a707edc2d38a2bb8">getProblem</a>().evaluate(tussy);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        individual.SetFitness(tussy.getFitness());       </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_aac456a519b34b9f2a707edc2d38a2bb8"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aac456a519b34b9f2a707edc2d38a2bb8">eva2.server.go.problems.AbstractDynTransProblem.getProblem</a></div><div class="ttdeci">InterfaceOptimizationProblem getProblem()</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:154</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_adb315e32e67b795e4e5255d71c028eb5"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#adb315e32e67b795e4e5255d71c028eb5">eva2.server.go.problems.AbstractDynTransProblem.transform</a></div><div class="ttdeci">void transform(AbstractEAIndividual individual, double time)</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:95</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a48fa1c5288c62741296b5f5d1eb4deed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.problems.AbstractDynTransProblem.evaluatePopulationEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>population</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Override population evaluation to do some data output. </p>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                                             {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordtype">double</span> delta = transLength(<a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a82df8b686654069fb54e54f9ef003bd1">getCurrentProblemTime</a>());</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a676fcdfa25e63585dea1ecfd58fa0bcb">isExtraPlot</a>() == <span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a8f22fc03f860e0043f11e504021ff4a9">myplot</a> != null) {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <span class="comment">//  myplot.addGraph(0, 1);</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                myplot.jump();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a7988c3571efa37c393721041fa47091f">TRACE</a>) System.out.println(<span class="stringliteral">&quot;creating myplot instance&quot;</span>);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                <span class="keywordtype">double</span>[] tmpD = <span class="keyword">new</span> <span class="keywordtype">double</span>[2];</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                tmpD[0] = 0;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                tmpD[1] = 0;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                <span class="comment">// im not really certain about what tmpD is required for</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                this.myplot = <span class="keyword">new</span> <a class="code" href="classeva2_1_1gui_1_1_plot.html">eva2.gui.Plot</a>(<span class="stringliteral">&quot;population measures&quot;</span>, <span class="stringliteral">&quot;x1&quot;</span>, <span class="stringliteral">&quot;x2&quot;</span>, tmpD, tmpD);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            }           </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            myplot.setConnectedPoint(population.getFunctionCalls(), delta, 0);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="comment">//myplot.setUnconnectedPoint(population.getFunctionCalls(), population.getPopulationMeasures()[2], 2);</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a8f22fc03f860e0043f11e504021ff4a9">myplot</a> = null;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem_html_a7988c3571efa37c393721041fa47091f"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a7988c3571efa37c393721041fa47091f">eva2.server.go.problems.AbstractDynamicOptimizationProblem.TRACE</a></div><div class="ttdeci">boolean TRACE</div><div class="ttdef"><b>Definition:</b> AbstractDynamicOptimizationProblem.java:53</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem_html_a8f22fc03f860e0043f11e504021ff4a9"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a8f22fc03f860e0043f11e504021ff4a9">eva2.server.go.problems.AbstractDynamicOptimizationProblem.myplot</a></div><div class="ttdeci">transient Plot myplot</div><div class="ttdef"><b>Definition:</b> AbstractDynamicOptimizationProblem.java:57</div></div>
+<div class="ttc" id="classeva2_1_1gui_1_1_plot_html"><div class="ttname"><a href="classeva2_1_1gui_1_1_plot.html">eva2.gui.Plot</a></div><div class="ttdef"><b>Definition:</b> Plot.java:58</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem_html_a676fcdfa25e63585dea1ecfd58fa0bcb"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a676fcdfa25e63585dea1ecfd58fa0bcb">eva2.server.go.problems.AbstractDynamicOptimizationProblem.isExtraPlot</a></div><div class="ttdeci">boolean isExtraPlot()</div><div class="ttdef"><b>Definition:</b> AbstractDynamicOptimizationProblem.java:320</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem_html_a82df8b686654069fb54e54f9ef003bd1"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a82df8b686654069fb54e54f9ef003bd1">eva2.server.go.problems.AbstractDynamicOptimizationProblem.getCurrentProblemTime</a></div><div class="ttdeci">double getCurrentProblemTime()</div><div class="ttdef"><b>Definition:</b> AbstractDynamicOptimizationProblem.java:150</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab35075f8900998cbb93c066953fc4ad3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_optimization_problem.html">AbstractOptimizationProblem</a> eva2.server.go.problems.AbstractDynTransProblem.getInstance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the instance of the object.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>the problem instance of the object. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                                                        {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aac456a519b34b9f2a707edc2d38a2bb8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> eva2.server.go.problems.AbstractDynTransProblem.getProblem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This is for the Scroll Box: in <a class="el" href="_j_para_panel_8java.html">JParaPanel.java</a> package <a class="el" href="namespaceeva2_1_1gui.html">eva2.gui</a> in installActions() PropertyEditorManager.registerEditor(AbstractOptimizationProblem.class, GenericObjectEditor.class); don't forget the import statement </p>
+<div class="fragment"><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                                                     {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a87b8161f1d488e9f3c5a257ace97e280">prob</a>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_a87b8161f1d488e9f3c5a257ace97e280"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a87b8161f1d488e9f3c5a257ace97e280">eva2.server.go.problems.AbstractDynTransProblem.prob</a></div><div class="ttdeci">InterfaceOptimizationProblem prob</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:15</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a183ad6167bbf357c2c347bd309c56117"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.problems.AbstractDynTransProblem.getProblemDimension </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                                     {</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a6cc57883e5de76b6fb25ae8359255efe">problemDimension</a>;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_a6cc57883e5de76b6fb25ae8359255efe"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a6cc57883e5de76b6fb25ae8359255efe">eva2.server.go.problems.AbstractDynTransProblem.problemDimension</a></div><div class="ttdeci">int problemDimension</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:22</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8d9ddf7a476d4c9cb260fcd6062aac63"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.problems.AbstractDynTransProblem.getSeed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                         {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a1e1011e1ab8d25900a7fd10f64b57aa4">seed</a>;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_a1e1011e1ab8d25900a7fd10f64b57aa4"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a1e1011e1ab8d25900a7fd10f64b57aa4">eva2.server.go.problems.AbstractDynTransProblem.seed</a></div><div class="ttdeci">int seed</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:20</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a98e5dd08391b06b291fca18321d5e60a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String eva2.server.go.problems.AbstractDynTransProblem.getStringRepresentationForProblem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1strategies_1_1_interface_optimizer.html">InterfaceOptimizer</a>&#160;</td>
+          <td class="paramname"><em>opt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method returns a string describing the optimization problem. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">opt</td><td>The Optimizer that is used or had been used. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The description. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html#ac65676b745cdf6f1721cb962c12be6bf">eva2.server.go.problems.InterfaceOptimizationProblem</a>.</p>
+<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;DynTransProblem&quot;</span>;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aed23f23c8cffc22e87e22ef0276f10d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract double eva2.server.go.problems.AbstractDynTransProblem.getTranslation </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the translation in the given dimension at the given time.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dim</td><td>the dimension </td></tr>
+    <tr><td class="paramname">time</td><td>the simulation time </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the translation in the given dimension at the given time </dd></dl>
+
+<p>Implementado en <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_dyn_jump_problem.html#a73045e3df279fad680b7994f56699e30">eva2.server.go.problems.DynJumpProblem</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7fc5f7f35b3288ff5f25b5faa8713561"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.problems.AbstractDynTransProblem.initPopulationAt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1populations_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>population</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method inits a given population</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">population</td><td>The populations that is to be inited </td></tr>
+    <tr><td class="paramname">time</td><td>current time stamp to be used </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a080d51892ea6cc732ded309c3ae8e96b">eva2.server.go.problems.AbstractDynamicOptimizationProblem</a>.</p>
+<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a7988c3571efa37c393721041fa47091f">TRACE</a>) System.out.println(<span class="stringliteral">&quot;DynTransProblem at &quot;</span> + <span class="keyword">this</span> + <span class="stringliteral">&quot; initPop, problem is &quot;</span> + <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aac456a519b34b9f2a707edc2d38a2bb8">getProblem</a>());</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aac456a519b34b9f2a707edc2d38a2bb8">getProblem</a>().initPopulation(population);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; population.size(); i++) </div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            ((AbstractEAIndividual)population.get(i)).SetAge(0);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem_html_a7988c3571efa37c393721041fa47091f"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a7988c3571efa37c393721041fa47091f">eva2.server.go.problems.AbstractDynamicOptimizationProblem.TRACE</a></div><div class="ttdeci">boolean TRACE</div><div class="ttdef"><b>Definition:</b> AbstractDynamicOptimizationProblem.java:53</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_aac456a519b34b9f2a707edc2d38a2bb8"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aac456a519b34b9f2a707edc2d38a2bb8">eva2.server.go.problems.AbstractDynTransProblem.getProblem</a></div><div class="ttdeci">InterfaceOptimizationProblem getProblem()</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:154</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aaacc33be325a06e0fb141ea2674ab2dc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.problems.AbstractDynTransProblem.initProblem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method initializes the problem instance. If you override it, make sure to call the super method! </p>
+
+<p>Reimplementado de <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a9d53a8151061592b5dcdcf7a9b3c0f0c">eva2.server.go.problems.AbstractDynamicOptimizationProblem</a>.</p>
+
+<p>Reimplementado en <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_dyn_jump_problem.html#a26861712916aa510366f7c67f234e9ad">eva2.server.go.problems.DynJumpProblem</a>.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                              {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        super.initProblem();</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aecb8a4a4b2cc13a93efb0f75c726371f">bestIndividual</a> = null;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aac456a519b34b9f2a707edc2d38a2bb8">getProblem</a>().initProblem();</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_aecb8a4a4b2cc13a93efb0f75c726371f"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aecb8a4a4b2cc13a93efb0f75c726371f">eva2.server.go.problems.AbstractDynTransProblem.bestIndividual</a></div><div class="ttdeci">AbstractEAIndividual bestIndividual</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:16</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_aac456a519b34b9f2a707edc2d38a2bb8"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aac456a519b34b9f2a707edc2d38a2bb8">eva2.server.go.problems.AbstractDynTransProblem.getProblem</a></div><div class="ttdeci">InterfaceOptimizationProblem getProblem()</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:154</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acd305f344f681b86a4838d042ccd4a8e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.problems.AbstractDynTransProblem.resetProblem </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>severity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Whenever the environment (or the time, primarily) has changed, some problem properties (like stored individual fitness) may require updating.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">severity</td><td>the severity of the change (time measure) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a88c86649a2db6223f5dcb3c29aa0f5eb">eva2.server.go.problems.AbstractDynamicOptimizationProblem</a>.</p>
+<div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                                              {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">if</span> ((<a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a87b8161f1d488e9f3c5a257ace97e280">prob</a> != null) &amp;&amp; (<a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aecb8a4a4b2cc13a93efb0f75c726371f">bestIndividual</a> != null))</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            this.evaluateAt(<a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aecb8a4a4b2cc13a93efb0f75c726371f">bestIndividual</a>, <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a82df8b686654069fb54e54f9ef003bd1">getCurrentProblemTime</a>());</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_aecb8a4a4b2cc13a93efb0f75c726371f"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aecb8a4a4b2cc13a93efb0f75c726371f">eva2.server.go.problems.AbstractDynTransProblem.bestIndividual</a></div><div class="ttdeci">AbstractEAIndividual bestIndividual</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:16</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem_html_a82df8b686654069fb54e54f9ef003bd1"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dynamic_optimization_problem.html#a82df8b686654069fb54e54f9ef003bd1">eva2.server.go.problems.AbstractDynamicOptimizationProblem.getCurrentProblemTime</a></div><div class="ttdeci">double getCurrentProblemTime()</div><div class="ttdef"><b>Definition:</b> AbstractDynamicOptimizationProblem.java:150</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_a87b8161f1d488e9f3c5a257ace97e280"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a87b8161f1d488e9f3c5a257ace97e280">eva2.server.go.problems.AbstractDynTransProblem.prob</a></div><div class="ttdeci">InterfaceOptimizationProblem prob</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:15</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afb666ffed6d9dac1a39472689c1709e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.problems.AbstractDynTransProblem.setProblem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a>&#160;</td>
+          <td class="paramname"><em>prob</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                                                              {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        this.prob = <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a87b8161f1d488e9f3c5a257ace97e280">prob</a>;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="comment">/* to get the right values for problemDimension and Range */</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        Population pop = <span class="keyword">new</span> Population();</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        pop.setTargetSize(1);       </div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        prob.initPopulation(pop);</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        AbstractEAIndividual indy = (AbstractEAIndividual)pop.get(0);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">if</span> (indy instanceof InterfaceDataTypeDouble) {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a6cc57883e5de76b6fb25ae8359255efe">problemDimension</a> = ((InterfaceDataTypeDouble)indy).getDoubleRange().length;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aaebc96155561a06ede4eb0481fed8cbe">range</a> = ((InterfaceDataTypeDouble)indy).getDoubleRange();</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            System.out.println(<span class="stringliteral">&quot;Wrong Problem&quot;</span>);</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        }</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        pop.clear();</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_a6cc57883e5de76b6fb25ae8359255efe"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a6cc57883e5de76b6fb25ae8359255efe">eva2.server.go.problems.AbstractDynTransProblem.problemDimension</a></div><div class="ttdeci">int problemDimension</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:22</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_aaebc96155561a06ede4eb0481fed8cbe"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aaebc96155561a06ede4eb0481fed8cbe">eva2.server.go.problems.AbstractDynTransProblem.range</a></div><div class="ttdeci">double[][] range</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:23</div></div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_a87b8161f1d488e9f3c5a257ace97e280"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a87b8161f1d488e9f3c5a257ace97e280">eva2.server.go.problems.AbstractDynTransProblem.prob</a></div><div class="ttdeci">InterfaceOptimizationProblem prob</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:15</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aacedafcbfc25117e0749d2ee3936b4a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.problems.AbstractDynTransProblem.setSeed </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>seed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                                  {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        this.seed = <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a1e1011e1ab8d25900a7fd10f64b57aa4">seed</a>;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        this.rand = <span class="keyword">new</span> Random(<a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a1e1011e1ab8d25900a7fd10f64b57aa4">seed</a>);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_a1e1011e1ab8d25900a7fd10f64b57aa4"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a1e1011e1ab8d25900a7fd10f64b57aa4">eva2.server.go.problems.AbstractDynTransProblem.seed</a></div><div class="ttdeci">int seed</div><div class="ttdef"><b>Definition:</b> AbstractDynTransProblem.java:20</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adb315e32e67b795e4e5255d71c028eb5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eva2.server.go.problems.AbstractDynTransProblem.transform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a>&#160;</td>
+          <td class="paramname"><em>individual</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordtype">double</span>[] indyData = ((InterfaceDataTypeDouble)individual).getDoubleData();</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; indyData.length; ++i) {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="comment">/* individuum moves towords untranslated problem */</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            indyData[i] -= <a class="code" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aed23f23c8cffc22e87e22ef0276f10d3">getTranslation</a>(i, time);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        ((InterfaceDataTypeDouble)individual).SetDoubleGenotype(indyData);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<div class="ttc" id="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem_html_aed23f23c8cffc22e87e22ef0276f10d3"><div class="ttname"><a href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#aed23f23c8cffc22e87e22ef0276f10d3">eva2.server.go.problems.AbstractDynTransProblem.getTranslation</a></div><div class="ttdeci">abstract double getTranslation(int dim, double time)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="aecb8a4a4b2cc13a93efb0f75c726371f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classeva2_1_1server_1_1go_1_1individuals_1_1_abstract_e_a_individual.html">AbstractEAIndividual</a> eva2.server.go.problems.AbstractDynTransProblem.bestIndividual = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a87b8161f1d488e9f3c5a257ace97e280"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceeva2_1_1server_1_1go_1_1problems_1_1_interface_optimization_problem.html">InterfaceOptimizationProblem</a> eva2.server.go.problems.AbstractDynTransProblem.prob</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6cc57883e5de76b6fb25ae8359255efe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.problems.AbstractDynTransProblem.problemDimension</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae8dc4e6e9526beabed6f6f7dbd511df0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Random eva2.server.go.problems.AbstractDynTransProblem.rand = new Random(<a class="el" href="classeva2_1_1server_1_1go_1_1problems_1_1_abstract_dyn_trans_problem.html#a1e1011e1ab8d25900a7fd10f64b57aa4">seed</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaebc96155561a06ede4eb0481fed8cbe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double [][] eva2.server.go.problems.AbstractDynTransProblem.range</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1e1011e1ab8d25900a7fd10f64b57aa4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int eva2.server.go.problems.AbstractDynTransProblem.seed = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/eva2/server/go/problems/<a class="el" href="_abstract_dyn_trans_problem_8java.html">AbstractDynTransProblem.java</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 24 de Noviembre de 2013 20:07:23 para EvaProyectDoc por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>

@@ -1,0 +1,60 @@
+.TH "eva2.client.ClassPreloader" 3 "Domingo, 24 de Noviembre de 2013" "EvaProyectDoc" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+eva2.client.ClassPreloader \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Herencias Runnable\&.
+.SS "Métodos públicos"
+
+.in +1c
+.ti -1c
+.RI "\fBClassPreloader\fP (String\&.\&.\&.strs)"
+.br
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.in -1c
+.SH "Descripción detallada"
+.PP 
+This Runnable just requests a number of classes as does the GenericObjectEditor so that they are loaded into the system cache\&. It can be done at startup time and accelerates later reloading\&.
+.PP
+\fBAutor:\fP
+.RS 4
+mkron 
+.RE
+.PP
+
+.SH "Documentación del constructor y destructor"
+.PP 
+.SS "eva2\&.client\&.ClassPreloader\&.ClassPreloader (String\&.\&.\&.strs)"
+
+.PP
+.nf
+17                                            {
+18         setClassNames(strs);
+19     }
+.fi
+.SH "Documentación de las funciones miembro"
+.PP 
+.SS "void eva2\&.client\&.ClassPreloader\&.run ()"
+
+.PP
+.nf
+25                       {
+26         if (clsNames !=null) {
+27             for (int i = 0; i < clsNames\&.length; i++) {
+28                 if (TRACE) System\&.out\&.println("Preloading " + clsNames[i]);
+29                 GenericObjectEditor\&.getClassesFromClassPath(clsNames[i], null);
+30             }
+31         }
+32     }
+.fi
+
+
+.SH "Autor"
+.PP 
+Generado automáticamente por Doxygen para EvaProyectDoc del código fuente\&.
